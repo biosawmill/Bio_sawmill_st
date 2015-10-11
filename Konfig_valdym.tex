@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[utf8x]{inputenc} % atkomentuoti, jei naudojat utf-8 koduotê 
+\usepackage[L7x]{fontenc}
+\usepackage[parfill]{parskip}
+\usepackage[lithuanian]{babel}
+\usepackage[unicode]{hyperref} % naudojant ?d?ti dar backend'?
+                                % opcijas: dvips | dvipdfm | pdftex
+
+\begin{document}
+\section{Konfiguracin\. e kontrol\. e}
+Kekvieno produkto gyvavimo cikle atsiranda nei\v sviangiam\k u pasikeitim\k u.\\
+Konfiguracin\. e kontrol\. e u\v zikrina, kad tie pasikeitimai b\= utu minimal\= us.
+\v Siame skyriuje aptarsiu galimus pasikeitimai i\v s u\v zakovo pus\. es bei kaip juos kontroliuoti. \\
+\\
+U\v zsakovas gali nuspr\k esti
+\begin{itemize}
+	\item pakeisti produkto informacij\k a.
+	\item kada ir kiek i\v spl\. esti, pagreitinti programos funkcionalum\k a.
+	\item koki? servis\k u papildymo tr\= uksta.
+\end{itemize}
+
+Kekvin\k a u\v zsakovo sprendim\k a turime ivykdyti. Problema tame, kad reikia atsekti kada ir kur ivykdyti pakeitim\k a.\\
+Problemos sprendimas ir b\= utu konfiguracin\. es kontrol\. es naudojimas.\\
+Ji u\v ztikrina, kad informacija saugojama, kontroliuojama sistemos k\= urimo, keitimo ir testavimo metu ir taip pat ar atitinka vykdomus \v reikalavimus. \\
+Taip pat u\v ztikrinti kad informacij\k a apie projekta laisvai pasiekiama.\\
+Konfiguracin\k e kontrol\. es u\v zuduotys:
+\begin{enumerate}
+	\item Rasti kokios projekto dalys gali keistis.
+	\item kontroliuoti vien\k a ar kelis rastus.
+	\item lengvinti skirting\k u versij\k u aplikacij\k u konstrukcij\k a. 
+	\item u\v ztikrinti kad projekto kokybe palaikoma, kai konfiguracija atnaujinama.
+\end{enumerate}
+\newpage
+Konfiguracijos kontrole u\v ztikrina programos konfiguracijos element\k u identifikavim\k a, pasikeitimo kontrol\k e, versijos kontrol\k e, konfiguracijos audit\k a ir ataskaita tiek projekto k\= urimo metu, tiek palaikymo metu.\\\\
+
+
+\large\textbf{Projekte kontrol\. e u\v ztikrinama}
+\normalsize
+\begin{enumerate}
+	\item Programos dokumentacijai.
+	\item Programos analiz\. es failai.
+	\item Programos diegimo failam.
+	\item Sistemos failam.
+\end{enumerate}
+
+\
+
+\section{Versij\k u kontrol\. e}
+
+Versij\k u kontrolei naudojamas "Github".\\
+Ne tik programos kodui versijonuoti bet taip pat ir apie tai informuoti bendradarbius.\\
+
+\large\textbf{Joje laikomi failai:}
+\normalsize
+\begin{enumerate}
+
+	\item Vadyba ( organizacijos strukt\= ura, architekt\= uros informacija ).
+	\item Modeliavmas ( analiz\. e, dizainas ).
+	\item Konstrukcijos ( \v saltinio kodas, kompiliavimo instrukcijos )
+	\item Testai ( skriptai, rezultatai, kokyb?s matavimai ).
+	\item Dokumentai (projekto, dizaino dokumentai, naudojimo \v zinynas ).
+	\item Projekto valdymas ( projekto trukm\. e, tvarkara\v stis, auditas ).
+		
+\end{enumerate}
+
+
+\end{document}
