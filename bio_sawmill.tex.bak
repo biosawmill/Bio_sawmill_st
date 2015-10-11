@@ -1,0 +1,112 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[T2A]{fontenc} % jei yra kirilica
+\usepackage[hmargin={30mm,15mm},vmargin={20mm,20mm},bindingoffset=0mm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue, unicode]{hyperref}
+%\parindent=7mm
+\usepackage{graphicx}
+\renewcommand{\refname}{Literatūros sąrašas} % article
+%\renewcommand{\bibname}{Literatūros sąrašas} % report
+\renewcommand{\contentsname}{Turinys}
+\begin{document}
+\thispagestyle{empty} % nerasomas psl. nr
+\hfill \textit{Pavyzdys}
+\begin{center}
+ VILNIAUS UNIVERSITETAS 
+ 
+MATEMATIKOS IR INFORMATIKOS FAKULTETAS
+
+MATEMATINĖS INFORMATIKOS KATEDRA
+
+\vspace{4cm}
+
+\textbf{Vardas Pavardė} \ \ \textit{parašas}
+
+Bioinformatikos studijų programa
+
+\textit{arba}
+
+Informatikos studijų programa
+
+Matematinės informatikos šaka
+
+
+\vspace{3cm}
+
+\textbf{\Large Darbo pavadinimas}
+
+Bakalauro baigiamasis darbas 
+
+\vspace{4cm}
+
+Vadovas: pareigos \textbf{Vardas Pavardė} \ \   \textit{ parašas}
+
+\vfill
+
+Vilnius \ \  2013
+\end{center}
+
+\clearpage
+
+\tableofcontents
+\clearpage
+%\maketitle 
+
+\section*{Įvadas}
+\addcontentsline{toc}{section}{Įvadas} % rasoma turinyje
+Darbe yra du skyriai. Literatūros sąraše keturi šaltiniai (\cite{AA,BA,CA,DA}).  
+
+
+\section{ Pirmasis skyrius}
+Pirmasis skyrius sudarytas iš dviejų poskyrių. 
+\subsection{A1 pavadinimas}
+ Tekstas ...
+ \subsection{A2 pavadinimas}
+ Tekstas su formule $y=x^2$...
+ 
+ Paveikslas (jpg, png, pdf ir kiti formatai, jei kompiliuojate
+ su pdflatex):
+ 
+ \section{ Antrasis skyrius}
+Antrasis skyrius sudarytas iš trijų poskyrių
+\subsection{B1 pavadinimas}
+ Tekstas ...
+ \subsection{B2 pavadinimas}
+ Poskyris B2 turi du skirsnius
+ \subsubsection{B21 pavadinimas}
+  Tekstas....
+  \subsubsection{B22 pavadinimas}
+  Tekstas....
+ \subsection{B3 pavadinimas}
+ Tekstas su nauja formule $y=x^3$...
+ 
+ 
+\begin{thebibliography}{99}
+\addcontentsline{toc}{section}{Literatūra} %% Literatura bus itraukta i turini
+\bibitem {AA}
+A. Autorius,  Straipsnio pavadinimas, \textit{Žurnalo pavadinimas}, tomas (numeris): p. puslapis–puslapis, metai. 
+
+\bibitem {BA}
+B. Autorius, Straipsnio pavadinimas, Kn. (arba Rink.): \textit{Knygos (Rinkinio) pavadinimas}, Leidykla, Miestas, Metai, p. puslapis–puslapis.
+
+\bibitem {CA}
+C. Autorius, \textit{Knygos pavadinimas}, Leidykla, Miestas, Metai, p. puslapis–puslapis.
+ 
+\bibitem {DA}
+D. Autorius, Knygos (straipsnio ir pan.) pavadinimas, \url{http://www.mif.vu.lt} 
+ 
+\end{thebibliography} 
+ 
+ 
+\section*{Santrauka}
+\addcontentsline{toc}{section}{Santrauka}
+Trumpa darbo santrauka...
+\section*{Summary}
+\addcontentsline{toc}{section}{Summary}
+Short english summary... 
+
+
+
+\end{document}
