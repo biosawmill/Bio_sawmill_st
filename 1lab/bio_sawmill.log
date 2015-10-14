@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  14 OCT 2015 17:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  14 OCT 2015 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -227,6 +227,29 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
@@ -272,29 +295,127 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(./bio_sawmill.aux
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 44.
+\cftparskip=\skip46
+\cftbeforetoctitleskip=\skip47
+\cftaftertoctitleskip=\skip48
+\cftbeforepartskip=\skip49
+\cftpartnumwidth=\skip50
+\cftpartindent=\skip51
+\cftbeforesecskip=\skip52
+\cftsecindent=\skip53
+\cftsecnumwidth=\skip54
+\cftbeforesubsecskip=\skip55
+\cftsubsecindent=\skip56
+\cftsubsecnumwidth=\skip57
+\cftbeforesubsubsecskip=\skip58
+\cftsubsubsecindent=\skip59
+\cftsubsubsecnumwidth=\skip60
+\cftbeforeparaskip=\skip61
+\cftparaindent=\skip62
+\cftparanumwidth=\skip63
+\cftbeforesubparaskip=\skip64
+\cftsubparaindent=\skip65
+\cftsubparanumwidth=\skip66
+\cftbeforeloftitleskip=\skip67
+\cftafterloftitleskip=\skip68
+\cftbeforefigskip=\skip69
+\cftfigindent=\skip70
+\cftfignumwidth=\skip71
+\c@lofdepth=\count107
+\c@lotdepth=\count108
+\cftbeforelottitleskip=\skip72
+\cftafterlottitleskip=\skip73
+\cftbeforetabskip=\skip74
+\cfttabindent=\skip75
+\cfttabnumwidth=\skip76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen138
+\captionmargin@=\dimen139
+\captionwidth=\dimen140
+\caption@tempdima=\dimen141
+\caption@indent=\dimen142
+\caption@parindent=\dimen143
+\caption@hangindent=\dimen144
+)
+\c@float@type=\count109
+\float@exts=\toks23
+\float@box=\box26
+\@floatcapt=\box27
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks24
+\flrow@foot=\insert233
+\FB@wd=\dimen145
+\FBo@wd=\dimen146
+\FBc@wd=\dimen147
+\FBo@ht=\skip77
+\FBc@ht=\skip78
+\FBf@ht=\skip79
+\FBo@max=\skip80
+\FBc@max=\skip81
+\FBf@max=\skip82
+\c@FBl@b=\count110
+\floatbox@depth=\count111
+\c@FRobj=\count112
+\c@FRsobj=\count113
+\Xhsize=\skip83
+\sXhsize=\skip84
+\Zhsize=\skip85
+\sZhsize=\skip86
+\flrow@rowbox=\box28
+\FR@Zunitlength=\dimen148
+\c@FBcnt=\count114
+\FPOScnt=\count115
+\LTleft=\skip87
+\LTright=\skip88
+\LTleft=\skip89
+\LTright=\skip90
+\flrow@types=\toks25
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+
+(/usr/share/texlive/texmf-dist/tex/latex/secdot/secdot.sty
+Package: secdot 2000/06/20 v1.0 section numbers with dots
+) (./bio_sawmill.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
 
 LaTeX Warning: Label `my-label' multiply defined.
 
 )
 \openout1 = `bio_sawmill.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -332,28 +453,19 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box26
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-Package hyperref Info: Link coloring ON on input line 22.
-
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring ON on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count107
+\c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./bio_sawmill.out) (./bio_sawmill.out)
 \@outlinefile=\write3
@@ -362,17 +474,17 @@ LaTeX Info: Redefining \nameref on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen137
-\scratchbox=\box27
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen138
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count117
+\scratchdimen=\dimen149
+\scratchbox=\box30
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen150
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -388,17 +500,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./bio_sawmill.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 1.
 )
 \tf@toc=\write4
 \openout4 = `bio_sawmill.toc'.
@@ -406,166 +521,194 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2
 
 ]
-Overfull \hbox (8.91203pt too wide) in paragraph at lines 68--69
-\T1/cmr/m/n/12 Atlikdami verti-nam¡ nau-dosime rekomen-duo-jama funkcini[] ta²k
-[] metodika. Kadangi kuriama
- []
-
-
-Overfull \hbox (2.56389pt too wide) in paragraph at lines 80--82
-\T1/cmr/m/n/12 Antra nau-do-dami "web" metrika uºpildysime funkcini-ams ta²kams
- skai£i-uoti skir-tas metrikas.
- []
-
-[3
-
-] [4]
-Overfull \hbox (269.0991pt too wide) in paragraph at lines 123--141
-[]|  [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--141
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 160.
+
+Overfull \hbox (2.71611pt too wide) in paragraph at lines 115--116
+\T1/cmr/m/n/12 ly-gis, pasta-bos), kurti/redaguoti/trinti klient[] duome-nis. U
+ºsakovo klien-tus sii	ulome skirstyti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [5
+</home/l_/Pictures/BioSawmill.png, id=131, 200.75pt x 100.375pt>
+File: /home/l_/Pictures/BioSawmill.png Graphic file (type png)
 
-] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 212--217
+<use /home/l_/Pictures/BioSawmill.png>
+Package pdftex.def Info: /home/l_/Pictures/BioSawmill.png used on input line 14
+0.
+(pdftex.def)             Requested size: 113.81102pt x 56.90648pt.
+ [3
+
+ </home/l_/Pictures/BioSawmill.png (PNG copy)>]
+Overfull \hbox (2.56389pt too wide) in paragraph at lines 151--153
+\T1/cmr/m/n/12 Antra nau-do-dami "web" metrika uºpildysime funkcini-ams ta²kams
+ skai£i-uoti skir-tas metrikas.
+ []
+
+[4] [5]
+Overfull \hbox (283.0991pt too wide) in paragraph at lines 194--212
+[][]|  [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--227
+Underfull \hbox (badness 10000) in paragraph at lines 221--232
 
  []
 
 
-Overfull \hbox (12.6796pt too wide) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 237--242
+
+ []
+
+[6
+
+] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--320
+
+ []
+
+
+Overfull \hbox (26.6796pt too wide) in paragraph at lines 330--331
 []\T1/cmr/m/n/12 Konfiguracijos kon-t-role uºtik-rina pro-gramos kon-fig-u-raci
 -jos element[] iden-ti-fikav-im¡, pasikeitimo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-[7
+[9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 346--348
 
  []
 
-[8
+[10
 
 ]
-Overfull \hbox (3.80743pt too wide) in paragraph at lines 275--276
+Overfull \hbox (3.80743pt too wide) in paragraph at lines 368--369
 []\T1/cmr/m/n/14.4 funkcijos arba ap-likaci-jos ar rezul-tat? at-vaiz-davimo pa
 -to-b-u-lin-i-mai ar klaid[]
  []
 
 
-Overfull \hbox (62.12515pt too wide) in paragraph at lines 281--283
+Overfull \hbox (62.12515pt too wide) in paragraph at lines 374--376
 \T1/cmr/m/n/14.4 pakeitimui []gyvendinti n
 era nepri-tariama, tai jis bus pradedamas vykdyti paºingsniui: 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 293.
-[9
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 386.
+[11
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 314.
+(Font)              <10.95> on input line 407.
 
-Overfull \hbox (7.52785pt too wide) in paragraph at lines 308--325
+Overfull \hbox (21.52785pt too wide) in paragraph at lines 401--418
 [][]|   [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--325
+Underfull \hbox (badness 10000) in paragraph at lines 401--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--472
+Underfull \hbox (badness 10000) in paragraph at lines 442--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--472
+Underfull \hbox (badness 10000) in paragraph at lines 442--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--472
+Underfull \hbox (badness 10000) in paragraph at lines 442--565
 
  []
 
-[10]
-Overfull \hbox (13.60037pt too wide) in paragraph at lines 474--475
-\T1/cmr/m/n/14.4 Identifikave gal-i-mas rizik[] prieºastis paruo²i-ame strate-g
-ija, kaip jas valdysim. 
+[12]
+Overfull \hbox (27.60037pt too wide) in paragraph at lines 567--568
+[]\T1/cmr/m/n/14.4 Identifikave gal-i-mas rizik[] prieºastis paruo²i-ame strate
+-gija, kaip jas valdysim. 
  []
 
-[11] [12]
-Overfull \hbox (4.10487pt too wide) in paragraph at lines 532--534
+[13] [14]
+Overfull \hbox (4.10487pt too wide) in paragraph at lines 625--627
 \T1/cmr/m/n/14.4 Uºsakovo reak-cij¡ [] susi-tarimus, el-gsen¡ nuo ko-mu-nikav-i
 mo b	udo pakeitimo. 
  []
 
 
-Overfull \hbox (27.09787pt too wide) in paragraph at lines 538--541
+Overfull \hbox (27.09787pt too wide) in paragraph at lines 631--634
 \T1/cmr/m/n/14.4 Konkurencij¡ tarp darbo viet[], darbo pri-val-u-mus, san-tyk-i
 us tarp bendradarbi[],
  []
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
  (./bio_sawmill.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 706.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
 Package rerunfilecheck Info: File `bio_sawmill.out' has not changed.
-(rerunfilecheck)             Checksum: 9D9324E6107955C46E4C916479B396E2;3619.
+(rerunfilecheck)             Checksum: 95614126C0DD0E93BFD17615E395DAA8;3831.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 613.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 706.
  ) 
 Here is how much of TeX's memory you used:
- 10372 strings out of 493304
- 143463 string characters out of 6139871
- 220624 words of memory out of 5000000
- 13631 multiletter control sequences out of 15000+600000
+ 12355 strings out of 493304
+ 173470 string characters out of 6139871
+ 261498 words of memory out of 5000000
+ 15580 multiletter control sequences out of 15000+600000
  12946 words of font info for 34 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,17n,31p,438b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,17n,38p,642b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -577,10 +720,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb
 onts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on bio_sawmill.pdf (14 pages, 204724 bytes).
+Output written on bio_sawmill.pdf (16 pages, 220153 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 113 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

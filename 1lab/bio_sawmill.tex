@@ -13,17 +13,42 @@
 \usepackage[T1]{fontenc} 
 
 % Lukas paketai
+\usepackage{eso-pic}
+\usepackage{indentfirst}
+\usepackage{setspace}
 \usepackage{placeins}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 \usepackage{tabularx}% http://ctan.org/pkg/tabularx
 \usepackage[parfill]{parskip}
 \usepackage[unicode]{hyperref}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+   \makebox[\paperwidth][r]{#1}}}
+\usepackage[dotinlabels]{titletoc}
+\usepackage[capposition=top]{floatrow}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{secdot}
+
+
+
 
 \begin{document}
 
 
+\renewcommand{\cftdot}{.}	
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
 \thispagestyle{empty} % nerasomas psl. nr
+
+
 \begin{center}
  VILNIAUS UNIVERSITETAS 
  
@@ -53,15 +78,61 @@ Bioinformatikos studijų programos grupe BioSawmill
 Vilnius \ \  2015
 \end{center}
 
+
+
 \clearpage
 
 \tableofcontents
 \clearpage
 %\maketitle 
+%\section*{Apžvalga}
+%\addcontentsline{toc}{section}{Apžvalga} % rasoma turinyje
 
-\section*{Apžvalga}
-\addcontentsline{toc}{section}{Apžvalga} % rasoma turinyje
-\textbf{Aiste įpilk ką nors.}
+
+
+
+%\section{\centerline{„Dvimatė pjovimo optimizacija“ \\ PROJEKTO VIZIJA.}}
+\setlength\parindent{24pt}
+\begin{center}
+
+\section[„Dvimatė pjovimo optimizacija“ PROJEKTO VIZIJA.]{\texorpdfstring{„Dvimatė pjovimo optimizacija“ \\PROJEKTO VIZIJA.}}
+
+\end{center}
+\setlength\parindent{14pt}
+
+\AddToShipoutPictureBG*{%
+  \AtPageUpperRight{\raisebox{-\height}{\frame{\includegraphics[width=4cm]{/home/l_/Pictures/BioSawmill.png}}}}}
+
+
+%\floatfoot{Uzi fig\= ura}
+
+    Atsižvelgus į iškeltus užsakovo bazinius reikalavimus siūlome sukurti programą (naudojant WEB modelį) skirtą užsakovui ar jo klientams gauti optimizuotą medienos pjovimo informaciją. \\ 
+
+\vspace{-5mm}
+    Siūlome turėti dvi šios sistemos  versijas „BETA“ (terminuotą laike, klientams išbandyti pagrindinius sistemos funkcionalumus) ir PILNĄJĄ (su visais įrankio funkcionalumais)\\
+	
+	\vspace{-5mm}
+	Sistema administruojama jos užsakovo administratoriaus teisėmis (galimybė matyti sistema besinaudojančių klientų duomenis (e-mail, aktyvacijos pradžios/pabaigos laikas, teisių lygis, pastabos), kurti/redaguoti/trinti klientų duomenis. Užsakovo klientus siiūlome skirstyti į privačius asmenis ir įmones, kuriems pagal teises būtų sukuriama galimybė turėti prieigą prie sistemos apibrėžtam/nurodomam administratoriaus skaičiui vartotojų.\\
+	
+	\vspace{-5mm}
+	BETA versijos vartotojas užsiregistravęs savo elektorniniu paštu prisijungia prie sistemos su labai ribotomis teisėmis (optimizuoto pjovimo skaičiavimas, vartotojo aktyvacijos galiojimo peržiūra, PILNOS versijos užsakymo langas).Optimizuoto pjovimo skaičiavimo lange jis turi galimybę nurodyti reikalingų detalių ilgius (mm), aukščius (mm) ir kiekius. Sistema optimizuos detalių išpjovimą iš standartinių panelių 1200x2500 ir 1200x3050, beiišvęs informaciją ekrane.  Vartotojui pasirinkus norimą variantą, sistema parodys ekrane pjovimo planą (spausdinimo galimybės nėra). 
+\begin{center}
+	PILNA versija priklausomai nuo teisių leidžia:
+	\begin{itemize}
+		\item Papildomų vartotojų administravimą (kūrimas/redagavimas/šalinimas)
+		\item Optimizuoto pjovimo skaičiavimas (standartinis funkcionalumas)
+		\item Papildomo standartinio panelių dydžių įvedimas/redagavimas/šalinimas
+		\item Galimybė pasirinkti kurioms panelėms atlikti skaičiavimus
+		\item Galimybė atsispausdinti/išsaugoti bendrinę informaciją/ataskaitą (Vartotojo  įvestas ilgis, plotis, kiekis, panelės/-ių dydis/-žiai ir optimalus ruošinių kiekis pirmoje panelėje)
+		\item Istorijos peržiūra (išsaugotų skaičiavimų istorija su galimybe atsispausdinti planą)
+		\item Pasirinkto plano atvaizdavimas naujame ekrane (PDF formatu)
+		\item Galimybė atsispausdinti optimizuotus pasirinkto panelės dydžio planą.
+	\end{itemize}
+	Dėl sistemos aplinkos ji gali būti lengvai versijuojama ir tobulinama atsižvelgiant į tolimesnius užsakovo poreikius nepažeidžiant klientų istorijos .
+\end{center}
+	
+
+
 
 
 \section{ Dydžio ir pastangų vertinimas}
@@ -141,11 +212,33 @@ $FP$ - tai projekto dydžio vertinimas funkcinias taškais.
 
 
 \subsection{Projekto planas}
+
+\begin{frame}
+\centering
+\hspace*{-3 cm}
+
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+Diena          & Planas                                                                                                                       \\ \hline
+Pirmadienis    & \begin{tabular}[c]{@{}l@{}}Darbų tęsimas, bei sprint'o savaitės planavimas\\ užduočių visai savaitei planavimas\end{tabular} \\ \hline
+Antradienis    & Peržiūrėjimas užduočių, jų atlikimas, siuntimas testuotojams                                                                 \\ \hline
+Trečiadienis   & Peržiūrėjimas užduočių, jų atlikimas, siuntimas testuotojams                                                                 \\ \hline
+Ketvirtadienis & Peržiūrėjimas užduočių, jų atlikimas, siuntimas testuotojams                                                                 \\ \hline
+Penktadienis   & \begin{tabular}[c]{@{}l@{}}sprint' o savaitės darbų pristatymas, \\ atliktų neatliktų užduočių tobulinimas.\end{tabular}     \\ \hline
+\end{tabular}
+\end{frame}
+\\
+
+
+Projektas vykdomas Agile projektavimo tipu.
+Kadangi jis leidžia greitai spręsti iškylusias problemas bei beveike be pastangų tobulinti projektą.
+
 Projekto kaina apskaičiuojama taip: \\
 Kaina(LTL) = Pastangos(mėnesiai žmogui) * Darbo mėnesio kaina(LTL/Mėnesį). \\\\
-Įmonės mėnesio darbo kaina, 22000 LTL, tad projekto
+Įmonės mėnesio darbo kaina, 175000 LTL, tad projekto
  kaina būtų: \\
-Kaina = 1,93 * 22000 = 42460 LTL  
+Kaina = 1,93 * 17500 = 33775 LTL  
  
  
 \subsection{Kontroliniai taškai}
