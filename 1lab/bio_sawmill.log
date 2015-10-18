@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  14 OCT 2015 20:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  18 OCT 2015 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -552,7 +552,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
 
-</home/l_/Pictures/BioSawmill.png, id=131, 200.75pt x 100.375pt>
+</home/l_/Pictures/BioSawmill.png, id=136, 200.75pt x 100.375pt>
 File: /home/l_/Pictures/BioSawmill.png Graphic file (type png)
 
 <use /home/l_/Pictures/BioSawmill.png>
@@ -568,144 +568,159 @@ Overfull \hbox (2.56389pt too wide) in paragraph at lines 151--153
  []
 
 [4] [5]
-Overfull \hbox (283.0991pt too wide) in paragraph at lines 194--212
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+
+Overfull \hbox (22.11752pt too wide) in paragraph at lines 193--211
+[][]|  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--211
+
+ []
+
+
+Overfull \hbox (283.0991pt too wide) in paragraph at lines 220--238
 [][]|  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--232
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--242
+Underfull \hbox (badness 10000) in paragraph at lines 220--238
 
  []
 
 [6
 
-] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 305--310
+]
+Underfull \hbox (badness 10000) in paragraph at lines 247--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--320
+Underfull \hbox (badness 10000) in paragraph at lines 263--268
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 331--336
 
  []
 
 
-Overfull \hbox (26.6796pt too wide) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+Overfull \hbox (26.6796pt too wide) in paragraph at lines 356--357
 []\T1/cmr/m/n/12 Konfiguracijos kon-t-role uºtik-rina pro-gramos kon-fig-u-raci
 -jos element[] iden-ti-fikav-im¡, pasikeitimo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 346--348
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 
  []
 
 [10
 
 ]
-Overfull \hbox (3.80743pt too wide) in paragraph at lines 368--369
+Overfull \hbox (3.80743pt too wide) in paragraph at lines 394--395
 []\T1/cmr/m/n/14.4 funkcijos arba ap-likaci-jos ar rezul-tat? at-vaiz-davimo pa
 -to-b-u-lin-i-mai ar klaid[]
  []
 
 
-Overfull \hbox (62.12515pt too wide) in paragraph at lines 374--376
+Overfull \hbox (62.12515pt too wide) in paragraph at lines 400--402
 \T1/cmr/m/n/14.4 pakeitimui []gyvendinti n
 era nepri-tariama, tai jis bus pradedamas vykdyti paºingsniui: 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 386.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 412.
 [11
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 407.
+(Font)              <10.95> on input line 433.
 
-Overfull \hbox (21.52785pt too wide) in paragraph at lines 401--418
+Overfull \hbox (21.52785pt too wide) in paragraph at lines 427--444
 [][]|   [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--418
+Underfull \hbox (badness 10000) in paragraph at lines 427--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--565
+Underfull \hbox (badness 10000) in paragraph at lines 468--591
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--565
+Underfull \hbox (badness 10000) in paragraph at lines 468--591
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--565
+Underfull \hbox (badness 10000) in paragraph at lines 468--591
 
  []
 
 [12]
-Overfull \hbox (27.60037pt too wide) in paragraph at lines 567--568
+Overfull \hbox (27.60037pt too wide) in paragraph at lines 593--594
 []\T1/cmr/m/n/14.4 Identifikave gal-i-mas rizik[] prieºastis paruo²i-ame strate
 -gija, kaip jas valdysim. 
  []
 
 [13] [14]
-Overfull \hbox (4.10487pt too wide) in paragraph at lines 625--627
+Overfull \hbox (4.10487pt too wide) in paragraph at lines 651--653
 \T1/cmr/m/n/14.4 Uºsakovo reak-cij¡ [] susi-tarimus, el-gsen¡ nuo ko-mu-nikav-i
 mo b	udo pakeitimo. 
  []
 
 
-Overfull \hbox (27.09787pt too wide) in paragraph at lines 631--634
+Overfull \hbox (27.09787pt too wide) in paragraph at lines 657--660
 \T1/cmr/m/n/14.4 Konkurencij¡ tarp darbo viet[], darbo pri-val-u-mus, san-tyk-i
 us tarp bendradarbi[],
  []
 
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 732.
  [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 732.
  (./bio_sawmill.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 732.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 732.
 Package rerunfilecheck Info: File `bio_sawmill.out' has not changed.
-(rerunfilecheck)             Checksum: 95614126C0DD0E93BFD17615E395DAA8;3831.
+(rerunfilecheck)             Checksum: 7447AAE05B55FF51343FDA8F4E98868E;4097.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 706.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 732.
  ) 
 Here is how much of TeX's memory you used:
- 12355 strings out of 493304
- 173470 string characters out of 6139871
+ 12357 strings out of 493304
+ 173500 string characters out of 6139871
  261498 words of memory out of 5000000
- 15580 multiletter control sequences out of 15000+600000
+ 15581 multiletter control sequences out of 15000+600000
  12946 words of font info for 34 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,17n,38p,642b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -720,10 +735,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb
 onts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on bio_sawmill.pdf (16 pages, 220153 bytes).
+Output written on bio_sawmill.pdf (16 pages, 221533 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 114 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

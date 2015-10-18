@@ -2,12 +2,13 @@
 \contentsline {section}{\numberline {2} Dyd\IeC {\v z}io ir pastang\IeC {\k u} vertinimas}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Projekto dyd\IeC {\v z}io apskai\IeC {\v c}iavimas}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Projekto pastang\IeC {\k u} vertinimas}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Projekto dyd\IeC {\v z}io ir pastang\IeC {\k u} vertinimas}{6}{subsection.2.3}
 \contentsline {section}{\numberline {3} Tvarkara\IeC {\v s}tis}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Tvarkara\IeC {\v s}\IeC {\v c}io u\IeC {\v z}si\IeC {\.e}mimai}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Projekto planas}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Projekto planas}{7}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Kontroliniai ta\IeC {\v s}kai}{7}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}B1 pavadinimas}{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}B2 pavadinimas}{7}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.4}B1 pavadinimas}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}B2 pavadinimas}{8}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}B21 pavadinimas}{8}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}B22 pavadinimas}{8}{subsubsection.3.5.2}
 \contentsline {subsection}{\numberline {3.6}B3 pavadinimas}{8}{subsection.3.6}
