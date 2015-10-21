@@ -5,16 +5,16 @@
 \contentsline {subsection}{\numberline {2.3}Projekto dyd\IeC {\v z}io ir pastang\IeC {\k u} vertinimas}{6}{subsection.2.3}
 \contentsline {section}{\numberline {3} Tvarkara\IeC {\v s}tis}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Tvarkara\IeC {\v s}\IeC {\v c}io u\IeC {\v z}si\IeC {\.e}mimai}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Projekto planas}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}Projekto planas}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Kontroliniai ta\IeC {\v s}kai}{7}{subsection.3.3}
-\contentsline {section}{\numberline {4}Konfiguracin\. e kontrol\. e}{8}{section.4}
-\contentsline {section}{\numberline {5}Versij\k u kontrol\. e}{10}{section.5}
-\contentsline {section}{\numberline {6}Pakeitim\IeC {\k u} valdymo proced\IeC {\=u}ra}{11}{section.6}
-\contentsline {section}{\numberline {7}Resurs\IeC {\k u} planas}{12}{section.7}
-\contentsline {section}{\numberline {8}Rizikos valdymas}{13}{section.8}
-\contentsline {subsection}{\numberline {8.1}Identifikavimas}{13}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Valdymo strategija}{13}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Rizikos suma\v zinimas, }{14}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}K\k a steb\. eti, atsi\v zvelgti padid\. ejus rizikai}{15}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Rizikos valdymas}{16}{subsection.8.5}
+\contentsline {section}{\numberline {4}Konfiguracin\. e kontrol\. e}{7}{section.4}
+\contentsline {section}{\numberline {5}Versij\k u kontrol\. e}{9}{section.5}
+\contentsline {section}{\numberline {6}Pakeitim\IeC {\k u} valdymo proced\IeC {\=u}ra}{10}{section.6}
+\contentsline {section}{\numberline {7}Resurs\IeC {\k u} planas}{11}{section.7}
+\contentsline {section}{\numberline {8}Rizikos valdymas}{12}{section.8}
+\contentsline {subsection}{\numberline {8.1}Identifikavimas}{12}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Valdymo strategija}{12}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Rizikos suma\v zinimas, }{13}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}K\k a steb\. eti, atsi\v zvelgti padid\. ejus rizikai}{14}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Rizikos valdymas}{15}{subsection.8.5}
 \contentsfinish 
