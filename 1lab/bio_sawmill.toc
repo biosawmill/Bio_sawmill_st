@@ -7,12 +7,7 @@
 \contentsline {subsection}{\numberline {3.1}Tvarkara\IeC {\v s}\IeC {\v c}io u\IeC {\v z}si\IeC {\.e}mimai}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Projekto planas}{7}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Kontroliniai ta\IeC {\v s}kai}{7}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}B1 pavadinimas}{8}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}B2 pavadinimas}{8}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}B21 pavadinimas}{8}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}B22 pavadinimas}{8}{subsubsection.3.5.2}
-\contentsline {subsection}{\numberline {3.6}B3 pavadinimas}{8}{subsection.3.6}
-\contentsline {section}{\numberline {4}Konfiguracin\. e kontrol\. e}{9}{section.4}
+\contentsline {section}{\numberline {4}Konfiguracin\. e kontrol\. e}{8}{section.4}
 \contentsline {section}{\numberline {5}Versij\k u kontrol\. e}{10}{section.5}
 \contentsline {section}{\numberline {6}Pakeitim\IeC {\k u} valdymo proced\IeC {\=u}ra}{11}{section.6}
 \contentsline {section}{\numberline {7}Resurs\IeC {\k u} planas}{12}{section.7}
