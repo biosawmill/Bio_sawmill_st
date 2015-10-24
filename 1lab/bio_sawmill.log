@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  21 OCT 2015 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.10.18)  24 OCT 2015 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **bio_sawmill.tex
 (./bio_sawmill.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -24,7 +24,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
@@ -53,7 +53,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
@@ -200,7 +200,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip43
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -230,7 +230,7 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -274,10 +274,10 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisrulewidth=\dimen129
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen130
 \extrarowheight=\dimen131
 \NC@list=\toks21
@@ -547,186 +547,174 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 123.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
 
-</home/l_/Pictures/BioSawmill.png, id=111, 200.75pt x 100.375pt>
-File: /home/l_/Pictures/BioSawmill.png Graphic file (type png)
+Overfull \hbox (23.28787pt too wide) in paragraph at lines 140--141
+\T1/cmr/m/n/12 noredami nus-tatyti apytik-slei ap-likaci-jos sudetingum¡. J[] p
+ava-din-i-mai pateiki-ami an-gli²kai: 
+ []
 
-<use /home/l_/Pictures/BioSawmill.png>
-Package pdftex.def Info: /home/l_/Pictures/BioSawmill.png used on input line 14
-1.
-(pdftex.def)             Requested size: 113.81102pt x 56.90648pt.
- [3
+[3
 
- </home/l_/Pictures/BioSawmill.png (PNG copy)>]
+]
 Overfull \hbox (2.56389pt too wide) in paragraph at lines 152--154
 \T1/cmr/m/n/12 Antra nau-do-dami "web" metrika uºpildysime funkcini-ams ta²kams
  skai£i-uoti skir-tas metrikas.
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
-
- []
-
-
-Overfull \hbox (22.11752pt too wide) in paragraph at lines 194--212
-[][]|  []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--250
-
- []
-
-[6
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 255--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--312
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 318--322
+Underfull \hbox (badness 10000) in paragraph at lines 305--316
 
  []
 
 
-Overfull \hbox (26.6796pt too wide) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 321--326
+
+ []
+
+[8
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 373--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--388
+
+ []
+
+[9]
+Overfull \hbox (26.6796pt too wide) in paragraph at lines 398--399
 []\T1/cmr/m/n/12 Konfiguracijos kon-t-role uºtik-rina pro-gramos kon-fig-u-raci
 -jos element[] iden-ti-fikav-im¡, pasikeitimo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
-[9
+[11
 
 ]
-Overfull \hbox (3.80743pt too wide) in paragraph at lines 371--372
+Overfull \hbox (3.80743pt too wide) in paragraph at lines 437--438
 []\T1/cmr/m/n/14.4 funkcijos arba ap-likaci-jos ar rezul-tat? at-vaiz-davimo pa
 -to-b-u-lin-i-mai ar klaid[]
  []
 
 
-Overfull \hbox (62.12515pt too wide) in paragraph at lines 377--379
+Overfull \hbox (62.12515pt too wide) in paragraph at lines 443--445
 \T1/cmr/m/n/14.4 pakeitimui []gyvendinti n
 era nepri-tariama, tai jis bus pradedamas vykdyti paºingsniui: 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 389.
-[10
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 455.
+[12
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 410.
+(Font)              <10.95> on input line 476.
 
-Overfull \hbox (21.52785pt too wide) in paragraph at lines 404--421
+Overfull \hbox (21.52785pt too wide) in paragraph at lines 470--487
 [][]|   [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--421
+Underfull \hbox (badness 10000) in paragraph at lines 470--487
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--568
+Underfull \hbox (badness 10000) in paragraph at lines 511--634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--568
+Underfull \hbox (badness 10000) in paragraph at lines 511--634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--568
+Underfull \hbox (badness 10000) in paragraph at lines 511--634
 
  []
 
-[11]
-Overfull \hbox (27.60037pt too wide) in paragraph at lines 570--571
+[13]
+Overfull \hbox (27.60037pt too wide) in paragraph at lines 636--637
 []\T1/cmr/m/n/14.4 Identifikave gal-i-mas rizik[] prieºastis paruo²i-ame strate
 -gija, kaip jas valdysim. 
  []
 
-[12] [13]
-Overfull \hbox (4.10487pt too wide) in paragraph at lines 628--630
+[14] [15]
+Overfull \hbox (4.10487pt too wide) in paragraph at lines 694--696
 \T1/cmr/m/n/14.4 Uºsakovo reak-cij¡ [] susi-tarimus, el-gsen¡ nuo ko-mu-nikav-i
 mo b	udo pakeitimo. 
  []
 
 
-Overfull \hbox (27.09787pt too wide) in paragraph at lines 634--637
+Overfull \hbox (27.09787pt too wide) in paragraph at lines 700--703
 \T1/cmr/m/n/14.4 Konkurencij¡ tarp darbo viet[], darbo pri-val-u-mus, san-tyk-i
 us tarp bendradarbi[],
  []
 
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 709.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 709.
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 775.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 775.
  (./bio_sawmill.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 709.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 709.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 775.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 775.
 Package rerunfilecheck Info: File `bio_sawmill.out' has not changed.
-(rerunfilecheck)             Checksum: 12886A7384E7E2A8601AD3ADCA2614E5;3412.
+(rerunfilecheck)             Checksum: 1C2A25F1043F5B59D6D34E7A5F879B5F;3008.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 709.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 775.
  ) 
 Here is how much of TeX's memory you used:
- 12346 strings out of 493304
- 173306 string characters out of 6139871
- 261495 words of memory out of 5000000
- 15575 multiletter control sequences out of 15000+600000
+ 12354 strings out of 494977
+ 173286 string characters out of 6180182
+ 257507 words of memory out of 5000000
+ 15335 multiletter control sequences out of 15000+600000
  12946 words of font info for 34 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  37i,17n,38p,642b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on bio_sawmill.pdf (15 pages, 218931 bytes).
+ </home/dominykas/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </ho
+me/dominykas/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/domi
+nykas/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/dominykas/.
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/dominykas/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/dominykas/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on bio_sawmill.pdf (17 pages, 199735 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
- 110 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

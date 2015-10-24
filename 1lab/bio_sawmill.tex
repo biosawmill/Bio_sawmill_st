@@ -101,8 +101,8 @@ Vilnius \ \  2015
 \end{center}
 \setlength\parindent{14pt}
 
-\AddToShipoutPictureBG*{%
-  \AtPageUpperRight{\raisebox{-\height}{\frame{\includegraphics[width=4cm]{/home/l_/Pictures/BioSawmill.png}}}}}
+%\AddToShipoutPictureBG*{%
+%  \AtPageUpperRight{\raisebox{-\height}{\frame{\includegraphics[width=4cm]{/home/l_/Pictures/%BioSawmill.png}}}}}
 
 
 %\floatfoot{Uzi fig\= ura}
@@ -137,12 +137,12 @@ Vilnius \ \  2015
 
 
 \section{ Dydžio ir pastangų vertinimas}
-Atlikdami vertinamą naudosime rekomenduojama funkcinių taškų metodika. Kadangi kuriama "web" aplikacija, tai pirma naudosime atitinkamas "web" projekto sričių metrikas. Jų pavadinimai pateikiami angliškai:
+Atlikdami vertinamą naudosime rekomenduojama funkcinių taškų metodika. Kadangi kuriama "web" aplikacija, tai pirma naudosime atitinkamas "web" projekto sričių metrikas, noredami nustatyti apytikslei aplikacijos sudetingumą. Jų pavadinimai pateikiami angliškai:
 \begin{enumerate}
 \item \textbf{Number of static Web pages (NSW)}
 \item \textbf{Number of dynamic Web pages (NDW)}
 \item \textbf{Number of internal pages links (NIL)}
-\item \textbf{Number of persistent data objects (NPDO}
+\item \textbf{Number of persistent data objects (NPDO)}
 \item \textbf{Number of external systems interfaced (NESI)}
 \item \textbf{Number of static content objects (NSC)}
 \item \textbf{Number of dynamic content objects (NDC)}
@@ -177,38 +177,104 @@ Trečia matuojamas projekto sudėtingumas siekiant tikslesnio dydžio vertinimo.
 \end{enumerate}
 Ketvirta apskaičiuojami funkciniai taškai pagal formulę
 $$ FP = count\ total \times [0.65 + 0.01 \times \sum(F_i)] $$
-$FP$ - tai projekto dydžio vertinimas funkcinias taškais.
+$FP$ - projekto dydžio vertinimas funkcinias taškais.
 
 
-\subsection{Projekto dydžio apskaičiavimas}
+\subsection{Projekto dydžio ir pastangų apskaičiavimas}
 
+NSW skaičiuojamas:
+	$$NSW \approx 3 \times NDW$$
+NDW skaičiuojamas:
+	$$NDW \approx 5 $$
+NIL skaičiuojamas:
+	$$NIL \approx 4 + 2 $$
+NPDO skaičiuojamas:
+	$$NPDO \approx NDW\times 3$$
+NESI skaičiuojamas:
+	$$NESI \approx 1 $$
+NSC skaičiuojamas:
+	$$NSC \approx (NSW+NDW)\times 5$$
+NDC skaičiuojamas:
+	$$NDC \approx NDW\times 3$$
+NEF skaičiuojamas:
+	$$NEF \approx 0$$
 
- \subsection{Projekto pastangų vertinimas}
- Tekstas su formule $y=x^2$...
+Number of external inputs:\\
+NDW\\
+Number of external outputs:\\
+NDC\\
+Number of external inquiries:\\
+NESI\\
+Number of internal logical files:\\
+NPDO\\
+Number of external interface files:\\
+1
+
+\begin{center}
+  \begin{tabular}{ l | l | l || r }
+    \hline
+    Domain & count & Weight & FP \\ \hline
+    External inputs & 5 & 3 & 15 \\ \hline
+    External outputs & 15 & 1 & 15 \\ \hline
+    External inquiries & 1 & 10 & 10 \\ \hline
+    Internal logical files & 15 & 1 & 15 \\ \hline
+    External interface files & 1 & 7 & 7 \\ \hline
+    \multicolumn{3}{ l }{Total:} & 62 \\
+    \hline
+  \end{tabular}
+\end{center}
+
+\begin{enumerate}
+ \item $3$
+ \item $1$
+ \item $0$
+ \item $1$
+ \item $0$
+ \item $5$
+ \item $3$
+ \item $3$
+ \item $4$
+ \item $5$
+ \item $0$
+ \item $0$
+ \item $0$
+ \item $3$
+ \end{enumerate}
+ Viso: $28$
+ 
+ $$FP \ = \ 62 \ \times \ 0.93 \ =\  57.66 $$
+
+EI:
+$$ S_1 =( 4 + 4 \times 5 + 6)\div 6$$
+EO:
+$$ S_2 =( 12 + 4 \times 15 + 17) \div 6$$
+EQ:
+$$ S_3 =( 1 + 3 \times 1 + 2 \times 2)\div 6$$
+ILF:
+$$ S_4 =( 12 + 4 \times 15 + 17)\div 6$$
+EIF:
+$$ S_5 =( 1 + 4 \times 1 + 2)\div 6$$\\
+ \begin{center}
+  \begin{tabular}{ l | l | l | l | l | l || r }
+    \hline
+    Domain & Opt. & Likely & Pess. & Est. & Weight & FP \\ \hline
+    External inputs & 4 & 5 & 6 & 5 & 3 & 15 \\ \hline
+    External outputs & 12 & 15 & 17 & 15 & 1 & 15 \\ \hline
+    External inquiries & 1 & 1 & 2 & 1.5 & 10 & 15 \\ \hline
+    Internal logical files & 12 & 15 & 15 & 0 & 1 & 15 \\ \hline
+    External interface files & 1 & 1 & 2 & 1 & 7 & 7 \\ \hline
+    \multicolumn{6}{ l }{Total:} & 67 \\
+    \hline
+  \end{tabular}
+\end{center}
+
+	 $$FP \ = \ 67 \ \times \ 0.93 \ =\  62.31 $$
+	 
+	 \href{http://www.qsm.com/resources/performance-benchmark-tables#Business%20Function%20Point}{Function Points per Person Monht table}.
+
+	$E \ = 62.31 \div 7.1 = 8.8$
+
 \clearpage 
-\subsection{Projekto dydžio ir pastangų vertinimas}
-Projekto dydis ir pastangų vertinimas priklauso nuo numatytų veiklų dydžio, kuris keičiasi kekienos iteracijos metu.Norint nustatyti pastangas reikia žinoti kokias veiklas atliksime bei nustatyti jų sudėtingumą.
-\\
-
-\begin{frame}
-\centering
-\hspace*{-1 cm}
-\begin{tabular}{|l|l|l|}
-\hline
-Veiklos & Trukmė   & Sudėtingumas   \\ \hline
-\multicolumn{1}{|l|}{Parašyti, papildyti dokumentaciją}                                                                         & 1 Mėnesis(4d*2s, 2d*1s) & vidutinis        \\ \hline
-\multicolumn{1}{|l|}{Kurti, tobulinti sistemą}                                                             & 3 Mėnesiai(4d*4s*1.5m, 1d*1s*1.5m) & \multicolumn{1}{l|}{aukštas}           \\ \hline
-\multicolumn{1}{|l|}{Atlikti kokybės kontrolė}                                                                          & \multicolumn{1}{l|}{3 Mėnesiai(4d*4s*3m)} & \multicolumn{1}{l|}{aukštas}           \\ \hline
-\multicolumn{1}{|l|}{Vykdyti rizikos, pasiketimų konltrolę}                                                              & \multicolumn{1}{l|}{1 Mėnesis(1d*4s*3m)} & \multicolumn{1}{l|}{vidutinis-aukštas} \\ \hline
-Resursų (per)paskirstymas  & 1 Mėnesis(1d*4s*3m) & aukštas \\ \hline
-Reikalavimų analizė & 1 Mėnesiai(4d*4s*1m) & vidutinis        \\ \hline
-Vykdyti projekto vystimosi sekimą & 3 Mėnesiai(4d*4s*3m) & vidutinis         \\ \hline
-\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Užtikrinti duomenų saugumą,\\ Sistemos naudingumą\end{tabular}} & 2-3 Mėnesiai(4d*4s*3m) & vidutinis-aukštas \\ \hline
-Programavimas & 2-3 Mėnesiai 4d*4s*3m & vidutinis        \\ \hline
-Testavimas & 3 Mėnesiai(4d*4s*3m) & vidutinis         \\ \hline
-
-\end{tabular}
-\end{frame}
 
 
 
