@@ -466,61 +466,34 @@ Priklausomai nuo priskirtos klasės, dar prieš išsikeliant taisytinus objektus
 
 Žmones esantys kompanijoje, darbuotojai.
 
-Reikalingi žmogiškieji resursai:
 
-\normalsize
+\small
 \begin{frame}
 \centering
-\hspace*{-3 cm}
+\hspace{-3cm}
 \label{my-label}
 \begin{tabular}{|c|c|l|c|}
 \hline
-
-\textbf{
-\begin{tabular}[c]{@{}l@{}}
-	Darbuotojas \\ Pareigos
-\end{tabular}} & 
-
-\textbf{
-\begin{tabular}[c]{@{}l@{}}
-	Darbuotojų\\ kiekis
-\end{tabular}} & 
-
-\textbf{
-\begin{tabular}[c]{@{}l@{}}
-	Darbo pobūdis
-\end{tabular}} & 
-
-\textbf{I*, II*, III*} \\ \hline
-Administratorius              & 1                          & \begin{tabular}[c]{@{}l@{}}Sprendžia iškilusias techninės ir programinės įrangos \\ problemas. Atsakingas už darbuotojams reikalingų \\ resursų pasiekiamumą.\end{tabular}                             & 0.25            \\ \hline
-Analitikas                    & 1                          & \begin{tabular}[c]{@{}l@{}}Tikrina ar programuotojų sukurtas sistemos \\ funkcionalumas atitinka kliento lūkesčius. Iš dalies \\ atlieka testuotojo vaidmenį.\end{tabular}                             & 0.25            \\ \hline
-Dizaineris                    & 1                          & \begin{tabular}[c]{@{}l@{}}Kuria pradinį svetainės dizainą, o projekto eigoje keičia \\ dizainą pagal kliento reikalavimus. Suteikia\\ profesionalias konsultacijas programuotojams.\end{tabular} & 0.25            \\ \hline
-\begin{tabular}[c]{@{}l@{}}
-	Programuotojas, \\ testuotojas
-\end{tabular}    & 3                          & Rašo programinį kodą, o vėliau jį testuoja.                                                                                                                                                        & 1               \\ \hline
-Projekto vadovas              & 1                          & 
-\begin{tabular}[c]{@{}l@{}}
-	Pagrindinis asmuo bendraujantis su klientu. \\ 
-	Atsakingas už projekto vystymą, komandos narių\\ 
-	parinkimą, konsultuoja komandos narius.
-\end{tabular} & 0.5  \\ \hline
-Sistemos inžinierius & 1 & 
-\begin{tabular}[c]{@{}l@{}}
-	Pagal pateiktus ir išanalizuotus kliento poreikius \\
-	sudaro sistemos architektūrą (įskaitant techninę dalį).\\
-	Konsultuoja programuotojus.
-\end{tabular}                & 0.25       \\ \hline    
+\textbf{\begin{tabular}[c]{@{}c@{}}Darbuotojas/\\ Pareigos\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Darbuotojų\\ kiekis\end{tabular}} & \multicolumn{1}{c|}{\textbf{Darbo pobūdis}}                                                                                                                                                        & \textbf{\begin{tabular}[c]{@{}c@{}}Darbo\\ valandų\footnotemark[1]\end{tabular}} \\ \hline
+Administratorius                                                         & 1                                                                    & \begin{tabular}[c]{@{}l@{}}Sprendžia iškilusias techninės ir programinės \\ įrangos problemas. Atsakingas už darbuotojams \\ reikalingų resursų pasiekiamumą.\end{tabular}                             & 52                                                               \\ \hline
+Analitikas                                                               & 1                                                                    & \begin{tabular}[c]{@{}l@{}}Tikrina ar programuotojų sukurtas sistemos \\ funkcionalumas atitinka kliento lūkesčius. Iš dalies \\atlieka testuotojo vaidmenį.  Ruošia dokumentaciją.\end{tabular}    & 100                                                              \\ \hline
+Dizaineris                                                               & 1                                                                    & \begin{tabular}[c]{@{}l@{}}Kuria pradinį svetainės dizainą, o projekto eigoje keičia \\ dizainą pagal kliento reikalavimus. Suteikia profesionalias \\ konsultacijas programuotojams.\end{tabular} & 44                                                               \\ \hline
+Programuotojas-testuotojas                                               & 2                                                                    & Rašo programinį kodą, o vėliau jį testuoja.                                                                                                                                                        & 120x2                                                            \\ \hline
+Programuotojas-testuotojas                                               & 1                                                                    & \begin{tabular}[c]{@{}l@{}}Rašo programinį kodą, o vėliau jį testuoja. Paskutiniame \\ etape bus atsakingas už produkto palaikymo užtikrinimą.\end{tabular}                                         & 140                                                              \\ \hline
+Projekto vadovas                                                         & 1                                                                    & \begin{tabular}[c]{@{}l@{}}Pagrindinis asmuo bendraujantis su klientu. Atsakingas už\\ projekto vystymą, komandos narių parinkimą. Konsultuoja\\ komandos narius.\end{tabular}                     & 100                                                              \\ \hline
+Sistemos inžinierius                                                     & 1                                                                    & \begin{tabular}[c]{@{}l@{}}Pagal pateiktus ir išanalizuotus kliento poreikius sudaro \\ sistemos architektūrą (įskaitant ir techninę dalį). \\ Konsultuoja programuotojus.\end{tabular}                & 100                                                              \\ \hline
 \end{tabular}
-\end{frame}
-
-\begin{frame}
-
 \end{frame}
 \vspace{1cm}
 \\
 \textbf{Pastaba}: laikoma, kad žmogus dirbantis nepilnu etatu, tuo pačiu metu dirba prie kitų įmonės projektų.
-\\
-\\
+Reikalingi žmogiškieji resursai:
+\footnotetext[1]{Darbo valandų skaičius apskaičiuotas atsižvelgus į darbuotojų numatytas darbo valandas kiekviename etape.}
+\clearpage
+Reikalingi sisteminiai resursai:
+\begin{itemize}
+\item Kekvienam darbuotojui suteikiamas asmeninis kompiuteris, kuriame sudiegta reikalinga programinė įranga.
+\end{itemize}
 Reikalingi sisteminiai resursai:
 \begin{itemize}
 	\item Testavimas su "make".
