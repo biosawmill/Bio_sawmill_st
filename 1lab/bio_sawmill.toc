@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}\IeC {\quotedblbase }Dvimat\IeC {\.e} pjovimo optimizacija\IeC {\textquotedblleft } PROJEKTO VIZIJA.}{3}{section.1}
+\contentsline {section}{\numberline {2} Dyd\IeC {\v z}io ir pastang\IeC {\k u} vertinimas}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Projekto dyd\IeC {\v z}io ir pastang\IeC {\k u} apskai\IeC {\v c}iavimas}{5}{subsection.2.1}
+\contentsline {section}{\numberline {3} Tvarkara\IeC {\v s}tis}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tvarkara\IeC {\v s}\IeC {\v c}io u\IeC {\v z}si\IeC {\.e}mimai}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Projekto planas}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Kontroliniai ta\IeC {\v s}kai}{8}{subsection.3.3}
+\contentsline {section}{\numberline {4}Konfiguracin\. e kontrol\. e}{9}{section.4}
+\contentsline {section}{\numberline {5}Versij\k u kontrol\. e}{11}{section.5}
+\contentsline {section}{\numberline {6}Pakeitim\IeC {\k u} valdymo proced\IeC {\=u}ra}{12}{section.6}
+\contentsline {section}{\numberline {7}Resurs\IeC {\k u} planas}{13}{section.7}
+\contentsline {section}{\numberline {8}Rizikos valdymas}{14}{section.8}
+\contentsline {subsection}{\numberline {8.1}Identifikavimas}{14}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Valdymo strategija}{15}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Rizikos suma\v zinimas, }{16}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}K\k a steb\. eti, atsi\v zvelgti padid\. ejus rizikai}{17}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Rizikos valdymas}{18}{subsection.8.5}
+\contentsfinish 
