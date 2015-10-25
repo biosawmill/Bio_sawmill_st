@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {7}Resurs\IeC {\k u} planas}{13}{section.7}
 \contentsline {section}{\numberline {8}Rizikos valdymas}{14}{section.8}
 \contentsline {subsection}{\numberline {8.1}Identifikavimas}{14}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Valdymo strategija}{15}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.2}Valdymo strategija}{14}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}Rizikos suma\v zinimas, }{16}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}K\k a steb\. eti, atsi\v zvelgti padid\. ejus rizikai}{16}{subsection.8.4}
 \contentsline {subsection}{\numberline {8.5}Rizikos valdymas}{18}{subsection.8.5}
