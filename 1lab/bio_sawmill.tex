@@ -95,52 +95,9 @@ Vilnius \ \  2015
 
 %\section{\centerline{„Dvimatė pjovimo optimizacija“ \\ PROJEKTO VIZIJA.}}
 \setlength\parindent{24pt}
-\begin{center}
 
-\section{ Dydžio ir pastangų vertinimas}
-Atlikdami vertinamą naudosime rekomenduojama funkcinių taškų metodika. Kadangi kuriama "web" aplikacija, tai pirma naudosime atitinkamas "web" projekto sričių metrikas, noredami nustatyti apytikslei aplikacijos sudetingumą. Jų pavadinimai pateikiami angliškai:
-\begin{enumerate}
-\item \textbf{Number of static Web pages (NSW)}
-\item \textbf{Number of dynamic Web pages (NDW)}
-\item \textbf{Number of internal pages links (NIL)}
-\item \textbf{Number of persistent data objects (NPDO)}
-\item \textbf{Number of external systems interfaced (NESI)}
-\item \textbf{Number of static content objects (NSC)}
-\item \textbf{Number of dynamic content objects (NDC)}
-\item \textbf{Number of executable functions
-(NEF)}
-\end{enumerate}
-Antra naudodami "web" metrika užpildysime funkciniams taškams skaičiuoti skirtas metrikas.
-Jas pateikiama angliškai:
-\begin{enumerate}
-\item \textbf{Number of external imputs}
-\item \textbf{Number of external outputs}
-\item \textbf{Number of external inquiries}
-\item \textbf{Number of internal logical files}
-\item \textbf{Number of external interface files}
-\end{enumerate}
-Trečia matuojamas projekto sudėtingumas siekiant tikslesnio dydžio vertinimo. Tai daroma atsakant į klausimus priskiriant kokybinius vertes nuo 0 - No influence iki 5 - Essential. Klausimai pateikiami angliškai.
-\begin{enumerate}
-\item \textbf{Does the system require reliable backup and recovery?}
-\item \textbf{Are data communications required?}
-\item \textbf{ Are there distributed processing functions?}
-\item \textbf{Is performance critical?}
-\item \textbf{Will the system run in a existing, heavily utilized operational environment?}
-\item \textbf{Does the system require on-line data entry?}
-\item \textbf{Does the on-line data entry require the input transaction to be built over multiple screens or operations?}
-\item \textbf{Are the master files updated on-line?}
-\item \textbf{Are the inputs, outputs, files or inquiries complex?}
-\item \textbf{Is the internal processing complex?}
-\item \textbf{Is the code designed to be reusable?}
-\item \textbf{Are conversion and installation included in the design?}
-\item \textbf{Is the system designed for multiple installations in different organizations?}
-\item \textbf{Is the application designed to facilitate change and ease of use by the user?}
-\end{enumerate}
-Ketvirta apskaičiuojami funkciniai taškai pagal formulę
-$$ FP = count\ total \times [0.65 + 0.01 \times \sum(F_i)] $$
-$FP$ - projekto dydžio vertinimas funkcinias taškais.
 
-\end{center}
+
 
 \subsection{Projekto dydžio ir pastangų apskaičiavimas}
 \hfill \\
@@ -218,28 +175,24 @@ ILF:
 $$ S_4 =( 12 + 4 \times 15 + 17)\div 6$$
 EIF:
 $$ S_5 =( 1 + 4 \times 1 + 2)\div 6$$\\
+=======
+>>>>>>> 7b9776724ee123f6b6b956be58e95feffc680283
  \begin{center}
-  \begin{tabular}{ l | l | l | l | l | l || r }
+  \begin{tabular}{ l | l | l || r }
     \hline
-    Domain & Opt. & Likely & Pess. & Est. & Weight & FP \\ \hline
-    External inputs & 4 & 5 & 6 & 5 & 3 & 15 \\ \hline
-    External outputs & 12 & 15 & 17 & 15 & 1 & 15 \\ \hline
-    External inquiries & 1 & 1 & 2 & 1.5 & 10 & 15 \\ \hline
-    Internal logical files & 12 & 15 & 15 & 0 & 1 & 15 \\ \hline
-    External interface files & 1 & 1 & 2 & 1 & 7 & 7 \\ \hline
-    \multicolumn{6}{ l }{Total:} & 67 \\
+    Domain & Est. & Weight & FP \\ \hline
+    External inputs  & 6 & 4 & 24 \\ \hline
+    External outputs  & 6 & 4 & 24 \\ \hline
+    External inquiries & 6 & 4 & 15 \\ \hline
+    Internal logical files & 15 & 7 & 105 \\ \hline
+    External interface files & 1 & 10 & 10 \\ \hline
+    \multicolumn{3}{ l }{Total:} & 187 \\
     \hline
   \end{tabular}
 \end{center}
 
-	 $$FP \ = \ 67 \ \times \ 0.93 \ =\  62.31 $$
-	 
-	 \href{http://www.qsm.com/resources/performance-benchmark-tables#Business%20Function%20Point}{Function Points per Person Monht table}.
-
-	$E \ = 62.31 \div 7.1 = 8.8$
-
-\clearpage 
-\subsection{Pastangų planas}
+	 \large\textbf{$$FP \ = \ 187 \ \times \ 0.93 \ =\  174 $$}
+\subsection{Pastangų vertinimas}
 \begin{frame}
 \centering
 \hspace{2cm}
@@ -250,12 +203,15 @@ $$ S_5 =( 1 + 4 \times 1 + 2)\div 6$$\\
 Analizė                                                                        & 30                                                               \\ \hline
 \begin{tabular}[c]{@{}c@{}}Darbo aplinkos ruošimas ir priežiūra\end{tabular} & 36                                                               \\ \hline
 \begin{tabular}[c]{@{}c@{}}Dokumentacijos pildymas\end{tabular}              & 70                                                               \\ \hline
-Palaikymas                                                                     & 20                                                               \\ \hline
-Programavimas                                                                  & 288                                                              \\ \hline
+Palaikymas                                                                     & 60                                                               \\ \hline
+Programavimas                                                                  & 328 \\ \hline
 Projektavimas                                                                  & 100                                                              \\ \hline
 Projekto valdymas                                                              & 100                                                              \\ \hline
 Svetainės dizaino kūrimas ir palaikymas                                         & 44                                                               \\ \hline
 Testavimas                                                                     & 72                                                               \\ \hline
+VISO &
+840
+\\ \hline
 \end{tabular}
 \end{frame}
 
@@ -263,7 +219,7 @@ Testavimas                                                                     &
 \section{ Tvarkaraštis}
 
 
- 
+ Tvarkarastis pateikiamas kitame faile (gant.html).
 
 
 \section{Konfiguracin\. e kontrol\. e}
@@ -281,19 +237,16 @@ Kekvin\k a u\v zsakovo sprendim\k a turime ivykdyti. Problema tame, kad reikia a
 Problemos sprendimas ir b\= utu konfiguracin\. es kontrol\. es naudojimas.\\
 Ji u\v ztikrina, kad informacija saugojama, kontroliuojama sistemos k\= urimo, keitimo ir testavimo metu ir taip pat ar atitinka vykdomus \v reikalavimus. \\
 Taip pat u\v ztikrinti kad informacij\k a apie projekta laisvai pasiekiama.\\
-
-Konfiguracin\k e kontrol\. es u\v zuduotys:
+\large\textbf{Konfiguracin\k e kontrol\. es u\v zuduotys}
 \begin{enumerate}
 	\item Rasti kokios projekto dalys gali keistis.
 	\item kontroliuoti vien\k a ar kelis rastus.
 	\item lengvinti skirting\k u versij\k u aplikacij\k u konstrukcij\k a. 
 	\item u\v ztikrinti kad projekto kokybe palaikoma, kai konfiguracija atnaujinama.
 \end{enumerate}
-
+\hfill \\
 Konfiguracijos kontrole u\v ztikrina programos konfiguracijos element\k u identifikavim\k a, pasikeitimo kontrol\k e, versijos kontrol\k e, konfiguracijos audit\k a ir ataskaita tiek projekto k\= urimo metu, tiek palaikymo metu.\\
-\vspace{3cm}
 \large\textbf{Projekte kontrol\. e u\v ztikrinama}
-\normalsize
 \begin{enumerate}
 	\item Programos dokumentacijai.
 	\item Programos analiz\. es failai.
@@ -301,13 +254,9 @@ Konfiguracijos kontrole u\v ztikrina programos konfiguracijos element\k u identi
 	\item Programavimo kodą.
 	\item Internetinės svetainės kodas.
 \end{enumerate}
-
-\clearpage
-
-\section{Versij\k u kontrol\. e}
-
-Versij\k u kontrolei naudojamas "Github".\\
-Ne tik programos kodui versijonuoti bet taip pat ir apie tai informuoti bendradarbius.\\
+\subsection{Versij\k u kontrol\. e}
+Versij\k u kontrolei naudojamas "Github".
+Ne tik programos kodui versijonuoti bet taip pat ir apie tai informuoti bendradarbius.
 
 \large\textbf{Joje laikomi failai:}
 \normalsize
