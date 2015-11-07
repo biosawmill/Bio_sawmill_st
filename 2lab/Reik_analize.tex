@@ -1,0 +1,165 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[T2A]{fontenc} % jei yra kirilica
+\usepackage[hmargin={30mm,15mm},vmargin={20mm,20mm},bindingoffset=0mm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue, unicode]{hyperref}
+%\parindent=7mm
+\usepackage{graphicx}
+\renewcommand{\refname}{Literatūros sąrašas} % article
+%\renewcommand{\bibname}{Literatūros sąrašas} % report
+\renewcommand{\contentsname}{Turinys}
+\usepackage[T1]{fontenc} 
+
+% Lukas paketai
+
+\usepackage{eso-pic}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{placeins}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\usepackage{tabularx}% http://ctan.org/pkg/tabularx
+\usepackage[parfill]{parskip}
+\usepackage[unicode]{hyperref}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+   \makebox[\paperwidth][r]{#1}}}
+\usepackage[dotinlabels]{titletoc}
+\usepackage[capposition=top]{floatrow}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{secdot}
+
+
+
+
+\begin{document}
+
+
+\renewcommand{\cftdot}{.}	
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\thispagestyle{empty} % nerasomas psl. nr
+
+
+\begin{center}
+ VILNIAUS UNIVERSITETAS 
+ 
+MATEMATIKOS IR INFORMATIKOS FAKULTETAS
+
+MATEMATINĖS INFORMATIKOS KATEDRA
+
+\vspace{4cm}
+
+Projekto vadovė \ \ \textbf{Aistė Čiplytė} \\
+\textbf{Lukas Tutkus} \\
+\textbf{Julius Daukšas} \\
+\textbf{Dominykas Smaliukas} \\
+\textbf{Robert Stankevič} \\
+
+\vspace{0.2cm}
+
+Bioinformatikos studijų programos grupė BioSawmill
+
+
+
+\vspace{3cm}
+\textbf{\Large Dvimatė pjovimo optimizacija}\\
+\textbf{\Large Projekto planas}
+
+\vfill
+
+Vilnius \ \  2015
+\end{center}
+
+
+
+\clearpage
+
+\tableofcontents
+\clearpage
+%\maketitle 
+%\section*{Apžvalga}
+%\addcontentsline{toc}{section}{Apžvalga} % rasoma turinyje
+\section{Reikalavimai}
+
+\begin{frame}
+\centering
+
+\label{my-label}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{ID}              & \textbf{Reikalavimai}               & \textbf{Langas} \\ \hline
+F1                       & Registracija                        & 1               \\ \hline
+F2                       & Prisijungimas                       & 2               \\ \hline
+F3                       & Vartotojo slaptažodžio pakeitimas   & 2               \\ \hline
+F4                       & Kalbos pasirinkimas(LT, EN)         & 1, 2, 3, 4      \\ \hline
+F5                       & Detalių duomenų įvedimas            & 3               \\ \hline
+F6                       & Optimizacijos išvedimas             & 3               \\ \hline
+F7                       & Pagalbą vartotojui                  & 4               \\ \hline
+\multicolumn{1}{|c|}{F8} & Laiškų išsiuntimas                  & 4               \\ \hline
+F9                       & Ruošinių generavimas                & 3               \\ \hline
+F10                      & Optimizacijos ruošinių išsaugojimas & 3               \\ \hline
+F11                      & Rezultatų gavimas vartotojui        & 3               \\ \hline
+F12                      & Generavimas PDF išsaugojimas        & 3               \\ \hline
+NF1                      & Serverio palaikymas                 &                 \\ \hline
+NF2                      & Modernus, kokybiškas dizainas       &                 \\ \hline
+\end{tabular}
+\end{frame}
+
+
+\section{Atsekamumo lentelė}
+\begin{frame}
+\centering
+\hspace{0cm}
+\label{my-label}
+\begin{tabular}{|l|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Užsakovo poreikiai}}                                                                                                                                                                                                                                                                                                         & \textbf{Reikalavimai} \\ \hline
+Vartotojas nurodo reikalingų detalių ilgius (mm), aukščius (mm) ir kiekius.                                                                                                                                                                                                                                                                               &                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}Sistema optimizuoja detalių išpjovimą iš standartinių panelių 1200x2500.\\ Po to pakartoja šį procesą su standartiniais paneliais 1200x3050.\\ (Turėkite omenyje, kad pjovimo plotis yra 4 mm, todėl iš standartinės \\ panelės1200x2500 negalima išpjauti 2 detalių 600x2500.)\end{tabular}                                   &                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}Sistema pateikia abiejų variantų informaciją vartotojui ir pasirenka, \\ kuris variantas jam labiau tinka. Vartotojui pasirinkus, sistema \\ turi parodyti ekranepjovimo planą su galimybe jį atsispausdinti \\ (su atspausdintu planu vartotojasgali kreiptis į tiekėją, kad \\ išpjautų jam reikiamas detales).\end{tabular} &                       \\ \hline
+Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         &                       \\ \hline
+Įvedami standartinių panelių dydžiai.                                                                                                                                                                                                                                                                                                                     &                       \\ \hline
+\end{tabular}
+\end{frame}
+
+
+\section{Klasių diagramos}
+
+\section{Naudojimo atvejų aprašai(Use-cases)}
+
+
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<ŠABLONAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}                                                                    &  \\ \hline
+\textbf{Dalyviai}                                                                       &       \\ \hline
+\textbf{Paskirtis}                                                                      &            \\ \hline
+\textbf{Kritiškumas}                                                                    & \\ \hline
+\textbf{Pradinės sąlygos}                                                               &        \\ \hline
+\textbf{Rezultatas}                                                                     &           \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &              \\ \hline
+\end{tabular}
+\end{frame}
+
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<ŠABLONO PABAIGA >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+\section{Sistemos elgsenos aprašymas}
+
+
+
+\end{document}
