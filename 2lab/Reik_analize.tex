@@ -274,6 +274,25 @@ Sistemai gauti parametrus, pagal kuriuos turi būti optimizuotas pjovimo \\plana
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
+\textbf{Pavadinimas}                                                                    &  Įvesti papildomus standartinių panelių dydžius\\ \hline
+\textbf{Dalyviai}                                                                       &  Vartotojas  \\ \hline
+\textbf{Paskirtis}                                                                      &  
+\begin{tabular}[c]{@{}l@{}}
+Vartotojui nurodyti panelės, su kuriai jis nori rasti optimalų pjovimo \\planą, dydį.
+\end{tabular}      \\ \hline
+\textbf{Kritiškumas}                                                                    & Būtinas\\ \hline
+\textbf{Pradinės sąlygos}                                                               &  \begin{tabular}[c]{@{}l@{}}Vartotojas yra prisijungęs ir atsidaręs pjovimo optimizavimui skirtą langą.\\ Suvesti detalių matmenys ir norimas jų kiekis.\end{tabular}  \\ \hline
+\textbf{Rezultatas}                                                                     &  \begin{tabular}[c]{@{}l@{}}Vartotojas turi galimybę nurodyti panelių, iš kurių nori pjauti detales,\\ dydį\end{tabular} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Vartotojas peržiuri siūlomų panelių dydžių sąrašą. Optimizacijai \\gali pasirinkti vieną iš šių siūlomų variantų arba nurodyti kitokius \\matmenis. Antruoju atveju būtų taikomi įvedamų matmenų apribojimai,\\pavyzdžiui, matmuo negali būti didesnis negu 5000mm ar mažesnis\\ negu 2000mm. \end{tabular} \\ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
 \textbf{Pavadinimas}                                                                    &  Optimizuotų pjūvio planų pasirinkimas\\ \hline
 \textbf{Dalyviai}                                                                       &   Vartotojas    \\ \hline
 \textbf{Paskirtis}                                                                      &  
@@ -287,6 +306,44 @@ Vartotojas yra prisijungęs. Sistema baigusi optimizuoti pjūvio \\planus/planą
 \end{tabular} \\ \hline
 \textbf{Rezultatas}                                                                     &   \begin{tabular}[c]{@{}l@{}} Vartotojas savo naršyklės lange mato vieną, detalų pjovimo\\optimizacijos planą ir turi galimybę jį atsispausdinti\end{tabular}     \\ \hline
 \textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Vartotojas pasirenka vieną iš jam pateiktų pjovimo planų\\ ir patvirtina, jog nori matyti konkretų planą.\\2. Vartotojo naršyklės lange atsiranda detalus, pasirinktasis\\ pjovimo planas ir mygtukas, leidžiantis vartotojui parsisiųsti,\\ spausdinimui skirtą plano kopiją. Pastarasis planas \\ bus saugomas sistemos duomenų bazėje visma laikui, kai, tuo \\tarpu, nepasirinktieji optimizuoti pjovimo planai yra saugomi\\ sistemos duomenų bazėje iki vartotojo sesijos pabaigos.\end{tabular} \\ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}                                                                    &  Pasirinkto pjūvio plano ruošinio gavimas\\ \hline
+\textbf{Dalyviai}                                                                       &   Vartotojas    \\ \hline
+\textbf{Paskirtis}                                                                      &  
+\begin{tabular}[c]{@{}l@{}}
+Leisti vartotojui gauti spausdinimui skirtą pjūvio plano kopiją
+\end{tabular}  \\ \hline
+\textbf{Kritiškumas}                                                                    & Būtinas\\ \hline
+\textbf{Pradinės sąlygos}                                                               & 
+\begin{tabular}[c]{@{}l@{}}
+Vartotojas yra prisijungęs. Sistema baigusi optimizuoti pjūvio \\planus/planą pagal vartotojo nurodytus optimizacijos parametrus \\optimizacijos lange. Vartotojas yra pasirinkęs pjūvio optimizavimo\\ planą, kurį nori atsispausdinti
+\end{tabular} \\ \hline
+\textbf{Rezultatas}                                                                     &   \begin{tabular}[c]{@{}l@{}} Vartotojas savo prietaise turės spausdinimui paruoštą\\ pjūvio planą\end{tabular}     \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Vartotojas paspaudžia mygtuką, skirtą gauti spausdinimui \\paruoštą planą.\\2. Į vartotojo prietaisą atsiunčiamas pjuvio planas.\end{tabular} \\ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}                                                                    &  Keisti paskyros parametrus\\ \hline
+\textbf{Dalyviai}                                                                       &     Vartotojas  \\ \hline
+\textbf{Paskirtis}                                                                      &      Leisti vartotojui keisti savo paskyruos duomenis      \\ \hline
+\textbf{Kritiškumas}                                                                    & Vidutinis\\ \hline
+\textbf{Pradinės sąlygos}                                                               &     \begin{tabular}[c]{@{}l@{}} Vartotojas yra prisijungęs. Vartotojui prisijungus, jis\\ yra nukreipiamas į savo paskyros langą\end{tabular}  \\ \hline
+\textbf{Rezultatas}                                                                     &   Pasikeitę vartotojo paskyros parametrai        \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Vartotojas spaudžia paskyros redagavimo mygtuką.\\ 2. Vartotojas pakeičia norimus paskyros duomenis.\\ 3. Vartotojas spaudžia pakeitimų išsaugojimo mygtuką.\\4. Jei pakeitimai buvo leistini, pavyzdžiui, vartotojo\\ vardas nebuvo pakeistas į tuščią reikšmę ir pan., tada \\pakeitimai išsaugomi. Kitu atveju pažymimi\\ neleistinas reikšmes įgiję laukai. Vartotojas jas turi \\pakeisti, kad galėtų išsaugoti pakitimus.\end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
 
