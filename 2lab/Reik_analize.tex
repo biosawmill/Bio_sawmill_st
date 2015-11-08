@@ -110,7 +110,7 @@ F5						& Prisijungimo duomenų išsaugojimas duomenų bazėje
 																   & 2		\\ \hline
 
 
-F6                       & Detalių duomenų įvedimas           	   & 1            \\ \hline
+F6                       & Įvesti pjovimo optimizacijos duomenis      	   & 1            \\ \hline
 F7                       & Pjūvio plano optimizavimas           	   & 2            \\ \hline
 
 F8                       & Optimizuotų pjuvio planų informacijos pateikimas 																  						 & 2      \\ \hline
@@ -125,6 +125,8 @@ F11                      & Pasirinkto pjūvio plano ruošinio gavimas& 1       \
 
 F12						& Administratoriaus valdymo skydas	 	  & 3			\\ \hline
 
+F13						& Keisti paskyros duomenis	 	  & 1			\\ \hline 
+F14						& Įvesti papildomus standartiniu panelių dydžius	 	  & 1		\\ \hline
 
 NF1                      & Kalbos pasirinkimas(LT, EN)       	     & 1, 2, 3                 \\ \hline
 \end{tabular}
@@ -174,7 +176,7 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \textbf{Kritiškumas}                                                                    & \\ \hline
 \textbf{Pradinės sąlygos}                                                               &        \\ \hline
 \textbf{Rezultatas}                                                                     &           \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &              \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} TEKSAS \end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
 
@@ -220,13 +222,29 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}                                                                    &  \\ \hline
-\textbf{Dalyviai}                                                                       &       \\ \hline
-\textbf{Paskirtis}                                                                      &            \\ \hline
-\textbf{Kritiškumas}                                                                    & \\ \hline
-\textbf{Pradinės sąlygos}                                                               &        \\ \hline
-\textbf{Rezultatas}                                                                     &           \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &              \\ \hline
+\textbf{Pavadinimas}                                                                    & Atsijungimas nuo sistemos \\ \hline
+\textbf{Dalyviai}                                                                       &   Vartotojas, administratorius    \\ \hline
+\textbf{Paskirtis}                                                                      &  Nutraukti sistemos naudotojo sesiją        \\ \hline
+\textbf{Kritiškumas}                                                                    &  Mažas\\ \hline
+\textbf{Pradinės sąlygos}                                                               &  Sistemos naudotojas yra prisijungęs prie sistemos   \\ \hline
+\textbf{Rezultatas}                                                                     &     Nutraukta sistemos naudotojo sesija      \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &     \begin{tabular}[c]{@{}l@{}}1. Sistemos naudotojas paspaudžia atsijungimo mygtuką,\\ kuris turi būti kiekviename svetainės tinklapio lange.\end{tabular} \\ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}                                                                    &  Vartotojo slaptažodžio atgavimas\\ \hline
+\textbf{Dalyviai}                                                                       & Vartotojas      \\ \hline
+\textbf{Paskirtis}                                                                      &   Vartotojui sužinoti pamirštą slaptažodį   \\ \hline
+\textbf{Kritiškumas}                                                                    & Būtinas \\ \hline
+\textbf{Pradinės sąlygos}                                                               &  \begin{tabular}[c]{@{}l@{}} Vartotojos bando prisijungti, tačiau jam nepavyksta prisiminti\\ slaptažodžio. Jo prisijungimo lange atsiranda mygtukas pamiršto\\ slaptažodžio atgavimui \end{tabular} \\ \hline
+\textbf{Rezultatas}                                                                     &   Vartotojas į el. paštą gauna savo slaptažodžio priminimą   \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}}1. Vartotojas paspaudžia pamiršto slaptažodžio atgavimo mygtuką.\\2. Atsidariusiame naujame lange vartotojos nurodo savo el. pašto\\ adresą, su kuriu yra užsiregistravęs sistemoje.\\ 3. Vartotojas spaudžia patvirtinimo mygtuką.\\ 4. Jei el. paštas egzistuoja sistemos duomenų bazėje, juo bus\\ nusiųstas slaptažodžio priminimas. Jei el. pašto atitikmens nerandama \\duomenų bazėje, vartotojas gali bandyti iš naujo įvesti el. pašto \\adresą arba naudoti kontaktinius duomenis, pateiktus kiekvieno\\ svetainės lango apačioje, prarastos paskyros prieigos atgavimui. \\\end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
 
