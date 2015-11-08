@@ -248,6 +248,48 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \end{tabular}
 \end{frame}
 
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}                                                                    &  Įvedami pjovimo optimizacijos parametrai\\ \hline
+\textbf{Dalyviai}                                                                       &  Vartotojas  \\ \hline
+\textbf{Paskirtis}                                                                      &  
+\begin{tabular}[c]{@{}l@{}}
+Sistemai gauti parametrus, pagal kuriuos turi būti optimizuotas pjovimo \\planas 
+\end{tabular}      \\ \hline
+\textbf{Kritiškumas}                                                                    & Būtinas\\ \hline
+\textbf{Pradinės sąlygos}                                                               & Vartotojas yra prisijungęs ir atsidaręs pjovimo optimizavimui skirtą langą \\ \hline
+\textbf{Rezultatas}                                                                     &  \begin{tabular}[c]{@{}l@{}}Įvesti parametrai reikalingi optimizacijai, galima pradėti vykdyti \\optimizavimo algoritmą\end{tabular} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Optimizavimo lange vartotojas nurodo reikalingų detalių ilgius (mm),\\ aukščius (mm) ir kiekius. Visi duomenys nurodomi sveikaisiais skaičiais. \\Vartotojas negalės pereiti prie sekančio žingsnio, jeigu bent vienas \\parametras bus įvestas neteisingai. \\2. Vartotojas nurodo, pagal kokius standartinius paneliu dydžius \\ turėtų būti optimizuojamas pjovimo planas. Jeigu norimų standartinių \\ panelių dydžių nenurodo, optimizacija atliekama pagal 1200x2500 ir \\
+1200x3050 standartiniu panelių dydžius. Vartotojas gali gauti iki triejų\\ optmizavimo planų (pagal skirtingus panelių dydžius).\end{tabular} \\ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}                                                                    &  Optimizuotų pjūvio planų pasirinkimas\\ \hline
+\textbf{Dalyviai}                                                                       &   Vartotojas    \\ \hline
+\textbf{Paskirtis}                                                                      &  
+\begin{tabular}[c]{@{}l@{}}
+Leisti vartotojui pasirinkti, kuris pjūvio optimizacijos planas \\ jam labiau priimtinas 
+\end{tabular}  \\ \hline
+\textbf{Kritiškumas}                                                                    & Būtinas\\ \hline
+\textbf{Pradinės sąlygos}                                                               & 
+\begin{tabular}[c]{@{}l@{}}
+Vartotojas yra prisijungęs. Sistema baigusi optimizuoti pjūvio \\planus/planą pagal vartotojo nurodytus optimizacijos parametrus \\optimizacijos lange. Priklausomai nuo optimizacijos parametrų \\vartotojas gauna nuo vieno iki triejų skirtingų pjovimo\\ optmizacijos planų
+\end{tabular} \\ \hline
+\textbf{Rezultatas}                                                                     &   \begin{tabular}[c]{@{}l@{}} Vartotojas savo naršyklės lange mato vieną, detalų pjovimo\\optimizacijos planą ir turi galimybę jį atsispausdinti\end{tabular}     \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Vartotojas pasirenka vieną iš jam pateiktų pjovimo planų\\ ir patvirtina, jog nori matyti konkretų planą.\\2. Vartotojo naršyklės lange atsiranda detalus, pasirinktasis\\ pjovimo planas ir mygtukas, leidžiantis vartotojui parsisiųsti,\\ spausdinimui skirtą plano kopiją. Pastarasis planas \\ bus saugomas sistemos duomenų bazėje visma laikui, kai, tuo \\tarpu, nepasirinktieji optimizuoti pjovimo planai yra saugomi\\ sistemos duomenų bazėje iki vartotojo sesijos pabaigos.\end{tabular} \\ \hline
+\end{tabular}
+\end{frame}
+
 \section{Sistemos elgsenos aprašymas}
 
 
