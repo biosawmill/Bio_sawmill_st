@@ -1,10 +1,12 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
+
 %\usepackage[T2A]{fontenc} % jei yra kirilica
 \usepackage[hmargin={30mm,15mm},vmargin={20mm,20mm},bindingoffset=0mm]{geometry}
 \usepackage[onehalfspacing]{setspace}
 \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue, unicode]{hyperref}
+
 %\parindent=7mm
 \usepackage{graphicx}
 \renewcommand{\refname}{Literatūros sąrašas} % article
@@ -13,7 +15,6 @@
 \usepackage[T1]{fontenc} 
 
 % Lukas paketai
-
 \usepackage{eso-pic}
 \usepackage{indentfirst}
 \usepackage{setspace}
@@ -212,12 +213,13 @@ Tipinė eiga ir kiti\\ galimi variantai
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}  		& Registracija \\ \hline
-\textbf{Dalyviai}  			&  Vartotojas \\ \hline
-\textbf{Paskirtis}  			&  Sukurti naujo vartotojo paskyrą\\ \hline
-\textbf{Kritiškumas}			& Būtinas \\ \hline
-\textbf{Pradinės sąlygos}   	& Nėra \\ \hline
-\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukurtas naujo vartotojo įrašą\\ \hline
+\textbf{Pavadinimas}  		& Registracija 							\\ \hline
+\textbf{Dalyviai}  			& Vartotojas, administratorius			\\ \hline
+\textbf{Paskirtis}  			& Sukurti naujo vartotojo paskyrą		\\ \hline
+\textbf{Kritiškumas}			& Būtinas 								\\ \hline
+\textbf{Pradinės sąlygos}   	& Nėra 									\\ \hline
+\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukurtas 
+							naujo vartotojo įrašą					\\ \hline
 \textbf{
 	\begin{tabular}[c]{@{}l@{}}
 		Tipinė eiga ir kiti\\ 
@@ -229,12 +231,13 @@ Tipinė eiga ir kiti\\ galimi variantai
 	prisiregistruoti, kur tai gali padaryti registravimosi lange užpildęs \\
 	privalomus laukus: vartotojo vardą, slaptažodį, el.paštą.\\ 
 	2. Paspaudžia registracijos mygtuką.\\
-	3. Jeigu suvesti vartotojo vardas, bei paštas unikalus duomenų bazėje,\\
+	3. Jeigu suvestas vartotojo vardas, bei paštas unikalus duomenų bazėje,\\
 	tada sukuriamas vartotojo įrašas duomenų bazėje ir vartotojas\\
 	nukreipiamas į jo naujos paskyros langą. \\
-	Kitu atveju parodoma kas blogai vartotojo prašoma suvesti teisingus/leistinus duomenis ir\\ 
-	bandyti iš naujo, t.y., pereinam į pirmą punktą. 
+	Kitu atveju vartotojui pranešama, kad reikia įvesti iš naujo, \\
+	nes suvestas paštas ir ar vardas pasikartojo .
 \end{tabular} \\ \hline
+
 \end{tabular}
 \end{frame}
 
@@ -246,15 +249,35 @@ Tipinė eiga ir kiti\\ galimi variantai
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}  & Prisijungimas \\ \hline
-\textbf{Dalyviai}  &  Vartotojas  \\ \hline
-\textbf{Paskirtis}  &  Leisti prieeigą prie vartotojo paskyros \\ \hline
-\textbf{Kritiškumas} & Būtinas\\ \hline
-\textbf{Pradinės sąlygos}   & Vartotojas turi būti registruotas sistemos duomenų bazėje \\ \hline
-\textbf{Rezultatas}   &  Vartotojas gavo prieeigą prie savo paskyros\\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}}1. Prisijungimo lange vartotojas suveda prisijungimo duomenis:\\ vartotojo vardą ir slaptažodį.\\2. Paspaudžia prisijungimo mygtuką.\\ 3. Jeigu suvesti teisingi prisijungimo duomenys, vartotojas\\ nukreipiamas į jo paskyrs langą. Kitu  atveju vartotojui\\ pranešama, jog prisijungimo duomenys buvo klaidingi, taip pat \\ lange atsiranda mygtukas, turintis padėti vartotojui atgauti\\ savo prisijungimo duomenis. Vartotojas gali bandyti prisijungti\\ iš naujo arba spausti mygtuką prisijungimo duomenų atgavimui.\end{tabular} \\ \hline
+\textbf{Pavadinimas}  		&	Prisijungimas 									\\ \hline
+\textbf{Dalyviai}  			&	Vartotojas, administratorius						\\ \hline
+\textbf{Paskirtis}  			&	Leisti prieigą prie vartotojo paskyros 			\\ \hline
+\textbf{Kritiškumas} 		&	Būtinas\\ \hline
+\textbf{Pradinės sąlygos}	&	Vartotojas turi būti įregistruotas sistemos 
+								duomenų bazėje 									\\ \hline
+\textbf{Rezultatas}			&  \begin{tabular}[c]{@{}l@{}}
+									Vartotojas gavo prieigą prie savo paskyros \\ 
+									bei gali atlikti pjovimo optimizaciją
+								\end{tabular} 									\\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ galimi variantai
+	\end{tabular}} 				&   
+\begin{tabular}[c]{@{}l@{}}
+1. Prisijungimo lange vartotojas suveda prisijungimo duomenis:\\ 
+vartotojo vardą arba paštą ir slaptažodį.\\
+2. Paspaudžia prisijungimo mygtuką.\\ 
+3. Jeigu suvesti prisijungimo duomenys atitinka vartotojo įrašą \\
+duomenų bazėje, tai įvyksta nukreipimas į atitinkančią paskyrą.\\
+Kitu atveju vartotojui pranešama, jog prisijungimo duomenys \\
+klaidingi. Vartotojas gali bandyti prisijungti iš naujo arba \\
+spausti mygtuką prisijungimo duomenų atgavimui.
+\end{tabular} \\ \hline
+
 \end{tabular}
 \end{frame}
+
+
 
 \begin{frame}
 \centering
@@ -262,12 +285,14 @@ Tipinė eiga ir kiti\\ galimi variantai
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}                                                                    & Atsijungimas nuo sistemos \\ \hline
-\textbf{Dalyviai}                                                                       &   Vartotojas, administratorius    \\ \hline
-\textbf{Paskirtis}                                                                      &  Nutraukti sistemos naudotojo sesiją        \\ \hline
-\textbf{Kritiškumas}                                                                    &  Mažas\\ \hline
-\textbf{Pradinės sąlygos}                                                               &  Sistemos naudotojas yra prisijungęs prie sistemos   \\ \hline
-\textbf{Rezultatas}                                                                     &     Nutraukta sistemos naudotojo sesija      \\ \hline
+\textbf{Pavadinimas}			&	Atsijungimas nuo sistemos 					\\ \hline
+\textbf{Dalyviai}			&   Vartotojas, administratorius    				\\ \hline
+\textbf{Paskirtis}			&  	Nutraukti sistemos naudojimosi sesiją       	\\ \hline
+\textbf{Kritiškumas}			&  	Mažas										\\ \hline
+\textbf{Pradinės sąlygos}	& 	Sistemos naudotojas yra prisijungęs 
+								prie sistemos   								\\ \hline
+\textbf{Rezultatas}			&	Nutraukta sistemos naudotojo sesija      
+\\ \hline
 \textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &     \begin{tabular}[c]{@{}l@{}}1. Sistemos naudotojas paspaudžia atsijungimo mygtuką,\\ kuris turi būti kiekviename svetainės tinklapio lange.\end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
