@@ -97,44 +97,44 @@ Vilnius \ \  2015
 \label{my-label}
 \begin{tabular}{|l|l|l|}
 \hline
-\textbf{ID}              & \textbf{Reikalavimai}               & \textbf{Moduliai}  \\ \hline
-F1                       & Registracijos forma                	   & 1      \\ \hline
+\textbf{ID}	& \textbf{Reikalavimai}						& \textbf{Moduliai}  \\ \hline
 
-F2                       & Prisijungimo forma                		   & 1      \\ \hline
+F1	& Registracijos forma								& 1     		\\ \hline
 
-F3						& Atsijungimo nuo sistemos mygtukas 	       & 1		\\ \hline
+F2	& Prisijungimo forma									& 1			\\ \hline
 
-F4                       & Vartotojo slaptažodžio pakeitimo forma   & 1      \\ \hline
+F3	& Atsijungimo nuo sistemos mygtukas					& 1			\\ \hline
 
-F5						& Prisijungimo duomenų išsaugojimas duomenų bazėje 
-																   & 2		\\ \hline
+F4	& Vartotojo slaptažodžio pakeitimo forma				& 1			\\ \hline
 
+F5	& Keisti paskyros duomenis	 	  					& 1			\\ \hline 
 
-F6                       & Įvesti pjovimo optimizacijos duomenis      	   & 1            \\ \hline
-F7                       & Pjūvio plano optimizavimas           	   & 2            \\ \hline
+F6	& Pjovimo optimizacijos duomenų įvedimo laukai		& 1			\\ \hline
 
-F8                       & Optimizuotų pjuvio planų informacijos pateikimas 																  						 & 2      \\ \hline
+F7  & Papildomos standartinės panelės ivedimas 			& 1			\\ \hline
 
-F9                       & Optimizuotų pjuvio planų variantų pasirinkimas 																   					   & 1      \\ \hline
+F8 & Pjūvio plano informacijos apdorojimas				& 2			\\ \hline
 
-F10                      & Pjūvio plano informacijos išsaugojimas 
-															      & 2       \\ \hline
+F9	& Pjūvio plano optimizavimas           	   			& 2			\\ \hline
 
-F11                      & Pasirinkto pjūvio plano ruošinio gavimas& 1       \\ \hline
+F10	& Optimizuotų pjūvio planų informacijos pateikimas	& 2     		\\ \hline
 
+F11	& Optimizuotų pjūvio planų variantų pasirinkimas		& 1			\\ \hline
 
-F12						& Administratoriaus valdymo skydas	 	  & 3			\\ \hline
+F12	& Pasirinkto pjūvio planų ruošinių atsispausdinimas	& 1			\\ \hline
 
-F13						& Keisti paskyros duomenis	 	  & 1			\\ \hline 
-F14						& Įvesti papildomus standartiniu panelių dydžius	 	  & 1		\\ \hline
+F13	& Pasirinkto pjūvio planų informacijos išsaugojimas	& 1			\\ \hline
 
-NF1                      & Kalbos pasirinkimas(LT, EN)       	     & 1, 2, 3                 \\ \hline
+F14	& Administratoriaus valdymo skydas	 	  			& 3			\\ \hline
+
+NF1	& Kalbos pasirinkimas(LT, EN)						& 1			\\ \hline
+
 \end{tabular}
 \end{frame}
 
 \vspace{1cm}
 \textbf{Moduliai} \\
-1-Varotojų, 2- Sistemos, 3 - Administratoriaus.
+1-Varotojų, 2- P.O. algoritmo, 3 - Administratoriaus.
 
 
 \vspace{1cm}
@@ -147,12 +147,32 @@ informacija - panelių kiekis, bendras jų plotas, likutis, detalių išdėstyma
 \label{my-label}
 \begin{tabular}{|l|c|}
 \hline
-\multicolumn{1}{|c|}{\textbf{Užsakovo poreikiai}}                                                                                                                                                                                                                                                                                                         & \textbf{Reikalavimai} \\ \hline
-Vartotojas nurodo reikalingų detalių ilgius (mm), aukščius (mm) ir kiekius.                                                                                                                                                                                                                                                                               &      F2, F6                 \\ \hline
-\begin{tabular}[c]{@{}l@{}}Sistema optimizuoja detalių išpjovimą iš standartinių panelių 1200x2500.\\ Po to pakartoja šį procesą su standartiniais paneliais 1200x3050.\\ (Turėkite omenyje, kad pjovimo plotis yra 4 mm, todėl iš standartinės \\ panelės1200x2500 negalima išpjauti 2 detalių 600x2500.)\end{tabular}                                   &      F7                 \\ \hline
-\begin{tabular}[c]{@{}l@{}}Sistema pateikia abiejų variantų informaciją vartotojui ir pasirenka, \\ kuris variantas jam labiau tinka. Vartotojui pasirinkus, sistema \\ turi parodyti ekranepjovimo planą su galimybe jį atsispausdinti \\ (su atspausdintu planu vartotojasgali kreiptis į tiekėją, kad \\ išpjautų jam reikiamas detales).\end{tabular} &       F8, F9, F10, F11                \\ \hline
-Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         &       F1, F2               \\ \hline
-Įvedami standartinių panelių dydžiai.                                                                                                                                                                                                                                                                                                                     &          F6             \\ \hline
+\textbf{Užsakovo poreikiai}						& \textbf{Reikalavimai} \\ \hline
+
+\begin{tabular}[c]{@{}l@{}}
+Vartotojas nurodo reikalingų detalių ilgius (mm), 
+aukščius (mm) ir kiekius.                                                                                                                                                                                                                                                                              
+\end{tabular} 									& F6                 	\\ \hline
+
+\begin{tabular}[c]{@{}l@{}}
+Sistema optimizuoja detalių išpjovimą iš standartinių panelių 1200x2500.\\ 
+Po to pakartoja šį procesą su standartiniais paneliais 1200x3050.\\ 
+(Turėkite omenyje, kad pjovimo plotis yra 4 mm, todėl iš standartinės \\ 
+panelės 1200x2500 negalima išpjauti 2 detalių 600x2500.)
+\end{tabular}									& F6, F7, F8, F9			\\ \hline
+
+\begin{tabular}[c]{@{}l@{}}
+Sistema pateikia abiejų variantų informaciją vartotojui ir pasirenka, \\ 
+kuris variantas jam labiau tinka. Vartotojui pasirinkus, sistema \\ 
+turi parodyti ekrane pjovimo planą su galimybe jį atsispausdinti \\
+(su atspausdintu planu vartotojas gali kreiptis į tiekėją, kad \\ 
+išpjautų jam reikiamas detales).
+\end{tabular}									& F10, F11, F12	 		\\ \hline
+
+Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         												& F1, F2	, F3, F4, F5		\\ \hline
+
+Įvedami standartinių panelių dydžiai.			& F6, F7						\\ \hline
+
 \end{tabular}
 \end{frame}
 
@@ -176,7 +196,11 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \textbf{Kritiškumas}                                                                    & \\ \hline
 \textbf{Pradinės sąlygos}                                                               &        \\ \hline
 \textbf{Rezultatas}                                                                     &           \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} TEKSAS \end{tabular} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}
+Tipinė eiga ir kiti\\ galimi variantai
+\end{tabular}} &   
+\begin{tabular}[c]{@{}l@{}} 
+	TEKSAS \end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
 
@@ -188,17 +212,33 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}  & Registracija \\ \hline
-\textbf{Dalyviai}  &  Vartotojas \\ \hline
-\textbf{Paskirtis}  &  Sukurti naujo vartotojo paskyrą\\ \hline
-\textbf{Kritiškumas} & Būtinas \\ \hline
-\textbf{Pradinės sąlygos}   & Nėra \\ \hline
-\textbf{Rezultatas}   & Sistemos duomenų bazėje sukurtas naujo vartotojo įrašą\\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}}1. Būsimas vartotojas registracijos puslapyje užpildo \\ privalomus laukus: vartotojo vardą, slaptažodį, el.paštą.\\ 2. Paspaudžia registracijos mygtuką.\\3. Jeigu suvesti duomenys buvo leistini, sukuriamas naujo\\ vartotojo įrašas duomenų bazėje ir vartotojas\\nukreipiamas į jo naujos paskyros langą. Kitu atveju\\ vartotojo prašoma suvesti teisingus/leistinus duomenis ir\\ bandyti iš naujo, t.y., pereinam į 1 punktą. \end{tabular} \\ \hline
+\textbf{Pavadinimas}  		& Registracija \\ \hline
+\textbf{Dalyviai}  			&  Vartotojas \\ \hline
+\textbf{Paskirtis}  			&  Sukurti naujo vartotojo paskyrą\\ \hline
+\textbf{Kritiškumas}			& Būtinas \\ \hline
+\textbf{Pradinės sąlygos}   	& Nėra \\ \hline
+\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukurtas naujo vartotojo įrašą\\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ 
+		galimi variantai
+	\end{tabular}
+} &   
+\begin{tabular}[c]{@{}l@{}}
+	1. Naujas vartotojas norintis naudotis pjovimo optimizacija turi \\
+	prisiregistruoti, kur tai gali padaryti registravimosi lange užpildęs \\
+	privalomus laukus: vartotojo vardą, slaptažodį, el.paštą.\\ 
+	2. Paspaudžia registracijos mygtuką.\\
+	3. Jeigu suvesti vartotojo vardas, bei paštas unikalus duomenų bazėje,\\
+	tada sukuriamas vartotojo įrašas duomenų bazėje ir vartotojas\\
+	nukreipiamas į jo naujos paskyros langą. \\
+	Kitu atveju parodoma kas blogai vartotojo prašoma suvesti teisingus/leistinus duomenis ir\\ 
+	bandyti iš naujo, t.y., pereinam į pirmą punktą. 
+\end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
 
-
+\vspace{2cm}
 
 \begin{frame}
 \centering
