@@ -95,21 +95,21 @@ Vilnius \ \  2015
 \hline
 \textbf{ID}	& \textbf{Reikalavimai}						& \textbf{Moduliai}  \\ \hline
 
-F1	& Registracijos forma								& 1	     		\\ \hline
+F1	& Registracija										& 1	     		\\ \hline
 
-F2	& Prisijungimo forma								& 1, 3			\\ \hline
+F2	& Prisijungimas prie sistemos						& 1, 3			\\ \hline
 
-F3	& Atsijungimo nuo sistemos mygtukas					& 1, 3			\\ \hline
+F3	& Atsijungimo nuo sistemos							& 1, 3			\\ \hline
 
-F4	& Vartotojo slaptažodžio pakeitimo forma			& 1, 3			\\ \hline
+F4	& Slaptažodžio atgavimas								& 1, 3			\\ \hline
 
-F5	& Keisti paskyros duomenis	 	  					& 1, 3			\\ \hline 
+F5	& Paskyros parametrų keitimas 	  					& 1, 3			\\ \hline 
 
-F6	& Pjovimo optimizacijos duomenų įvedimo laukai		& 1, 3			\\ \hline
+F6	& Vartotojo paskyros ištrinimas						& 1, 3			\\ \hline
 
-F7  & Papildomų standartinių panelių įvedimas 			& 1, 3			\\ \hline
+F7	& Vartotojo paskyros atgavimas						& 3				\\ \hline
 
-F8	& Pjūvio plano informacijos apdorojimas				& 2				\\ \hline
+F8	& Pjovimo optimizacijos duomenų įvedimas				& 1, 3			\\ \hline
 
 F9	& Pjūvio plano optimizavimas           	   			& 2				\\ \hline
 
@@ -117,35 +117,33 @@ F10	& Optimizuotų pjūvio planų informacijos pateikimas	& 2     			\\ \hline
 
 F11	& Optimizuotų pjūvio planų variantų pasirinkimas		& 1, 3			\\ \hline
 
-F12	& Pasirinktų pjūvio planų ruošinių atsispausdinimas(??)	& 1, 3			\\ \hline
+F12 & Pjūvio plano ruošinio atsisiuntimas				& 1, 3			\\ \hline
 
-F13	& Pasirinktų pjūvio planų informacijos išsaugojimas(??)	& 1, 3			\\ \hline
+F13 	& Pjūvio plano informacijos išsaugojimas				& 1, 3			\\ \hline
 
-F14	& Administratoriaus valdymo skydas	 	  			& 3				\\ \hline
-
-F15	& Kalbos pasirinkimas(LT, EN)						& 1, 3			\\ \hline
+F14	& Kalbos pasirinkimas(LT, EN)						& 1, 3			\\ \hline
 
 NF1 & Užtikrinti kalbos pakeitimą						& 1, 3			\\ \hline
 
-NF2 & Slaptažodžio ilgis nemažesnis už 8					& 1, 3			\\ \hline 
+NF2 & Slaptažodžio ilgis didesnis už 8					& 1, 3			\\ \hline 
 
-NF3 & Prisijungimo duomenys išskyrus slaptažodį - unikalūs	& 1, 3			\\ \hline 
+NF3 & Prisijungimo duomenys išskyrus slaptažodį-unikalūs	& 1, 3			\\ \hline 
 
 NF3 & 
 \begin{tabular}[c]{@{}l@{}}
 Prisijungime pakeičiamai dalyvauja vartotojo vardas\\
-ir el.paštas (bent vienas turi atitikti vartotojo įrašą).			
+ir el.paštas(bent vienas turi atitikti varotojo įrašą).			
 \end{tabular}											& 1, 3			\\ \hline 
 \end{tabular}
 \end{frame}
 
 \vspace{1cm}
 \textbf{Moduliai} \\
-1 - Vartotojų, 2 - P.O., 3 - Administratoriaus.
+1-Varotojų, 2- P.O, 3 - Administratoriaus.
 
 
 \vspace{1cm}
-informacija - panelių kiekis, bendras jų plotas, likutis, pjovimo ilgis, detalių išdėstymas.
+informacija - panelių kiekis, bendras jų plotas, likutis, detalių išdėstymas.
 
 \section{Atsekamumo lentelė}
 \begin{frame}
@@ -154,19 +152,19 @@ informacija - panelių kiekis, bendras jų plotas, likutis, pjovimo ilgis, detal
 \label{my-label}
 \begin{tabular}{|l|c|}
 \hline
-\textbf{Užsakovo poreikiai}						& \textbf{Reikalavimai} \\ \hline
+\textbf{Užsakovo poreikiai}						& \textbf{Reikalavimai} 		\\ \hline
 
 \begin{tabular}[c]{@{}l@{}}
 Vartotojas nurodo reikalingų detalių ilgius (mm), 
 aukščius (mm) ir kiekius.                                                                                                                                                                                                                                                                              
-\end{tabular} 									& F6                 	\\ \hline
+\end{tabular} 									& F8	                 		\\ \hline
 
 \begin{tabular}[c]{@{}l@{}}
 Sistema optimizuoja detalių išpjovimą iš standartinių panelių 1200x2500.\\ 
 Po to pakartoja šį procesą su standartiniais paneliais 1200x3050.\\ 
 (Turėkite omenyje, kad pjovimo plotis yra 4 mm, todėl iš standartinės \\ 
 panelės 1200x2500 negalima išpjauti 2 detalių 600x2500.)
-\end{tabular}									& F8, F9			\\ \hline
+\end{tabular}									& F9, F10					\\ \hline
 
 \begin{tabular}[c]{@{}l@{}}
 Sistema pateikia abiejų variantų informaciją vartotojui ir pasirenka, \\ 
@@ -174,11 +172,11 @@ kuris variantas jam labiau tinka. Vartotojui pasirinkus, sistema \\
 turi parodyti ekrane pjovimo planą su galimybe jį atsispausdinti \\
 (su atspausdintu planu vartotojas gali kreiptis į tiekėją, kad \\ 
 išpjautų jam reikiamas detales).
-\end{tabular}									& F10, F11, F12	 		\\ \hline
+\end{tabular}									& F11, F12	 				\\ \hline
 
-Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         												& F1, F2	, F3, F4, F5		\\ \hline
+Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         												& F1, F2	, F3, F4, F5, F6		\\ \hline
 
-Įvedami standartinių panelių dydžiai.			& F7						\\ \hline
+Įvedami standartinių panelių dydžiai.			& F8							\\ \hline
 
 \end{tabular}
 \end{frame}
@@ -186,44 +184,10 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 
 \section{Klasių diagramos}
 
-<<<<<<< HEAD
-\section{Naudojimo atvejų aprašai (Use-cases)}
-=======
-% <<<<<<<<<<<<<<<<<<<<<<<<<<< USE CASES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
 \section{Naudojimo atvejų aprašai(Use-cases)}
->>>>>>> 43f241f92a5396a3470fdc42fc8862fd5ba54ed0
-
-% <<<<<<<<<<<<< USE CASE DIAGRAMA >>>>>>>>>>>
 
 \includegraphics[width=18cm, height=10cm]{diagrama}
 
-% <<<<<<<<<<<<<<< USE CASE LENTELES >>>>>>>>>>>>>>>>>>
-
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<ŠABLONAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-\begin{frame}
-\centering
-\hspace{-1cm}
-\label{my-label}
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Pavadinimas}                                                                    &  \\ \hline
-\textbf{Dalyviai}                                                                       &       \\ \hline
-\textbf{Paskirtis}                                                                      &            \\ \hline
-\textbf{Kritiškumas}                                                                    & \\ \hline
-\textbf{Pradinės sąlygos}                                                               &        \\ \hline
-\textbf{Rezultatas}                                                                     &           \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}
-Tipinė eiga ir kiti\\ galimi variantai
-\end{tabular}} &   
-\begin{tabular}[c]{@{}l@{}} 
-	TEKSAS \end{tabular} \\ \hline
-\end{tabular}
-\end{frame}
-
-
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<ŠABLONO PABAIGA >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 \begin{frame}
 \centering
@@ -235,9 +199,9 @@ Tipinė eiga ir kiti\\ galimi variantai
 \textbf{Dalyviai}  			& Vartotojas								\\ \hline
 \textbf{Paskirtis}  			& Sukurti naujo vartotojo paskyrą		\\ \hline
 \textbf{Kritiškumas}			& Būtinas 								\\ \hline
-\textbf{Pradinės sąlygos}   	& Atidarytas tinklalapis naršyklėje			\\ \hline
-\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukuriamas 
-							nauja vartotojo paskyra					\\ \hline
+\textbf{Pradinės sąlygos}   	& Atidaryti tinklapy naršyklėje			\\ \hline
+\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukurtas 
+							naujo vartotojo įrašą,vartotojas					\\ \hline
 \textbf{
 	\begin{tabular}[c]{@{}l@{}}
 		Tipinė eiga ir kiti\\ 
@@ -245,15 +209,17 @@ Tipinė eiga ir kiti\\ galimi variantai
 	\end{tabular}
 } &   
 \begin{tabular}[c]{@{}l@{}}
-	1. Vartotojas, atidaręs P.O. tinklalapį, prieš naudojantis optimizacijos galimybe, turi prisiregistruoti.\\
-	Visu pirma registravimosi formoje jis turi užpildyti privalomus laukus: \\
-		i) unikalų vartotojo vardą, ii) unikalų, galiojantį el.paštą, iii) slaptažodį.\\
-	2. Suvedus duomenis paspaudžia mygtuką.\\
-	3. Jeigu suvestas vartotojo vardas bei paštas unikalūs duomenų bazėje,\\
+	1. Vartotojas atidaręs P.O. tinklapy prieš naudojantis juo turi prisiregistruoti.\\
+	Visų pirmą registravimosi formoje turi užpildyti	privalomus laukus: \\
+	Unikalų vartotojo vardą ir unikalų, galiojantį el.paštą, slaptažodį.\\\\
+	
+	2. Suvedus duomenis paspausti mygtuką.\\\\
+	
+	3. Jeigu suvestas vartotojo vardas, bei paštas unikalus duomenų bazėje,\\
 	tada sukuriamas vartotojo įrašas duomenų bazėje ir vartotojas\\
 	nukreipiamas į jo naujos paskyros langą. \\
-	Jei suvestas paštas ar vardas jau užimti, arba netinkamo formato,\\
-    vartotojui pranešama apie tai, ir laukiama, kad įvestų iš naujo.
+	Kitu atveju vartotojui pranešama, kad reikia įvesti iš naujo, \\
+	nes suvestas paštas ir ar vardas pasikartojo.
 \end{tabular} \\ \hline
 
 \end{tabular}
@@ -269,11 +235,11 @@ Tipinė eiga ir kiti\\ galimi variantai
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}  		&	Prisijungimas 									\\ \hline
-\textbf{Dalyviai}  			&	Vartotojas, administratorius					\\ \hline
-\textbf{Paskirtis}  		&	Prieiga prie vartotojo paskyros, P.O. 			\\ \hline
+\textbf{Pavadinimas}  		&	Prisijungimas prie sistemos						\\ \hline
+\textbf{Dalyviai}  			&	Vartotojas, administratorius						\\ \hline
+\textbf{Paskirtis}  			&	Prieiga prie vartotojo paskyros, P.O. 			\\ \hline
 \textbf{Kritiškumas} 		&	Būtinas											\\ \hline
-\textbf{Pradinės sąlygos}	&	Naudotojo įrašas sistemos duomenų bazėje		\\ \hline
+\textbf{Pradinės sąlygos}	&	Naudotojo įrašas sistemos duomenų bazėje			\\ \hline
 \textbf{Rezultatas}			&  	Prieiga prie savo paskyros bei P.O. atlikimas	\\ \hline
 \textbf{
 	\begin{tabular}[c]{@{}l@{}}
@@ -281,19 +247,23 @@ Tipinė eiga ir kiti\\ galimi variantai
 	\end{tabular}} 				&   
 \begin{tabular}[c]{@{}l@{}}
 1. Prisijungimo lange suvesti prisijungimo duomenis:\\ 
-vartotojo vardą arba paštą ir slaptažodį.\\
-2. Paspausti prisijungimo mygtuką.\\ 
+vartotojo vardą arba paštą ir slaptažodį.\\\\
+
+2. Paspausti prisijungimo mygtuką.\\\\
+
 3. Sistema patikrina ar prisijungimo duomenys atitinka naudotojo įrašo\\
 duomenis(vardą ar paštą ir slaptažodį) duomenų bazėje.\\
 Naudotojas nukreipiamas į savo paskyrą jei įvesti duomenys atitiko.\\
 Kitu atveju pranešama, jog prisijungimo duomenys klaidingi,\\
-lieka bandyti dar 2 kartus prisijungti iš naujo.
+lieka bandyti dar 2 kartus prisijungti iš naujo.\\\\
+
+4. Atsiranda mygtukas "Istorija", sąrašas išsaugotų P.O.\\
+Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 \end{tabular} \\ \hline
 
 \end{tabular}
 \end{frame}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 \begin{frame}
 \centering
@@ -301,10 +271,10 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}		&	Atsijungimas nuo sistemos 						\\ \hline
+\textbf{Pavadinimas}			&	Atsijungimas nuo sistemos 					\\ \hline
 \textbf{Dalyviai}			&   Vartotojas, administratorius    				\\ \hline
 \textbf{Paskirtis}			&  	Nutraukti sistemos naudojimosi sesiją       	\\ \hline
-\textbf{Kritiškumas}		&  	Mažas											\\ \hline
+\textbf{Kritiškumas}			&  	Vidutinis									\\ \hline
 \textbf{Pradinės sąlygos}	& 	Sistemos naudotojas yra prisijungęs 
 								prie sistemos   								\\ \hline
 \textbf{Rezultatas}			&	Nutraukta sistemos naudotojo sesija      
@@ -322,9 +292,9 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 \end{frame}
 
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 \vspace{1cm}
+
 
 \begin{frame}
 \centering
@@ -332,10 +302,10 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}		&  	Slaptažodžio atgavimas					\\ \hline
-\textbf{Dalyviai}			&	Vartotojas, administratorius			\\ \hline
+\textbf{Pavadinimas}			&  	Slaptažodžio atgavimas					\\ \hline
+\textbf{Dalyviai}			&	Vartotojas, administratorius				\\ \hline
 \textbf{Paskirtis}			&   Sužinoti pamirštą slaptažodį.			\\ \hline
-\textbf{Kritiškumas}		&	Būtinas 								\\ \hline
+\textbf{Kritiškumas}			&	Būtinas 									\\ \hline
 \textbf{Pradinės sąlygos}	&  								 			\\ \hline
 \textbf{Rezultatas}			&	\begin{tabular}[c]{@{}l@{}}
 								Naudotojas į el. paštą gauna savo \\
@@ -349,10 +319,13 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 } &   
 \begin{tabular}[c]{@{}l@{}}
 
-	1. Paspaudžiamas pamiršto slaptažodžio atgavimo mygtukas.\\
+	1. Paspaudžiamas pamiršto slaptažodžio atgavimo mygtukas.\\\\
+	
 	2. Atsidariusioje formoje nurodomas el. paštas\\ 
-	ar vardas, kurie yra užregistruoti sistemoje.\\ 
-	3. Paspaudžiamas mygtukas ir vykdoma forma. \\
+	ar vardas, kurie yra užregistruoti sistemoje.\\\\
+	 
+	3. Paspaudžiamas mygtukas ir vykdoma forma. \\\\
+	
 	4. Jei el. paštas ar vardas egzistuoja sistemos duomenų bazėje, tada bus\\ 
 	nusiunčiamas laiškas su slaptažodžiu į naudotojo įraše esantį paštą . \\
 
@@ -364,7 +337,7 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 \end{tabular}
 \end{frame}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 
 \begin{frame}
 \centering
@@ -372,7 +345,124 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}			&  	Įvedami pjovimo detalių ir panelių optimizacijos parametrai.		\\ \hline
+\textbf{Pavadinimas}			&  	Paskyros parametrų keitimas						\\ \hline
+\textbf{Dalyviai}			&	Vartotojas, administratorius						\\ \hline
+\textbf{Paskirtis}			&	Leisti pakeisti paskyros duomenis				\\ \hline
+\textbf{Kritiškumas}			& 	Vidutinis										\\ \hline
+\textbf{Pradinės sąlygos}	&  	Įykdytas prisijungimas							\\ \hline
+\textbf{Rezultatas}			&   Pakeista paskyros informacija					\\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\
+		galimi variantai
+	\end{tabular}
+} &   
+\begin{tabular}[c]{@{}l@{}} 
+	1. Spaudžiamas paskyros redagavimo mygtukas.\\\\
+	
+	2. Vartotojas gali pakeisti norimus paskyros duomenis.\\
+	Administratorius gali pakeisti bet kurios paskyros \\
+	prisijungimo vardą, prisijungimo paštą ir tik savo \\
+	paskyros slaptažodį.\\\\
+	
+	3. Spaudžiamas pakeitimų išsaugojimo mygtukas.\\\\
+	
+	4. Pakeitimai turi atitikti registracijos formos reikalavimus \\
+	Prisijungimo vardas, paštas netuščias, slaptažodis iš 8 \\
+	ar daugiau simbolių. \\
+	Atitikus reikalavimus pakeitimai išsaugomi paskyroje, duomenų bazėje \\
+	ir administratoriaus matomų paskyrų saraše jei keistas ne slaptažodis.\\
+	Neatitikus pažymimi neleistinas reikšmes įgiję laukai.\\
+
+\end{tabular}																	 \\ \hline
+
+\end{tabular}
+\end{frame}
+
+\vspace{1cm}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}			&  	Vartotojo paskyros ištrinimas.						\\ \hline
+\textbf{Dalyviai}			&	Vartotojas, administratorius						\\ \hline
+\textbf{Paskirtis}			&	Ištrinti nenaudojamas ar kenkėjiškas paskyras	\\ \hline
+\textbf{Kritiškumas}			& 	Būtinas											\\ \hline
+\textbf{Pradinės sąlygos}	& 	Įykdytas prisijungimas							\\ \hline
+\textbf{Rezultatas}			&   Ištrintas tam tikras vartotojo įrašas        	\\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ 
+		galimi variantai
+	\end{tabular}
+} &   
+\begin{tabular}[c]{@{}l@{}} 
+	1.	Vartotojui pateikiamas savo paskyros trinimo mygtukas.\\
+	Administratorius turi paskyrų sarašą, kur yra visos išskyrus\\
+	jo pačio paskyros. Saraše laikomi vartotojų vardai bei paštai.\\ 
+	Paspaudus ant tam tikros paskyros iškyla tos paskyros trinimo myguktas.\\\\
+	
+	2. 	Spaudžiamas paskyros trinimo mygtukas.\\\\
+
+	3.	Vartotojas tai paspaudęs yra atjungiamas nuo sistemos,\\
+	o jo paskyra sunaikinama. \\
+	Administratoriui paspaudus trinimo mygtuką tam tikra paskyrą \\
+	ištrinama iš duomenų bazės bei iš paskyrų sarašo.\\
+	Ištrintos paskyros vardas, paštas irašomi į ištrintų paskyrų sąraša.\\
+\end{tabular} \\ \hline
+
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}			&  	Vartotojo paskyros atgavimas						\\ \hline
+\textbf{Dalyviai}			&	Administratorius									\\ \hline
+\textbf{Paskirtis}			&	Atgauti reikalingas paskyras						\\ \hline
+\textbf{Kritiškumas}			& 	Būtinas											\\ \hline
+\textbf{Pradinės sąlygos}	& 	Ištrinta bent viena vartotojo paskyrą			\\ \hline
+\textbf{Rezultatas}			&   Ištrintas vartotojo įrašas yra gražinamas       	\\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ 
+		galimi variantai
+	\end{tabular}
+} &   
+\begin{tabular}[c]{@{}l@{}} 
+	1.	Administratoriui pateikiamas ištrintų vartotojo paskyrų sąrašas, \\
+	kuriame matomas vartotojo vardas, paštas.\\
+	Paspaudus ant tam tikros paskyros iškyla tos paskyros atgavimo\\
+	mygtukas.\\\\
+	
+	2. 	Spaudžimas vartotojo paskyros atgavimo mygtukas.\\\\
+	
+	3. 	Paskyra sunaikinama ištrintų paskyrų saraše, \\
+	į jos paštą nusiunčiamas laikinas(1 sav.) prisijungimo slaptažodis.\\
+	Paskyra įrašoma į administratoriui matomų paskyrų sąrašą tik tada\\ 
+	kai patvirtinama į paštą nusiūsta nuoroda. \\
+
+
+\end{tabular} \\ \hline
+
+\end{tabular}
+\end{frame}
+
+\vspace{1cm}
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}			&  	Pjovimo optimizacijos duomenų įvedimas.						\\ \hline
 \textbf{Dalyviai}			&  	Vartotojas, administratorius  									\\ \hline
 \textbf{Paskirtis}			&  	\begin{tabular}[c]{@{}l@{}}
 									Parametrų perdavimas, pagal kuriuos algoritmas optimizuos detales \\
@@ -392,18 +482,18 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 	1. Optimizacijos formoje suteikiami pasirenkami standartiniai panelių \\
 	dydžiai(1200x2500, 1200x3050), prie jų galima įvesti\\
 	panelių	matmenis. Optimizacija galės vykti tik tada kai bus nurodyta ar \\
-	įvesta bent viena panelė.\\
+	įvesta bent viena panelė.\\\\
 	
 	2. Taip pat nurodomi reikalingų detalių:\\
 		ilgiai (mm),	 aukščiai (mm) ir kiekiai.\\
-	Taip pat galima įkelti xlsx formato failą, su ilgio, aukščio stulpeliais.\\
+	Taip pat galima įkelti xlsx formato failą, su ilgio, aukščio stulpeliais.\\\\
 	
 	3. Detalių duomenys nurodomi sveikaisiais skaičiais, jų kiekis \\
 	ne didesnis už 1000. Ilgiai, aukščiai mažesni ar lygūs\\
 	nurodytom standartinėm panelėm. Standartinės panelės matmenys \\
-	galimi nuo 10mm iki 20000mm, kiekis 10. \\
+	galimi nuo 10mm iki 20000mm, kiekis 10. \\\\
 	
-	4. Paspaudžiamas P.O. mygtukas ir optimizacija vyksta jei visi \\
+	4. Paspaudžiamas "Optimizuoti" mygtukas ir optimizacija vyksta jei visi \\
 	duomenys teisingi pagal 3 dalies reikalavimus. \\
 	Kitu atveju vartotojui pateikiamas reikalavimas, kurio neatitiko.\\
 \end{tabular} \\ \hline
@@ -419,17 +509,27 @@ lieka bandyti dar 2 kartus prisijungti iš naujo.
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}                                                                    &  Pjūvio plano optimizavimas\\ \hline
-\textbf{Dalyviai}                                                                       &     Vartotojas ????? \\ \hline
-\textbf{Paskirtis}                                                                      &    Rasti optimalų pjovimo planą \\ \hline
-\textbf{Kritiškumas}                                                                    & Būtinas\\ \hline
-\textbf{Pradinės sąlygos}                                                               &  \begin{tabular}[c]{@{}l@{}}  Vartotojas yra teisingai nurodęs visus parametrus,\\ reikalingus optimizacijai, parametrų įvedimo lange \end{tabular}    \\ \hline
-\textbf{Rezultatas}                                                                     &  Surandamas vienas arba keli optmizuoti pjovimo planai  \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}
-Tipinė eiga ir kiti\\ galimi variantai
-\end{tabular}} &   
+\textbf{Pavadinimas}				&	Pjūvio plano optimizavimas		\\ \hline
+\textbf{Dalyviai}				&	Vartotojas, administratorius		\\ \hline
+\textbf{Paskirtis}				&	Rasti optimalų pjovimo planą 	\\ \hline
+\textbf{Kritiškumas}				& 	Būtinas\\ \hline
+\textbf{Pradinės sąlygos}		& 	\begin{tabular}[c]{@{}l@{}}  
+										Atliktas pjovimo optimizacijos duomenų įvedimas 
+									\end{tabular}    				\\ \hline
+\textbf{Rezultatas}				&  	Surandamas optmizuotas pjovimo planas/planai.  \\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ galimi variantai
+	\end{tabular}
+} &   
 \begin{tabular}[c]{@{}l@{}} 
-	1. Optimizacijos parametrų įvedimo lange vartotojas paspaudžia\\ optimizacijos padžios mygtuką.\\2. Optimizavimo algoritmas suranda optimalų/-ius pjovimo planus\\(planų kiekis priklauso nuo to, kiek skirtingų panelių dydžių\\ vartotojas nurodė įvesdamas optimizacijos parametrus).\\3. Sistemas pateiks optimizacijos rezultatus vartotojui.\end{tabular} \\ \hline
+	1. Optimizuojamas optimalus pjovimo planas/planai.\\
+	Planų kiekis priklauso nuo įvestų skirtingų standartinių\\
+	panelių dydžių.\\\\
+
+	3. Pateikiamas optimizacijos rezultatas.
+\end{tabular} \\ \hline
+
 \end{tabular}
 \end{frame}
 
@@ -444,20 +544,17 @@ Tipinė eiga ir kiti\\ galimi variantai
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}					&	Optimizuoto pjūvio plano pasirinkimas\\ \hline
-\textbf{Dalyviai}					&	Vartotojas, administratorius    \\ \hline
-\textbf{Paskirtis}					&  
-\begin{tabular}[c]{@{}l@{}}
-Pasirinktas P.O. planas galės būti išsaugotas ar atsisiūstas.
-\end{tabular}  \\ \hline
-\textbf{Kritiškumas}					& 	Būtinas\\ \hline
+\textbf{Pavadinimas}					&	Optimizuoto pjūvio plano pasirinkimas						\\ \hline
+\textbf{Dalyviai}					&	Vartotojas, administratorius    								\\ \hline
+\textbf{Paskirtis}					&  	Pasirinktas P.O. planas galės būti išsaugotas ar atsisiūstas.\\ \hline
+\textbf{Kritiškumas}					& 	Būtinas														\\ \hline
 \textbf{Pradinės sąlygos}			& 
 \begin{tabular}[c]{@{}l@{}}
 	Sistema baigusi optimizuoti pjūvio planus/planą pagal \\
 	nurodytus optimizacijos parametrus. \\
-\end{tabular} \\ \hline
+\end{tabular} 																						\\ \hline
 \textbf{Rezultatas}					&   \begin{tabular}[c]{@{}l@{}} 
-												Pasirinktą pjūvio planą galima atspausdinti ar \\
+												Pasirinktą pjūvio planą galima atsisiūsti ar \\
 												išsisaugoti
 										\end{tabular}     \\ \hline
 \textbf{
@@ -467,19 +564,17 @@ Pasirinktas P.O. planas galės būti išsaugotas ar atsisiūstas.
 \begin{tabular}[c]{@{}l@{}} 
 	1. Pasirenkamas vienas iš pateiktų pjovimo planų.\\
 	pagal pateiktą informaciją: panelių kiekį, bendras jų plotą,\\
-	likutį, detalių išdėstymas, bendras pjovimo ilgį.
+	likutį, detalių išdėstymas, bendras pjovimo ilgį.\\\\
 
-	2. Pasirinktam pjovimo planas atsiranda \\
-	mygtukai, leidžiantys parsisiųsti, atsispausdinti plano kopiją,\\
-	išsaugoti duomenis.Pastarasis planas \\ 
-	bus saugomas sistemos duomenų bazėje visam laikui, kai, tuo \\
-	tarpu, nepasirinktieji optimizuoti pjovimo planai yra saugomi\\ 
-	sistemos duomenų bazėje iki vartotojo sesijos pabaigos.
+
+	2. Pasirinkus pjovimo planą atsiranda mygtukai: \\
+	"Atsisiūsti" - atsisiūsti optimizacijos plano ruošinį, \\
+	"Išsaugoti" - išsaugoti optimizacijos plano informaciją. \\
+	
 \end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 \begin{frame}
 \centering
@@ -487,57 +582,29 @@ Pasirinktas P.O. planas galės būti išsaugotas ar atsisiūstas.
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}                                                                    &  Pasirinkto pjūvio plano ruošinio gavimas\\ \hline
-\textbf{Dalyviai}                                                                       &   Vartotojas    \\ \hline
-\textbf{Paskirtis}                                                                      &  
-\begin{tabular}[c]{@{}l@{}}
-Leisti vartotojui gauti spausdinimui skirtą pjūvio plano kopiją
-\end{tabular}  \\ \hline
-\textbf{Kritiškumas}                                                                    & Būtinas\\ \hline
-\textbf{Pradinės sąlygos}                                                               & 
-\begin{tabular}[c]{@{}l@{}}
-Vartotojas yra prisijungęs. Sistema baigusi optimizuoti pjūvio \\planus/planą pagal vartotojo nurodytus optimizacijos parametrus \\optimizacijos lange. Vartotojas yra pasirinkęs pjūvio optimizavimo\\ planą, kurį nori atsispausdinti
-\end{tabular} \\ \hline
-\textbf{Rezultatas}                                                                     &   \begin{tabular}[c]{@{}l@{}} Vartotojas savo prietaise turės spausdinimui paruoštą\\ pjūvio planą\end{tabular}     \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}Tipinė eiga ir kiti\\ galimi variantai\end{tabular}} &   \begin{tabular}[c]{@{}l@{}} 1. Vartotojas paspaudžia mygtuką, skirtą gauti spausdinimui \\paruoštą planą.\\2. Į vartotojo prietaisą atsiunčiamas pjuvio planas.\end{tabular} \\ \hline
-\end{tabular}
-\end{frame}
-
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-\begin{frame}
-\centering
-\hspace{-1cm}
-\label{my-label}
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Pavadinimas}			&  	Keisti paskyros parametrus						\\ \hline
-\textbf{Dalyviai}			&	Vartotojas, administratorius					\\ \hline
-\textbf{Paskirtis}			&	Leisti vartotojui keisti savo paskyruos duomenis	\\ \hline
-\textbf{Kritiškumas}			& 	Vidutinis\\ \hline
-\textbf{Pradinės sąlygos}	&  	Vartotojas ar administratorius 
-								turi būti prisijungęs							\\ \hline
-\textbf{Rezultatas}			&   Pasikeitę vartotojo paskyros parametrai        	\\ \hline
-\textbf{
-\begin{tabular}[c]{@{}l@{}}
-	Tipinė eiga ir kiti\\ galimi variantai
-\end{tabular}
-} &   
+\textbf{Pavadinimas}			& 	Pasirinkto pjūvio plano ruošinio atsisiuntimas	\\ \hline
+\textbf{Dalyviai}			&   Vartotojas, administratorius						\\ \hline
+\textbf{Paskirtis}			&  	Pateikti atsisiuntimui paruoštą pjūvio planą.	\\ \hline
+\textbf{Kritiškumas}			& 	Būtinas											\\ \hline
+\textbf{Pradinės sąlygos}	& 	Pasirinktas Optimizuoto pjūvio planas.			\\ \hline
+\textbf{Rezultatas}			&   Atsisiunčiamas pjūvio planas. 					\\ \hline
+\textbf{	
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ 
+		galimi variantai
+	\end{tabular}
+} &	
 \begin{tabular}[c]{@{}l@{}} 
-	1. Vartotojas spaudžia paskyros redagavimo mygtuką.\\ 
-	2. Vartotojas pakeičia norimus paskyros duomenis.\\ 
-	3. Vartotojas spaudžia pakeitimų išsaugojimo mygtuką.\\
-	4. Jei pakeitimai buvo leistini, pavyzdžiui, vartotojo\\ 
-	vardas nebuvo pakeistas į tuščią reikšmę ir pan., tada \\
-	pakeitimai išsaugomi. Kitu atveju pažymimi\\ 
-	neleistinas reikšmes įgiję laukai. Vartotojas jas turi \\
-	pakeisti, kad galėtų išsaugoti pakitimus.
-\end{tabular}																	 \\ \hline
+	1. Spaudžiamas mygtukas "Atsisiūsti"\\\\
+	
+	2. Į naudotojo prietaisą nusiunčiamas pjūvio plano ruošinys \\
+	".pdf" formatu, kurį galės spausdinti.
+\end{tabular} \\ \hline
 
 \end{tabular}
 \end{frame}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 
 \vspace{1cm}
 
@@ -547,33 +614,37 @@ Vartotojas yra prisijungęs. Sistema baigusi optimizuoti pjūvio \\planus/planą
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}		&  	Išrinti vartotojo paskyrą 									\\ \hline
-\textbf{Dalyviai}			&	Vartotojas						\\ \hline
-\textbf{Paskirtis}			&	Ištrinti nenaudojamas ar kenkėjiškas paskyras	\\ \hline
-\textbf{Kritiškumas}		& 	Būtinas											\\ \hline
-\textbf{Pradinės sąlygos}	& 	Vartotojas 
-								turi būti prisijungęs							\\ \hline
-\textbf{Rezultatas}			&   Ištrintas tam tikras vartotojo įrašas        	\\ \hline
+\textbf{Pavadinimas}			& 	Pjūvio plano informacijos išsaugojimas.			\\ \hline
+\textbf{Dalyviai}			&   Vartotojas, administratorius						\\ \hline
+\textbf{Paskirtis}			&  	Išsaugoti pasirinktą pjūvio planą				\\ \hline
+\textbf{Kritiškumas}			& 	Būtinas											\\ \hline
+\textbf{Pradinės sąlygos}	& 	Pasirinktas Optimizuoto pjūvio planas.			\\ \hline
+\textbf{Rezultatas}			&   Išsaugotas pasirinktas pjūvio planas			 	\\ \hline
 \textbf{
-\begin{tabular}[c]{@{}l@{}}
-	Tipinė eiga ir kiti\\ galimi variantai
-\end{tabular}} &   
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ 
+		galimi variantai
+	\end{tabular}
+} &	
 \begin{tabular}[c]{@{}l@{}} 
-	1. Vartotojas spaudžia paskyros redagavimo mygtuką.\\ 
-	2. Vartotojas pakeičia norimus paskyros duomenis.\\ 
-	3. Vartotojas spaudžia pakeitimų išsaugojimo mygtuką.\\
-	4. Jei pakeitimai buvo leistini, pavyzdžiui, vartotojo\\ 
-	vardas nebuvo pakeistas į tuščią reikšmę ir pan., tada \\
-	pakeitimai išsaugomi. Kitu atveju pažymimi\\ 
-	neleistinas reikšmes įgiję laukai. Vartotojas jas turi \\
-	pakeisti, kad galėtų išsaugoti pakitimus.
-\end{tabular}																	 \\ \hline
+	1 	Įvedamas pjūvio plano pavadinimas.\\
+	2.	Paspaudžiamas mygtukas "Išsaugoti" pasirinktam pjūvio planui.\\\\
+	
+	3. 	Į duomenų bazę išsaugoma pjūvio plano informacija:\\
+	įvestas pavadinimas, data, panelių kiekis, bendras jų plotas,\\
+	likuts, detalių išdėstymas,	bendras pjovimo ilgis.\\\\
+
+	4. 	Pjovimo optimizacijos "Istorija" saraše atsiranda nauja P.O.\\
+	Paspaudus pjūvio plano pavadinimą atsiranda išsaugotą informaciją.\\
+	
+\end{tabular} \\ \hline
 
 \end{tabular}
 \end{frame}
 
+
 \section{Sistemos elgsenos aprašymas}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<< SWIM LANE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-\includegraphics[width=15cm]{swim.jpeg}
+
+
 \end{document}
