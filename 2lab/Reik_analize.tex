@@ -124,25 +124,25 @@ F14	& Kalbos pasirinkimas(LT, EN)						& 1, 3			\\ \hline
 
 NF1 & Užtikrinti kalbos pakeitimą						& 1, 3			\\ \hline
 
-NF2 & Slaptažodžio ilgis didesnis už 8					& 1, 3			\\ \hline 
+NF2 & Slaptažodžio ilgis nemažesnis už 8					& 1, 3			\\ \hline 
 
-NF3 & Prisijungimo duomenys išskyrus slaptažodį-unikalūs	& 1, 3			\\ \hline 
+NF3 & Prisijungimo duomenys išskyrus slaptažodį - unikalūs	& 1, 3			\\ \hline 
 
 NF3 & 
 \begin{tabular}[c]{@{}l@{}}
-Prisijungime pakeičiamai dalyvauja vartotojo vardas\\
-ir el.paštas(bent vienas turi atitikti varotojo įrašą).			
+Prisijungime pakeičiamai dalyvauja sistemoje registruotas vartotojo slapyvardis\\
+arba el.paštas, bei slaptažodis.			
 \end{tabular}											& 1, 3			\\ \hline 
 \end{tabular}
 \end{frame}
 
 \vspace{1cm}
 \textbf{Moduliai} \\
-1 - Varotojų, 2 - P.O, 3 - Administratoriaus.
+1 - Vartotojų, 2 - P.O., 3 - Administratoriaus.
 
 
 \vspace{1cm}
-*Informacija - panelių kiekis, bendras jų plotas, likutis, detalių išdėstymas.
+*Informacija - panelių kiekis, bendras jų plotas, likutis, pjovimo ilgis, detalių išdėstymas.
 
 \section{Atsekamumo lentelė}
 \begin{frame}
@@ -203,9 +203,9 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \textbf{Dalyviai}  			& Vartotojas								\\ \hline
 \textbf{Paskirtis}  			& Sukurti naujo vartotojo paskyrą		\\ \hline
 \textbf{Kritiškumas}			& Būtinas 								\\ \hline
-\textbf{Pradinės sąlygos}   	& Atidaryti tinklapy naršyklėje			\\ \hline
-\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukurtas 
-							naujo vartotojo įrašą,vartotojas					\\ \hline
+\textbf{Pradinės sąlygos}   	& Atidaryti tinklalapį naršyklėje			\\ \hline
+\textbf{Rezultatas}   		& Sistemos duomenų bazėje sukurta 
+							naujo vartotojo paskyra					\\ \hline
 \textbf{
 	\begin{tabular}[c]{@{}l@{}}
 		Tipinė eiga ir kiti\\ 
@@ -213,17 +213,18 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 	\end{tabular}
 } &   
 \begin{tabular}[c]{@{}l@{}}
-	1. Vartotojas atidaręs P.O. tinklapy prieš naudojantis juo turi prisiregistruoti.\\
-	Visų pirmą registravimosi formoje turi užpildyti	privalomus laukus: \\
-	Unikalų vartotojo vardą ir unikalų, galiojantį el.paštą, slaptažodį.\\\\
+	1. Vartotojas, atidaręs P.O. tinklalapį, prieš naudojantis optimizacija, turi prisiregistruoti.\\
+	Visu pirma registravimosi formoje turi užpildyti privalomus laukus: \\
+	i) unikalų vartotojo vardą, ii) unikalų, galiojantį el.paštą, iii) slaptažodį.\\\\
 	
 	2. Suvedus duomenis paspausti mygtuką.\\\\
 	
-	3. Jeigu suvestas vartotojo vardas, bei paštas unikalus duomenų bazėje,\\
+	3. Jeigu suvestas vartotojo vardas, bei paštas unikalūs duomenų bazėje,\\
 	tada sukuriamas vartotojo įrašas duomenų bazėje ir vartotojas\\
 	nukreipiamas į jo naujos paskyros langą. \\
-	Kitu atveju vartotojui pranešama, kad reikia įvesti iš naujo, \\
-	nes suvestas paštas ir ar vardas pasikartojo.
+	Jei suvestas paštas ar vartotojo vardas pasikartojo duomenų bazėje,\\
+    arba neatitinka standartinio formato, vartotojui pranešama apie tai,\\
+    ir laukiama, kad įvestų iš naujo.
 \end{tabular} \\ \hline
 
 \end{tabular}
