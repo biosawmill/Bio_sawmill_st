@@ -42,7 +42,7 @@
 
 
 \begin{document}
-
+\graphicspath{ {/} }
 
 \renewcommand{\cftdot}{.}	
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
@@ -186,31 +186,8 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 
 \section{Naudojimo atvejų aprašai(Use-cases)}
 
+\includegraphics[width=18cm, height=10cm]{diagrama}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<ŠABLONAS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-\begin{frame}
-\centering
-\hspace{-1cm}
-\label{my-label}
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Pavadinimas}                                                                    &  \\ \hline
-\textbf{Dalyviai}                                                                       &       \\ \hline
-\textbf{Paskirtis}                                                                      &            \\ \hline
-\textbf{Kritiškumas}                                                                    & \\ \hline
-\textbf{Pradinės sąlygos}                                                               &        \\ \hline
-\textbf{Rezultatas}                                                                     &           \\ \hline
-\textbf{\begin{tabular}[c]{@{}l@{}}
-Tipinė eiga ir kiti\\ galimi variantai
-\end{tabular}} &   
-\begin{tabular}[c]{@{}l@{}} 
-	TEKSAS \end{tabular} \\ \hline
-\end{tabular}
-\end{frame}
-
-
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<ŠABLONO PABAIGA >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 \begin{frame}
 \centering
@@ -247,6 +224,8 @@ Tipinė eiga ir kiti\\ galimi variantai
 
 \end{tabular}
 \end{frame}
+
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 \vspace{2cm}
 
@@ -286,7 +265,6 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 \end{frame}
 
 
-
 \begin{frame}
 \centering
 \hspace{-1cm}
@@ -312,6 +290,11 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 \end{tabular} \\ \hline
 \end{tabular}
 \end{frame}
+
+
+
+\vspace{1cm}
+
 
 \begin{frame}
 \centering
@@ -353,6 +336,7 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 
 \end{tabular}
 \end{frame}
+
 
 
 \begin{frame}
@@ -509,13 +493,47 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 	nurodytom standartinėm panelėm. Standartinės panelės matmenys \\
 	galimi nuo 10mm iki 20000mm, kiekis 10. \\\\
 	
-	4. Paspaudžiamas P.O. mygtukas ir optimizacija vyksta jei visi \\
+	4. Paspaudžiamas "Optimizuoti" mygtukas ir optimizacija vyksta jei visi \\
 	duomenys teisingi pagal 3 dalies reikalavimus. \\
 	Kitu atveju vartotojui pateikiamas reikalavimas, kurio neatitiko.\\
 \end{tabular} \\ \hline
 
 \end{tabular}
 \end{frame}
+
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+\begin{frame}
+\centering
+\hspace{-1cm}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Pavadinimas}				&	Pjūvio plano optimizavimas		\\ \hline
+\textbf{Dalyviai}				&	Vartotojas, administratorius		\\ \hline
+\textbf{Paskirtis}				&	Rasti optimalų pjovimo planą 	\\ \hline
+\textbf{Kritiškumas}				& 	Būtinas\\ \hline
+\textbf{Pradinės sąlygos}		& 	\begin{tabular}[c]{@{}l@{}}  
+										Atliktas pjovimo optimizacijos duomenų įvedimas 
+									\end{tabular}    				\\ \hline
+\textbf{Rezultatas}				&  	Surandamas optmizuotas pjovimo planas/planai.  \\ \hline
+\textbf{
+	\begin{tabular}[c]{@{}l@{}}
+		Tipinė eiga ir kiti\\ galimi variantai
+	\end{tabular}
+} &   
+\begin{tabular}[c]{@{}l@{}} 
+	1. Optimizuojamas optimalus pjovimo planas/planai.\\
+	Planų kiekis priklauso nuo įvestų skirtingų standartinių\\
+	panelių dydžių.\\\\
+
+	3. Pateikiamas optimizacijos rezultatas.
+\end{tabular} \\ \hline
+
+\end{tabular}
+\end{frame}
+
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 \vspace{1cm}
 
@@ -547,6 +565,7 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 	1. Pasirenkamas vienas iš pateiktų pjovimo planų.\\
 	pagal pateiktą informaciją: panelių kiekį, bendras jų plotą,\\
 	likutį, detalių išdėstymas, bendras pjovimo ilgį.\\\\
+
 
 	2. Pasirinkus pjovimo planą atsiranda mygtukai: \\
 	"Atsisiūsti" - atsisiūsti optimizacijos plano ruošinį, \\
@@ -585,6 +604,9 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 \end{tabular}
 \end{frame}
 
+
+
+\vspace{1cm}
 
 \begin{frame}
 \centering
