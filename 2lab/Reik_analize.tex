@@ -199,7 +199,7 @@ Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.            
 \label{my-label}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Pavadinimas}  		& Registracija 							\\ \hline
+\textbf{Pavadinimas}  		& Registracija							\\ \hline
 \textbf{Dalyviai}  			& Vartotojas								\\ \hline
 \textbf{Paskirtis}  			& Sukurti naujo vartotojo paskyrą		\\ \hline
 \textbf{Kritiškumas}			& Būtinas 								\\ \hline
@@ -408,13 +408,17 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 	jo pačio paskyros. Saraše laikomi vartotojų vardai bei paštai.\\ 
 	Paspaudus ant tam tikros paskyros iškyla tos paskyros trinimo myguktas.\\\\
 	
-	2. 	Spaudžiamas paskyros trinimo mygtukas.\\\\
+	2. 	Spaudžiamas mygtukas "Trinti paskyrą".\\\\
 
-	3.	Vartotojas tai paspaudęs yra atjungiamas nuo sistemos,\\
-	o jo paskyra sunaikinama. \\
+	3. 	Vartotojui pranešama, kad ištrintą paskyrą galima atkurti mėnesio laikotarpy.\\\\
+	
+	4.	Vartotojas atjungiamas nuo sistemos,	o jo paskyra sunaikinama, \\
+	ištrinama iš duomenų bazės bet įrašoma į ištrintų paskyrų sąrašą.\\
+	Pranešama kad  bei pridedama prie ištrintų vartotojo sąrašo. \\
 	Administratoriui paspaudus trinimo mygtuką tam tikra paskyrą \\
 	ištrinama iš duomenų bazės bei iš paskyrų sarašo.\\
 	Ištrintos paskyros vardas, paštas irašomi į ištrintų paskyrų sąraša.\\
+	
 \end{tabular} \\ \hline
 
 \end{tabular}
@@ -492,7 +496,7 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 	
 	2. Taip pat nurodomi reikalingų detalių:\\
 		ilgiai (mm),	 aukščiai (mm) ir kiekiai.\\
-	Taip pat galima įkelti xlsx formato failą, su ilgio, aukščio stulpeliais.\\\\
+	Taip pat galima įkelti ".xlsx" formato failą, su ilgio, aukščio stulpeliais.\\\\
 	
 	3. Detalių duomenys nurodomi sveikaisiais skaičiais, jų kiekis \\
 	ne didesnis už 1000. Ilgiai, aukščiai mažesni ar lygūs\\
@@ -609,8 +613,6 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 \end{tabular}
 \end{frame}
 
-% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
 \vspace{1cm}
 
 \begin{frame}
@@ -647,11 +649,15 @@ Paspaudus pavadinimą atsiranda išsaugotą informaciją.\\
 \end{tabular}
 \end{frame}
 
+\vspace{1cm}
 
 \section{Sistemos elgsenos aprašymas}
+\vspace{1cm}
 
-% <<<<<<<<<< SWIM LANE >>>>>>>>>>>>
-\includegraphics[width=15cm]{swim}
-
+\begin{figure}[ht]
+\caption{Plaukimų takelių diagrama}
+\includegraphics[width=18cm, height=10cm]{swim}
+\centering
+\end{figure}
 
 \end{document}
