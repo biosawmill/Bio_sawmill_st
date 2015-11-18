@@ -93,54 +93,93 @@ Vilnius \ \  2015
 \label{my-label}
 \begin{tabular}{|l|l|l|}
 \hline
-\textbf{ID}	& \textbf{Reikalavimai}						& \textbf{Moduliai}  \\ \hline
+\textbf{ID}	& \textbf{Reikalavimai}							& \textbf{Grupės}  \\ \hline
 
-F1	& Registracija										& 1	     		\\ \hline
+F1	& 	\begin{tabular}[c]{@{}l@{}}
+			Registracijos forma su 4 laukais: \\
+			slapyvardžio, pašto, slaptažodžio, slaptažodžio patvirtinimo
+		\end{tabular}										& 1	     		\\ \hline
 
-F2	& Prisijungimas prie sistemos						& 1, 3			\\ \hline
+F2	& 	\begin{tabular}[c]{@{}l@{}}
+			Prisijungimo prie sistemos forma su 2 laukais: \\
+			slapyvardžio ar pašto bei slaptažodžio.  		
+		\end{tabular}										& 1, 3			\\ \hline
+	
+F3	& 	Atsijungimo nuo sistemos mygtukas					& 1, 3			\\ \hline
 
-F3	& Atsijungimo nuo sistemos							& 1, 3			\\ \hline
 
-F4	& Slaptažodžio atgavimas								& 1, 3			\\ \hline
+F4	& 	\begin{tabular}[c]{@{}l@{}}
+			Slaptažodžio atgavimas mygtukas. \\
+			Paspaudaus atsidaro forma su 	\\
+			prisijungimo vardo lauko ivedimu.
+		\end{tabular}							 			& 1, 3			\\ \hline
 
-F5	& Paskyros parametrų keitimas 	  					& 1, 3			\\ \hline 
+F5	& 	\begin{tabular}[c]{@{}l@{}}
+			Paskyros parametrų keitimo forma su 3 laukais: \\
+			prisijungimo vardo, pašto, slaptažodžio.					
+		\end{tabular}										& 1, 3			\\ \hline 
+		
+F6	& 	Vartotojo paskyros deaktyvacijos 
+		mygtukas paskyroje									& 1				\\ \hline
+		
+F7	& 	Vartotojo paskyros aktyvacijos 
+		mygtukas paskyroje									& 1				\\ \hline
+		
+		
+F8	& 	\begin{tabular}[c]{@{}l@{}}
+			Administratoriaus paskyroje atsirandantis \\
+			mygtukas paspaudus tam tikrą vartotoją, \\
+			naudojamas tos paskyros ištrinimui
+		\end{tabular}										& 3				\\ \hline
+		
+F9	& 	\begin{tabular}[c]{@{}l@{}}
+			Pjovimo optimizacijos duomenų laukai: \\
+			standartinių panelių matmenys bei kiekiai \\
+			detalių matmenys bei kiekiai. ".csv" failo įkėlimas. \\
+		\end{tabular}										& 1, 3			\\ \hline
+	
+F10	& 	\begin{tabular}[c]{@{}l@{}}
+			Pjūvio plano optimizavimas           	   			
+		\end{tabular}										& 2				\\ \hline
+		
+F11	& 	\begin{tabular}[c]{@{}l@{}}
+			Optimizuotų pjūvio planų informacijos pateikimas		
+		\end{tabular}										& 2     			\\ \hline
 
-F6	& Vartotojo paskyros deaktyvacija					& 1				\\ \hline
+F12	& 	\begin{tabular}[c]{@{}l@{}}
+			Optimizuotų pjūvio planų variantų pasirinkimas		
+		\end{tabular}										& 1, 3			\\ \hline
 
-F7	& Vartotojo paskyros aktyvacija						& 1				\\ \hline
+F13 & 	Pjūvio plano ruošinio ".pdf" formatu
+		atsisiuntimas										& 1, 3			\\ \hline
 
-F8	& Vartotojo paskyros ištrinimas						& 3				\\ \hline
+F14 	& 	Pjūvio plano informacijos išsaugojimas				& 1, 3			\\ \hline
 
-F9	& Pjovimo optimizacijos duomenų įvedimas				& 1, 3			\\ \hline
+F15	& 	\begin{tabular}[c]{@{}l@{}}
+			Kalbos pasirinkimas(LT, EN), su interfeiso \\
+			pakeitimų jį paspaudus, bei išsaugojimu.
+		\end{tabular}
+									& 1, 3			\\ \hline
+%% Prideti išsaugojima duomenų kita kart atsidarius.
+F16 	& 	\begin{tabular}[c]{@{}l@{}}
+			Mygtuko 	"Istorija" sukūrimas, kurį paspaudęs\\
+			prisijungęs vartotojas mato iki 10 išsaugotų \\
+			planų. Taip pat jų trinimo mygtukuas "Trinti".	
+		\end{tabular}										& 1, 3			\\ \hline
 
-F10	& Pjūvio plano optimizavimas           	   			& 2				\\ \hline
+NF1 & 	Užtikrinti kalbos pakeitimą							& 1, 3			\\ \hline
 
-F11	& Optimizuotų pjūvio planų informacijos pateikimas	& 2     			\\ \hline
+NF2 & 	Prisijungimo vardo ilgis nemažesnis už 4				& 1, 3			\\ \hline 
 
-F12	& Optimizuotų pjūvio planų variantų pasirinkimas		& 1, 3			\\ \hline
+NF3 & 	Slaptažodžio ilgis nemažesnis už 8					& 1, 3			\\ \hline 
 
-F13 & Pjūvio plano ruošinio atsisiuntimas				& 1, 3			\\ \hline
-
-F14 	& Pjūvio plano informacijos išsaugojimas				& 1, 3			\\ \hline
-
-F15	& Kalbos pasirinkimas(LT, EN)						& 1, 3			\\ \hline
-
-NF1 & Užtikrinti kalbos pakeitimą						& 1, 3			\\ \hline
-
-NF2 & Prisijungimo vardo ilgis nemažesnis už 4			& 1, 3			\\ \hline 
-
-NF3 & Elektroninis paštas galioja						& 1, 3			\\ \hline 
-
-NF3 & Slaptažodžio ilgis nemažesnis už 8					& 1, 3			\\ \hline 
-
-NF4 & Prisijungimo duomenys išskyrus slaptažodį - unikalūs	& 1, 3			\\ \hline 
-
-NF5 & 
+NF4 & 
 \begin{tabular}[c]{@{}l@{}}
 Prisijungime pakeičiamai dalyvauja sistemoje registruotas vartotojo slapyvardis\\
 arba el.paštas, bei slaptažodis.			
 \end{tabular}											& 1, 3			\\ \hline 
 
+NF5	&	Paštas bei prisjungimo vardas nesikartoja
 
 \end{tabular}
 \end{frame}
