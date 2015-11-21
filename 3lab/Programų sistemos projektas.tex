@@ -1,0 +1,98 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage[T2A]{fontenc} % jei yra kirilica
+\usepackage[hmargin={30mm,15mm},vmargin={20mm,20mm},bindingoffset=0mm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue, unicode]{hyperref}
+
+%\parindent=7mm
+\renewcommand{\refname}{Literatūros sąrašas} % article
+%\renewcommand{\bibname}{Literatūros sąrašas} % report
+\renewcommand{\contentsname}{Turinys}
+\usepackage[T1]{fontenc} 
+
+% Lukas paketai
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{placeins}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\usepackage{tabularx}% http://ctan.org/pkg/tabularx
+\usepackage[parfill]{parskip}
+\usepackage[unicode]{hyperref}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+   \makebox[\paperwidth][r]{#1}}}
+\usepackage[dotinlabels]{titletoc}
+\usepackage[capposition=top]{floatrow}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\usepackage{secdot}
+
+
+
+
+\begin{document}
+\graphicspath{ {/} }
+
+\renewcommand{\cftdot}{.}	
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\thispagestyle{empty} % nerasomas psl. nr
+
+
+\begin{center}
+ VILNIAUS UNIVERSITETAS 
+ 
+MATEMATIKOS IR INFORMATIKOS FAKULTETAS
+
+MATEMATINĖS INFORMATIKOS KATEDRA
+
+\vspace{4cm}
+
+Projekto vadovas \ \ \textbf{Lukas Tutkus} \\
+\textbf{Julius Daukšas} \\
+\textbf{Dominykas Smaliukas} \\
+\textbf{Robert Stankevič} \\
+
+\vspace{0.2cm}
+
+Bioinformatikos studijų programos grupė BioSawmill
+
+
+
+\vspace{3cm}
+\textbf{\Large Programų sistemos projektas}\\
+
+
+\vfill
+
+Vilnius \ \  2015
+\end{center}
+
+
+
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\section{Duomenų bazės struktūra}
+\section{Sistemos architektūra}
+\section{Sudėtingesnių modulių veikimo apibrėžimai}
+\section{Interfeisai}
+\section{Klasių diagrama}
+\section{Reikalavimų atsekamumų lentelė}
+
+\end{document}
