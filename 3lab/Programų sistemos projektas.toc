@@ -2,9 +2,11 @@
 \contentsline {section}{\numberline {2}Sistemos architekt\IeC {\=u}ra}{3}{section.2}
 \contentsline {section}{\numberline {3}Sud\IeC {\.e}tingesni\IeC {\k u} moduli\IeC {\k u} veikimo apibr\IeC {\.e}\IeC {\v z}imai}{3}{section.3}
 \contentsline {subsection}{\numberline {3.1} Paskyros parametr\IeC {\k u} keitimas }{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2} Paskyros i\IeC {\v s}trinimas }{3}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.1.1}Parametr\IeC {\k u} keitimas}{3}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Aktyvacija/Deaktyvacija}{4}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2} Paskyros i\IeC {\v s}trinimas }{4}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3} P.O. duomen\IeC {\k u} \IeC {\k i}vedimas }{4}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Duomen\IeC {\k u} validavimas}{4}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1}Duomen\IeC {\k u} validavimas}{5}{subsubsection.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.2}Detali\IeC {\k u} csv failo validavimas}{5}{subsubsection.3.3.2}
 \contentsline {subsection}{\numberline {3.4} Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas }{5}{subsection.3.4}
 \contentsline {section}{\numberline {4}Interfeisai}{5}{section.4}
