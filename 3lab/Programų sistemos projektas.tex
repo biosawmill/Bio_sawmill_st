@@ -89,10 +89,93 @@ Vilnius \ \  2015
 \clearpage
 
 \section{Duomenų bazės struktūra}
+
+
 \section{Sistemos architektūra}
+
+
 \section{Sudėtingesnių modulių veikimo apibrėžimai}
+
+\subsection{ Paskyros parametrų keitimas }
+Prisijungus galima pakeisti norimus paskyros duomenis.\\
+Vartotojas gali keisti savo paskyros duomenis: \\
+	prisijungimo vardą, el. paštą, slaptažodį. \\\\
+	
+Administratoriui atidariui paskyros keitimo langą\\
+atsiranda sąrašas vartotojų. Spaudžiamas vartotojo \\
+keitimo mygtukas "keisti" atsiradęs paspaudus ant vartotojo.\\
+Dėl duomenų saugumo administratorius gali pakeisti tik\\
+vartotojų prisijungimo vardus ir prisijungimo paštus. \\\\
+
+Pakeitimai turi atitikti registracijos formos reikalavimus: \\
+	\tabitem prisijungimo vardas >= 4 simboliai\\
+	\tabitem unikalus paštas bei prisijungimo vardas.
+    \tabitem slaptažodis >= 8 simboliai. \\\\
+    
+Pakeitimai patikrinami ir jei nera klaidų tada užklausa siunčiama \\
+į duomenų bazėje. Taip pat pakeisti duomenys atnaujinami administratoriaus \\
+vartotojų paskyrų sąraše. \\
+Jei klaidų randama - neatitinka reikalavimų tada pažymimi neleistinas \\
+reikšmes įgiję laukai.\\
+
+
+\subsection{ Paskyros ištrinimas }
+
+Paskyras ištrinti gali tik administratorius.\\
+
+Pateiktame vartotojų paskyrų saraše spaudžiamas vartotojo \\
+trynimo mygtukas "trinti" atsiradęs paspaudus ant vartotojo.\\\\
+
+Pirmaiausia automatiškai sukurtas pranešimas nusiunčiamas į \\
+vartotojo paštą. Pranešama kad buvo pašalinta paskyra. \\\\
+
+Ir tik tada nusiunčiama užklausa trynimui į duomenų bazę, \\
+ištrinama paskyra iš paskyrų sarašą. \\\\
+	
+	
+\subsection{ P.O. duomenų įvedimas }
+
+Duomenys įvedami ir išsaugomi, taip kad vartotojas \\
+kita kartą prisijungęs rastų įvestus paskutinius duomenis.\\\\
+Paduotos dvi pasirenkamos standartinės panelės su dydžiais \\
+1200x2500 ir 1200x3050. Bei mygtukas pasirinkti papildomas\\
+norimo dydžio standartines panelės. \\\\
+Detalės įvedamos po vieną arba įkeliamos ".csv" formatu. 
+
+\subsubsection{Duomenų validavimas}
+\textbf{Tikrinamas standartinių panelių validumas}:\\
+	Ilgis ir plotis nuo 10mm iki 10000mm, kiekis nuo 1 iki 10.
+Tikrinami pasirinkimo laukeliai(checkbox): \\
+Bent vienas jų turi būti pažymėtas.
+
+\textbf{Tikrinamas detalių validumas}:\\
+Surandamos visos pasirinktos standartinės panelės, \\
+ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
+Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus \\
+panelių metmenis.
+Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
+
+\subsubsection{Detalių csv failo validavimas}
+\textbf{Tikrinamas detalių validumas}:\\
+Pirmame lauke būtina nurodyti detalės kiekį nuo 1 iki 1000, \\
+antrame ilgį ir trečiame plotį .\\
+
+Surandamos visos pasirinktos standartinės panelės, \\
+ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
+Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus
+panelių matmenys. \\
+Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
+
+\subsection{ Pjūvio plano informacijos išsaugojimas }
+
+
+
 \section{Interfeisai}
+
+
 \section{Klasių diagrama}
+
+
 \section{Reikalavimų atsekamumų lentelė}
 
 \end{document}
