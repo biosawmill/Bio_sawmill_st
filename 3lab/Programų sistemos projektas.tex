@@ -14,6 +14,7 @@
 \usepackage[T1]{fontenc} 
 
 % Lukas paketai
+\usepackage{lmodern,textcomp}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{graphicx}
@@ -120,16 +121,36 @@ vartotojų paskyrų sąraše. \\
 Jei klaidų randama - neatitinka reikalavimų tada pažymimi neleistinas \\
 reikšmes įgiję laukai.\\
 
-\subsubsection{Aktyvacija/Deaktyvacija}
-Kekvienam vartotojui matoma jo būsena( aktyvuotas, deaktyvuotas ).\\
-Aktyvuotas - gali naudotis P.O.\\
-Deaktyvuotas - negali naudotis P.O.\\
+\subsubsection{P.O. mokestis}
+P.O. mokėjimą galima atlikti po prisijungimo. \\
+Vartotojas paspaudęs mokėjimo mygtuką nurodo:
+\begin{itemize}
+	\item Aktyvuojamo vartotojo pašto adresą.
+	\item Mokėjimo laikotarpį.
+	\item Datą laikotarpio pradžiai.
+\end{itemize} 
+Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). \\
+Jei vartotojas-aktyvuotas prie laikotarpio nurodoma galiojimo laikas.\\
+Tokiu atveju vartotojas gali tik pratesti pagal pasirinktą laikotarpį 
+bei data vėlesne už paskutinę galiojimo dieną.\\
+Jei vartotojas-neaktyvuotas tada nurodo mokėjimo laikotarpį bei datą,
+ne ankstesnę už šiandienos datą. \\
+Spaudžiamas bankas per kurį bus daromas atsiskaitymas ir po to mygtukas "Mokėti".
 
-Aktyvuotas vartotojas tampa kai paspaudžiamas aktyvuoti mygtukas,\\ 
-kuris nukelia į nurodytą banką ir užpildomas bei atliekamas gautas \\
-banko pavedimas. \\
-Vartotojas gražinamas į pradinį langą, pakeičiama būseną į aktybuotą. \\
 
+Visų pirma nusiunčiama užklausa duomenų bazei patikrinti ar nurodytas paštas egzistuoja. \\
+Jei neegzistuoja prie suvestų duomenų pranešama, kur įvyko klaida.\\
+
+Tikrinama ar data įvesta ne ankstesnė nei šiandienos. Jei data bloga - vartotojui pranešama, \\
+kad data turi būti ne ankstesnė nei šiandienos.
+
+Toliau su dar viena užklausa db. gaunama data paskutinės galiojimo datos jei tokia yra. \\
+Jei nėra vykdomas mokėjimas. \\
+Jei paskutinė galiojimo data yra ankstesnė nei nurodyta mokėjimo formoje mokėjimas nevyksta, \\
+pranešama paskutinė aktyvacijos galiojimo dienos data. Kitu atveju vykdomas mokėjimas. \\
+
+Po sekmingai ivykdyto mokėjimo vartotojo būsena pakeičiama į aktyvuotą.
+  
 
 
 \subsection{ Paskyros ištrinimas }
@@ -166,9 +187,9 @@ Surandamos visos pasirinktos standartinės panelės, \\
 ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
 Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus \\
 panelių metmenis.
-Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
+Tikrinama ar detalių kiekis nedidesnis nei 1000.
 
-\subsubsection{Detalių csv failo validavimas}
+\subsubsection{Detalių .csv failo validavimas}
 \textbf{Tikrinamas detalių validumas}:\\
 Pirmame lauke būtina nurodyti detalės kiekį nuo 1 iki 1000, \\
 antrame ilgį ir trečiame plotį .\\
@@ -178,6 +199,11 @@ ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
 Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus
 panelių matmenys. \\
 Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
+
+
+\subsubsection{Duomenų susiejimas}
+
+
 
 \subsection{ Pjūvio plano informacijos išsaugojimas }
 
