@@ -99,26 +99,36 @@ Vilnius \ \  2015
 
 \subsection{ Paskyros parametrų keitimas }
 
-\subsubsection{Parametrų keitimas}
+\subsubsection{Duomenų keitimas}
 Prisijungus galima pakeisti norimus paskyros duomenis.\\
-Vartotojas gali keisti savo paskyros duomenis: \\
-	prisijungimo vardą, el. paštą, slaptažodį. \\\\
+\tabitem Tiek administratorius tiek įprastas vartotojas gali\\
+keisti savo paskyros duomenis: \\
+prisijungimo vardą, el. paštą, slaptažodį. \\\\
 	
-Administratoriui atidariui paskyros keitimo langą\\
-atsiranda sąrašas vartotojų. Spaudžiamas vartotojo \\
-keitimo mygtukas "keisti" atsiradęs paspaudus ant vartotojo.\\
-Dėl duomenų saugumo administratorius gali pakeisti tik\\
-vartotojų prisijungimo vardus ir prisijungimo paštus. \\\\
+\tabitem Administratorius papildomai gali keisti \\
+vartotojų paskyrų duomenis. Jis turi galimybę atsidaryti \\
+paskyrų peržiūros ir keitimo langą,\\
+kuriame mato sąrašą vartotojų.\\
+Prie kiekvieno sąraše esančio vartotojo yra mygtukas "Keisti", \\
+kurį paspaudus, administratoriui parodomi laukeliai, \\
+užpildyti vartotojo duomenimis \\
+suteikiant galimybę laukelių turinį keisti.\\
+Dėl duomenų saugumo nerodomi laukeliai su slaptažodžiais.\\
+Taip pat ties kiekvienu vartotoju ir papildomai sąrašo pabaigoje \\
+atsiranda po porą mygtukų - "Saugoti" ir "Atstatyti". \\
+Paspaudus "Saugoti", pakeitimai išsaugomi. Paspaudus "Atstatyti", \\
+laukelių turinys gražinamas į pradinę būseną arba \\
+iki paskutinio išsaugojimo, jei toks buvo atliktas.\\\\
 
-Pakeitimai turi atitikti registracijos formos reikalavimus: \\
+Pakeitimai priimami, jeigu atitinka registracijos formos reikalavimus: \\
 	\tabitem prisijungimo vardas >= 4 simboliai\\
-	\tabitem unikalus paštas bei prisijungimo vardas.
+	\tabitem sistemoje unikalūs paštas bei prisijungimo vardas.
     \tabitem slaptažodis >= 8 simboliai. \\\\
     
-Pakeitimai patikrinami ir jei nera klaidų tada užklausa siunčiama \\
-į duomenų bazėje. Taip pat pakeisti duomenys atnaujinami administratoriaus \\
+Pakeitimai patikrinami ir jei nėra klaidų tada užklausa siunčiama \\
+į duomenų bazę. Taip pat pakeisti duomenys atnaujinami administratoriaus \\
 vartotojų paskyrų sąraše. \\
-Jei klaidų randama - neatitinka reikalavimų tada pažymimi neleistinas \\
+Jei pakeitimai neatitinka reikalavimų tada pažymimi neleistinas \\
 reikšmes įgiję laukai.\\
 
 \subsubsection{P.O. mokestis}
@@ -130,10 +140,10 @@ Vartotojas paspaudęs mokėjimo mygtuką nurodo:
 	\item Datą laikotarpio pradžiai.
 \end{itemize} 
 Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). \\
-Jei vartotojas-aktyvuotas prie laikotarpio nurodoma galiojimo laikas.\\
-Tokiu atveju vartotojas gali tik pratesti pagal pasirinktą laikotarpį 
+Jei vartotojas aktyvuotas - prie laikotarpio nurodomas galiojimo laikas.\\
+Tokiu atveju vartotojas gali tik pratęsti pagal pasirinktą laikotarpį 
 bei data vėlesne už paskutinę galiojimo dieną.\\
-Jei vartotojas-neaktyvuotas tada nurodo mokėjimo laikotarpį bei datą,
+Jei vartotojas neaktyvuotas tada nurodo mokėjimo laikotarpį bei datą,
 ne ankstesnę už šiandienos datą. \\
 Spaudžiamas bankas per kurį bus daromas atsiskaitymas ir po to mygtukas "Mokėti".
 
@@ -153,18 +163,18 @@ Po sekmingai ivykdyto mokėjimo vartotojo būsena pakeičiama į aktyvuotą.
   
 
 
-\subsection{ Paskyros ištrinimas }
+\subsection{ Paskyros ištrynimas }
 
 Paskyras ištrinti gali tik administratorius.\\
 
-Pateiktame vartotojų paskyrų saraše spaudžiamas vartotojo \\
-trynimo mygtukas "trinti" atsiradęs paspaudus ant vartotojo.\\\\
+Pateiktame vartotojų paskyrų sąraše spaudžiamas vartotojo \\
+trynimo mygtukas "Trinti" esantis šalia kiekvieno vartotojo.\\\\
 
-Pirmaiausia automatiškai sukurtas pranešimas nusiunčiamas į \\
-vartotojo paštą. Pranešama kad buvo pašalinta paskyra. \\\\
+Pirmiausia automatiškai sukurtas pranešimas nusiunčiamas į \\
+vartotojo paštą. Pranešama, kad buvo pašalinta jo paskyra. \\\\
 
 Ir tik tada nusiunčiama užklausa trynimui į duomenų bazę, \\
-ištrinama paskyra iš paskyrų sarašą. \\\\
+ištrinama paskyra iš paskyrų sarašo. \\\\
 	
 	
 \subsection{ P.O. duomenų įvedimas }
@@ -174,31 +184,46 @@ kita kartą prisijungęs rastų įvestus paskutinius duomenis.\\\\
 Paduotos dvi pasirenkamos standartinės panelės su dydžiais \\
 1200x2500 ir 1200x3050. Bei mygtukas pasirinkti papildomas\\
 norimo dydžio standartines panelės. \\\\
-Detalės įvedamos po vieną arba įkeliamos ".csv" formatu. 
+Detalės priimamos grupėmis po tris duomenis - kiekis, ilgis, plotis. \\
+Jos įvedamos eilutėmis, užpildant po tris langelius, \\
+arba įkeliamos ".csv" formatu.\\\\
 
 \subsubsection{Duomenų validavimas}
 \textbf{Tikrinamas standartinių panelių validumas}:\\
-	Ilgis ir plotis nuo 10mm iki 10000mm, kiekis nuo 1 iki 10.
+	Ilgis ir plotis nuo 10 mm iki 10000 mm, kiekis nuo 1 iki 10.
 Tikrinami pasirinkimo laukeliai(checkbox): \\
 Bent vienas jų turi būti pažymėtas.
 
-\textbf{Tikrinamas detalių validumas}:\\
-Surandamos visos pasirinktos standartinės panelės, \\
-ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
-Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus \\
-panelių metmenis.
-Tikrinama ar detalių kiekis nedidesnis nei 1000.
+\textbf{Tikrinamas detalių duomenų validumas}:\\
+Detalių duomenys validuojami tiek įvesti rankomis, \\
+tiek įkelti ".csv" formatu.\\
+\tabitem \textbf{Detalių kiekis} \\
+Tikrinama ar bendras detalių kiekis nedidesnis nei 1000.
+\tabitem \textbf{Detalių tilpimo pagal matmenis patikra} \\
+Kiekvienai pasirinktai standartinei panelei \\
+patikrinama ar į ją tilptų kiekviena detalė,
+detalių kraštinėms esant lygiagrečioms panelių kraštinėms.
 
-\subsubsection{Detalių .csv failo validavimas}
-\textbf{Tikrinamas detalių validumas}:\\
-Pirmame lauke būtina nurodyti detalės kiekį nuo 1 iki 1000, \\
-antrame ilgį ir trečiame plotį .\\
+% Surandamos visos pasirinktos standartinės panelės, \\
+% ieškomas mažiausias ilgis bei plotis tarp standartinių panelių.\\
+% Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus \\
+% panelių matmenis.
 
-Surandamos visos pasirinktos standartinės panelės, \\
-ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
-Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus
-panelių matmenys. \\
-Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
+%% Užkomentuotas būdas gal netinka?
+%% Nes. Pvz. yra detalė 2 x 1, ir yra panelės: 2x2, 1x4, 4x1. 
+%% Tada mažiausi ilgis ir plotis yra min(2,1,4) ir min(2,4,1),
+%% t.y. 1 ir 1, o detalė 1x2 į juos netelpa.
+
+% \subsubsection{Detalių .csv failo validavimas}
+% \textbf{Tikrinamas detalių validumas}:\\
+% Pirmame lauke būtina nurodyti detalės kiekį nuo 1 iki 1000, \\
+% antrame - ilgį ir trečiame - plotį.\\
+% 
+% Surandamos visos pasirinktos standartinės panelės, \\
+% ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
+% Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus
+% panelių matmenys. \\
+% Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
 
 
 \subsubsection{Duomenų susiejimas}
