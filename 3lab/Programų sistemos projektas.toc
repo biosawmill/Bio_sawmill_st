@@ -1,18 +1,45 @@
-\contentsline {section}{\numberline {1}Duomen\IeC {\k u} baz\IeC {\.e}s strukt\IeC {\=u}ra}{3}{section.1}
-\contentsline {section}{\numberline {2}Sistemos architekt\IeC {\=u}ra}{3}{section.2}
-\contentsline {section}{\numberline {3}Sud\IeC {\.e}tingesni\IeC {\k u} moduli\IeC {\k u} veikimo apibr\IeC {\.e}\IeC {\v z}imai}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1} Paskyros parametr\IeC {\k u} keitimas }{3}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Parametr\IeC {\k u} keitimas}{3}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}P.O. mokestis}{4}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2} P.O. duomen\IeC {\k u} \IeC {\k i}vedimas }{4}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Duomen\IeC {\k u} validavimas}{5}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Detali\IeC {\k u} .csv failo validavimas}{5}{subsubsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.3}Duomen\IeC {\k u} susiejimas}{5}{subsubsection.3.2.3}
-\contentsline {subsection}{\numberline {3.3} Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas bei "Istorijos" mygtukas}{5}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas}{5}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}"Istorijos" mygtukas}{6}{subsubsection.3.3.2}
-\contentsline {section}{\numberline {4}Interfeisai}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Nam\IeC {\k u} puslapis}{7}{subsection.4.1}
-\contentsline {section}{\numberline {5}Klasi\IeC {\k u} diagrama}{8}{section.5}
-\contentsline {section}{\numberline {6}Reikalavim\IeC {\k u} atsekamum\IeC {\k u} lentel\IeC {\.e}}{8}{section.6}
+\contentsline {section}{\numberline {1}Duomen\IeC {\k u} baz\IeC {\.e}s strukt\IeC {\=u}ra}{4}{section.1}
+\contentsline {section}{\numberline {2}Sistemos architekt\IeC {\=u}ra}{4}{section.2}
+\contentsline {section}{\numberline {3}Sud\IeC {\.e}tingesni\IeC {\k u} moduli\IeC {\k u} veikimo apibr\IeC {\.e}\IeC {\v z}imai}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1} Paskyros parametr\IeC {\k u} keitimas }{4}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Parametr\IeC {\k u} keitimas}{4}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}P.O. mokestis}{5}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2} P.O. duomen\IeC {\k u} \IeC {\k i}vedimas }{5}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Duomen\IeC {\k u} validavimas}{6}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Detali\IeC {\k u} .csv failo validavimas}{6}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Duomen\IeC {\k u} susiejimas}{6}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3} Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas bei "Istorijos" mygtukas}{6}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas}{6}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}"Istorijos" mygtukas}{7}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Interfeisai}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Nam\IeC {\k u} puslapis}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Vartotojo paskyros puslapis - vartotojas neprisijung\IeC {\k e}s}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Vartotojo paskyros puslapis - registracija}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Vartotojo paskyros puslapis - registracija(su klaida)}{9}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Vartotojo paskyros puslapis - s\IeC {\.e}kminga registracija}{10}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Vartotojo paskyros puslapis - prisijungimas}{10}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Vartotojo paskyros puslapis - prisijungimas (su klaida)}{11}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Vartotojo paskyros puslapis - pamir\IeC {\v s}tas slapta\IeC {\v z}odis}{11}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Vartotojo paskyros puslapis - pamir\IeC {\v s}tas slapta\IeC {\v z}odis 2}{12}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Vartotojo paskyros puslapis - prisijungus (neapmok\IeC {\.e}ta u\IeC {\v z} paslaugas)}{12}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}Vartotojo paskyros puslapis - prisijungus (apmok\IeC {\.e}ta u\IeC {\v z} paslaugas)}{13}{subsection.4.11}
+\contentsline {subsection}{\numberline {4.12}Vartotojo paskyros puslapis - prisijungus - mok\IeC {\.e}jimas}{13}{subsection.4.12}
+\contentsline {subsection}{\numberline {4.13}Vartotojo paskyros puslapis - prisijungus - mok\IeC {\.e}jimas (su klaida)}{14}{subsection.4.13}
+\contentsline {subsection}{\numberline {4.14}Vartotojo paskyros puslapis - administratorius}{14}{subsection.4.14}
+\contentsline {subsection}{\numberline {4.15}Vartotojo paskyros puslapis - administratorius (su klaida)}{15}{subsection.4.15}
+\contentsline {subsection}{\numberline {4.16}Optimizavimo puslapis - neprisijungus}{15}{subsection.4.16}
+\contentsline {subsection}{\numberline {4.17}Optimizavimo puslapis - prisijungus}{16}{subsection.4.17}
+\contentsline {subsection}{\numberline {4.18}Optimizavimo puslapis - prisijungus (su klaida)}{16}{subsection.4.18}
+\contentsline {subsection}{\numberline {4.19}Optimizavimo puslapis - po optimizavimo proceso}{17}{subsection.4.19}
+\contentsline {subsection}{\numberline {4.20}Optimizavimo puslapis - po optimizavimo, pasirinkus vieno i\IeC {\v s} plan\IeC {\k u} per\IeC {\v z}i\IeC {\=u}r\IeC {\k a}}{17}{subsection.4.20}
+\contentsline {subsection}{\numberline {4.21}Optimizavimo puslapis - po optimizavimo, pasirinkus vieno i\IeC {\v s} plan\IeC {\k u} per\IeC {\v z}i\IeC {\=u}r\IeC {\k a} (i\IeC {\v s} ar\IeC {\v c}iau)}{18}{subsection.4.21}
+\contentsline {subsection}{\numberline {4.22}Optimizavimo puslapis - pasirinkto plano i\IeC {\v s}saugojimas}{19}{subsection.4.22}
+\contentsline {subsection}{\numberline {4.23}Optimizavimo puslapis - pasirinkto plano i\IeC {\v s}saugojimas (su klaida)}{19}{subsection.4.23}
+\contentsline {subsection}{\numberline {4.24}Optimizavimo puslapis - istorijos per\IeC {\v z}i\IeC {\=u}ra}{20}{subsection.4.24}
+\contentsline {subsection}{\numberline {4.25}Optimizavimo puslapis - istorijos redagavimas (su klaida)}{20}{subsection.4.25}
+\contentsline {subsection}{\numberline {4.26}Optimizavimo puslapis - i\IeC {\v s}saugoto plano istorijoje per\IeC {\v z}i\IeC {\=u}ra (i\IeC {\v s} ar\IeC {\v c}iau)}{21}{subsection.4.26}
+\contentsline {subsection}{\numberline {4.27}Susisiekimo su mumis puslapis}{22}{subsection.4.27}
+\contentsline {subsection}{\numberline {4.28}Susisiekimo su mumis puslapis (su klaida)}{22}{subsection.4.28}
+\contentsline {section}{\numberline {5}Klasi\IeC {\k u} diagrama}{23}{section.5}
+\contentsline {section}{\numberline {6}Reikalavim\IeC {\k u} atsekamum\IeC {\k u} lentel\IeC {\.e}}{23}{section.6}
 \contentsfinish 
