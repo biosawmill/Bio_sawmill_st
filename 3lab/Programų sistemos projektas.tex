@@ -14,6 +14,7 @@
 \usepackage[T1]{fontenc} 
 
 % Lukas paketai
+\usepackage[capposition=top]{floatrow}
 \usepackage{lmodern,textcomp}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
@@ -219,119 +220,274 @@ Paspaudus atsisiuntimo formos mygtuką atsiunčiami minėti duomenys ".pdf" form
 Paspaudus šiukšliadežės formos mygtuką ištrinamas išsaugotas planas.\\
 Paspaudus "floppy disk" formos mygtuką išsaugomas pakeistas plano pavadinimas.
 
+\clearpage
 
 \section{Interfeisai}
+
 \subsection{Namų puslapis (vartotojas prisijungęs)}
-\hspace{-2cm}
+\floatfoot{Namų puslapis (vartotojas prisijungęs)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/pagrindinis}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisNeprisijungta}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - registracija}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - registracija}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisRegistracija}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - registracija (su klaida)}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - registracija (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisRegistracijaSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - sėkminga registracija}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - sėkminga registracija}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisRegistracijaSekminga}
-
-\subsection{Vartotojo paskyros puslapis - prisijungimas}
-\hspace{-2cm}
+\label{fig:verticalcell}
+\end{figure}
+ 
+\floatfoot{Vartotojo paskyros puslapis - prisijungimas}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisPrisijungimas}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - prisijungimas (su klaida)}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - prisijungimas (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisPrisijungimasSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - pamirštas slaptažodis}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - pamirštas slaptažodis}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisPamirstasSlaptazodis}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - pamirštas slaptažodis 2}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - pamirštas slaptažodis 2}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisPamirstasSlaptazodis2}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - prisijungus (neapmokėta už paslaugas)}
-\hspace{-2cm}
+
+\floatfoot{Vartotojo paskyros puslapis - prisijungus (neapmokėta už paslaugas)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisVartotojasNeapmoketas}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - prisijungus (apmokėta už paslaugas)}
-\hspace{-2cm}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\floatfoot{Vartotojo paskyros puslapis - prisijungus (apmokėta už paslaugas)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisVartotojasApmoketas}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - prisijungus - mokėjimas}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - prisijungus - mokėjimas}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisVartotojasMokejimas}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - prisijungus - mokėjimas (su klaida)}
-\hspace{-2cm}
+\floatfoot{Vartotojo paskyros puslapis - prisijungus - mokėjimas (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisVartotojasMokejimasSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - administratorius}
-\hspace{-2cm}
+
+\floatfoot{Vartotojo paskyros puslapis - administratorius}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisAdministratorius}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Vartotojo paskyros puslapis - administratorius (su klaida)}
-\hspace{-2cm}
+\clearpage
+
+\floatfoot{Vartotojo paskyros puslapis - administratorius (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/paskyrosPuslapisAdministratoriusSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - neprisijungus}
-\hspace{-2cm}
+
+
+\clearpage
+
+\subsection{Optimizavimo puslapis}
+\floatfoot{Optimizavimo puslapis - neprisijungus}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisNeprisijungus}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - prisijungus}
-\hspace{-2cm}
+\floatfoot{Optimizavimo puslapis - prisijungus}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungus}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - prisijungus (su klaida)}
-\hspace{-2cm}
+\floatfoot{Optimizavimo puslapis - prisijungus (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungusSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - po optimizavimo proceso}
-\hspace{-2cm}
+
+\floatfoot{Optimizavimo puslapis - po optimizavimo proceso}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisOptimizuotiPlanai}
+\label{fig:verticalcell}
+\end{figure}
+\clearpage
 
-\subsection{Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą}
+\floatfoot{Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą (iš arčiau)}
+\begin{figure}[!tph]
 \hspace{-2cm}
-\includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura}
+\centering
+\includegraphics[scale=1]{interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura2}
+\label{fig:horizontalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą (iš arčiau)}
-\hspace{-2cm}
-\includegraphics[scale=1.2]{interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura2}
 
-\subsection{Optimizavimo puslapis - pasirinkto plano išsaugojimas}
-\hspace{-2cm}
+\floatfoot{Optimizavimo puslapis - pasirinkto plano išsaugojimas}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimas}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - pasirinkto plano išsaugojimas (su klaida)}
-\hspace{-2cm}
+\floatfoot{Optimizavimo puslapis - pasirinkto plano išsaugojimas (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimasSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - istorijos peržiūra}
-\hspace{-2cm}
+
+
+\floatfoot{Optimizavimo puslapis - istorijos peržiūra}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungusIstorija}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - istorijos redagavimas (su klaida)}
-\hspace{-2cm}
+
+\floatfoot{Optimizavimo puslapis - istorijos redagavimas (su klaida)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
 \includegraphics[scale=0.5]{interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
 
-\subsection{Optimizavimo puslapis - išsaugoto plano istorijoje peržiūra (iš arčiau)}
-\hspace{-2cm}
-\includegraphics[scale=1.2]{interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPlanas}
+\clearpage
+
+
+\floatfoot{Optimizavimo puslapis - išsaugoto plano istorijoje peržiūra (iš arčiau)}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
+\includegraphics[scale=1]{interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPlanas}
+\label{fig:verticalcell}
+\end{figure}
+
+\clearpage
 
 \subsection{Susisiekimo su mumis puslapis}
-\hspace{-2cm}
-\includegraphics[scale=0.5]{interfeisai/susisiekimas}
 
-\subsection{Susisiekimo su mumis puslapis (su klaida)}
+
+\floatfoot{Susisiekimo su mumis puslapis}
+\begin{figure}[!tph]
+\hspace{-3cm}
+\centering
+\includegraphics[scale=0.5]{interfeisai/susisiekimas}
+\label{fig:verticalcell}
+\end{figure}
+
+\floatfoot{Susisiekimo su mumis puslapis (su klaida)}
+\begin{figure}[!tph]
 \hspace{-2cm}
 \includegraphics[scale=0.5]{interfeisai/susisiekimasSuKlaida}
+\label{fig:verticalcell}
+\end{figure}
+
+\clearpage
 
 % ---------------------------------- UZKOMENTUOTA, NEISTRINTI  ------------------------------
 \begin{comment}
