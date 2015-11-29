@@ -11,10 +11,10 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Duomen\IeC {\k u} susiejimas}{7}{subsubsection.3.3.3}
 \contentsline {subsection}{\numberline {3.4} Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas }{7}{subsection.3.4}
 \contentsline {section}{\numberline {4}Interfeisai}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Nam\IeC {\k u} puslapis}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Vartotojo paskyros puslapis - vartotojas neprisijung\IeC {\k e}s}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.1}Nam\IeC {\k u} puslapis (vartotojas prisijung\IeC {\k e}s)}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Vartotojo paskyros puslapis}{8}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Vartotojo paskyros puslapis - registracija}{8}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Vartotojo paskyros puslapis - registracija(su klaida)}{9}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Vartotojo paskyros puslapis - registracija (su klaida)}{9}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Vartotojo paskyros puslapis - s\IeC {\.e}kminga registracija}{9}{subsection.4.5}
 \contentsline {subsection}{\numberline {4.6}Vartotojo paskyros puslapis - prisijungimas}{10}{subsection.4.6}
 \contentsline {subsection}{\numberline {4.7}Vartotojo paskyros puslapis - prisijungimas (su klaida)}{10}{subsection.4.7}
