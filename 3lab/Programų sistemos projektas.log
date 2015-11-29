@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.20)  28 NOV 2015 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.20)  29 NOV 2015 14:30
 entering extended mode
-**"Programų sistemos projektas.tex"
-("Programų sistemos projektas.tex"
+**"D:/informatika/7 semestras/programų sistemų inžinerija/Bio_sawmill_st/3la
+b/Programų sistemos projektas.tex"
+
+("D:/informatika/7 semestras/programų sistemų inžinerija/Bio_sawmill_st/3lab
+/Programų sistemos projektas.tex"
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 (D:\programos\latex\tex\latex\base\article.cls
@@ -481,36 +484,36 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip90
 \flrow@types=\toks25
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
 
 (D:\programos\latex\tex\latex\secdot\secdot.sty
 Package: secdot 2000/06/20 v1.0 section numbers with dots
 )
 ("Programų sistemos projektas.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
 
 (D:\programos\latex\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 49.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 47.
 
 (D:\programos\latex\tex\latex\lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -561,7 +564,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
-Package hyperref Info: Link coloring ON on input line 49.
+Package hyperref Info: Link coloring ON on input line 47.
 
 (D:\programos\latex\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -571,9 +574,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
 
 ("Programų sistemos projektas.out") ("Programų sistemos projektas.out")
 \@outlinefile=\write3
@@ -598,150 +601,587 @@ Package caption Info: End \AtBeginDocument code.
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] ("Programų sistemos proj
+ektas.toc"
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 1.
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+(D:\programos\latex\tex\latex\lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 1.
 
+(D:\programos\latex\tex\latex\lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 1.
+
+(D:\programos\latex\tex\latex\lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 1.
+
+(D:\programos\latex\tex\latex\lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 1.
+ [2
+
+])
 \tf@toc=\write4
-[2
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 114.
 
 (D:\programos\latex\tex\latex\lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 113--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 113--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
-[3
+[4
 
 ] (D:\programos\latex\tex\latex\ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--198
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
+
+ []
+
+[6] <interfeisai/pagrindinis.png, id=247, 1134.639pt x 540.21825pt>
+File: interfeisai/pagrindinis.png Graphic file (type png)
+
+<use interfeisai/pagrindinis.png>
+Package pdftex.def Info: interfeisai/pagrindinis.png used on input line 218.
+(pdftex.def)             Requested size: 567.31812pt x 270.10846pt.
+
+Overfull \hbox (73.55319pt too wide) in paragraph at lines 217--219
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisNeprisijungta.png, id=249, 1141.866pt x 543.2295pt
+>
+File: interfeisai/paskyrosPuslapisNeprisijungta.png Graphic file (type png)
+ <use interfeisai/paskyrosPuslapisNeprisijungta.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisNeprisijungta.png used on 
+input line 222.
+(pdftex.def)             Requested size: 570.9316pt x 271.61407pt.
+
+Overfull \hbox (77.16667pt too wide) in paragraph at lines 221--223
+[]  [] 
+ []
+
+[7 <./interfeisai/pagrindinis.png>]
+<interfeisai/paskyrosPuslapisRegistracija.png, id=256, 1141.866pt x 551.661pt>
+File: interfeisai/paskyrosPuslapisRegistracija.png Graphic file (type png)
+
+<use interfeisai/paskyrosPuslapisRegistracija.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisRegistracija.png used on i
+nput line 226.
+(pdftex.def)             Requested size: 570.9316pt x 275.82982pt.
+
+Overfull \hbox (77.16667pt too wide) in paragraph at lines 225--227
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisRegistracijaSuKlaida.png, id=257, 1135.24126pt x 4
+31.81325pt>
+File: interfeisai/paskyrosPuslapisRegistracijaSuKlaida.png Graphic file (type p
+ng)
+ <use interfeisai/paskyrosPuslapisRegistracijaSuKlaida.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisRegistracijaSuKlaida.png u
+sed on input line 230.
+(pdftex.def)             Requested size: 567.61923pt x 215.90608pt.
+
+Overfull \hbox (73.85431pt too wide) in paragraph at lines 229--231
+[]  [] 
+ []
+
+[8 <./interfeisai/paskyrosPuslapisNeprisijungta.png> <./interfeisai/paskyrosPus
+lapisRegistracija.png>]
+<interfeisai/paskyrosPuslapisRegistracijaSekminga.png, id=264, 1142.46825pt x 5
+27.571pt>
+File: interfeisai/paskyrosPuslapisRegistracijaSekminga.png Graphic file (type p
+ng)
+ <use interfeisai/paskyrosPuslapisRegistracijaSekminga.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisRegistracijaSekminga.png u
+sed on input line 234.
+(pdftex.def)             Requested size: 571.23273pt x 263.78485pt.
+
+Overfull \hbox (77.4678pt too wide) in paragraph at lines 233--235
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisPrisijungimas.png, id=265, 1144.87724pt x 542.025p
+t>
+File: interfeisai/paskyrosPuslapisPrisijungimas.png Graphic file (type png)
+ <use interfeisai/paskyrosPuslapisPrisijungimas.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisPrisijungimas.png used on 
+input line 238.
+(pdftex.def)             Requested size: 572.43723pt x 271.01183pt.
+
+Overfull \hbox (78.6723pt too wide) in paragraph at lines 237--239
+[]  [] 
+ []
+
+[9 <./interfeisai/paskyrosPuslapisRegistracijaSuKlaida.png> <./interfeisai/pask
+yrosPuslapisRegistracijaSekminga.png>]
+<interfeisai/paskyrosPuslapisPrisijungimasSuKlaida.png, id=272, 1138.2525pt x 5
+39.01375pt>
+File: interfeisai/paskyrosPuslapisPrisijungimasSuKlaida.png Graphic file (type 
+png)
+ <use interfeisai/paskyrosPuslapisPrisijungimasSuKlaida.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisPrisijungimasSuKlaida.png 
+used on input line 242.
+(pdftex.def)             Requested size: 569.12486pt x 269.50621pt.
+
+Overfull \hbox (75.35994pt too wide) in paragraph at lines 241--243
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisPamirstasSlaptazodis.png, id=273, 1143.0705pt x 53
+9.616pt>
+File: interfeisai/paskyrosPuslapisPamirstasSlaptazodis.png Graphic file (type p
+ng)
+ <use interfeisai/paskyrosPuslapisPamirstasSlaptazodis.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisPamirstasSlaptazodis.png u
+sed on input line 246.
+(pdftex.def)             Requested size: 571.53384pt x 269.80734pt.
+
+Overfull \hbox (77.76892pt too wide) in paragraph at lines 245--247
+[]  [] 
+ []
+
+[10 <./interfeisai/paskyrosPuslapisPrisijungimas.png> <./interfeisai/paskyrosPu
+slapisPrisijungimasSuKlaida.png>]
+<interfeisai/paskyrosPuslapisPamirstasSlaptazodis2.png, id=280, 1137.048pt x 53
+8.4115pt>
+File: interfeisai/paskyrosPuslapisPamirstasSlaptazodis2.png Graphic file (type 
+png)
+ <use interfeisai/paskyrosPuslapisPamirstasSlaptazodis2.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisPamirstasSlaptazodis2.png 
+used on input line 250.
+(pdftex.def)             Requested size: 568.52261pt x 269.2051pt.
+
+Overfull \hbox (74.75769pt too wide) in paragraph at lines 249--251
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisVartotojasNeapmoketas.png, id=281, 1138.85475pt x 
+528.7755pt>
+File: interfeisai/paskyrosPuslapisVartotojasNeapmoketas.png Graphic file (type 
+png)
+ <use interfeisai/paskyrosPuslapisVartotojasNeapmoketas.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisVartotojasNeapmoketas.png 
+used on input line 254.
+(pdftex.def)             Requested size: 569.42598pt x 264.3871pt.
+
+Overfull \hbox (75.66106pt too wide) in paragraph at lines 253--255
+[]  [] 
+ []
+
+[11 <./interfeisai/paskyrosPuslapisPamirstasSlaptazodis.png> <./interfeisai/pas
+kyrosPuslapisPamirstasSlaptazodis2.png>]
+Overfull \hbox (10.50897pt too wide) in paragraph at lines 256--256
+[]\T1/lmr/bx/n/14.4 Vartotojo pasky-ros pus-lapis - prisi-jun-gus (apmok[]eta u
+� paslau-
+ []
+
+
+<interfeisai/paskyrosPuslapisVartotojasApmoketas.png, id=288, 1140.6615pt x 542
+.62724pt>
+File: interfeisai/paskyrosPuslapisVartotojasApmoketas.png Graphic file (type pn
+g)
+ <use interfeisai/paskyrosPuslapisVartotojasApmoketas.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisVartotojasApmoketas.png us
+ed on input line 258.
+(pdftex.def)             Requested size: 570.32935pt x 271.31296pt.
+
+Overfull \hbox (76.56442pt too wide) in paragraph at lines 257--259
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisVartotojasMokejimas.png, id=289, 1141.26375pt x 54
+7.44525pt>
+File: interfeisai/paskyrosPuslapisVartotojasMokejimas.png Graphic file (type pn
+g)
+ <use interfeisai/paskyrosPuslapisVartotojasMokejimas.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisVartotojasMokejimas.png us
+ed on input line 262.
+(pdftex.def)             Requested size: 570.63048pt x 273.72195pt.
+
+Overfull \hbox (76.86555pt too wide) in paragraph at lines 261--263
+[]  [] 
+ []
+
+[12 <./interfeisai/paskyrosPuslapisVartotojasNeapmoketas.png> <./interfeisai/pa
+skyrosPuslapisVartotojasApmoketas.png>]
+<interfeisai/paskyrosPuslapisVartotojasMokejimasSuKlaida.png, id=296, 1131.6277
+5pt x 548.64975pt>
+File: interfeisai/paskyrosPuslapisVartotojasMokejimasSuKlaida.png Graphic file 
+(type png)
+
+<use interfeisai/paskyrosPuslapisVartotojasMokejimasSuKlaida.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisVartotojasMokejimasSuKlaid
+a.png used on input line 266.
+(pdftex.def)             Requested size: 565.8125pt x 274.3242pt.
+
+Overfull \hbox (72.04758pt too wide) in paragraph at lines 265--267
+[]  [] 
+ []
+
+
+<interfeisai/paskyrosPuslapisAdministratorius.png, id=297, 1135.8435pt x 542.02
+5pt>
+File: interfeisai/paskyrosPuslapisAdministratorius.png Graphic file (type png)
+ <use interfeisai/paskyrosPuslapisAdministratorius.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisAdministratorius.png used 
+on input line 270.
+(pdftex.def)             Requested size: 567.92036pt x 271.01183pt.
+
+Overfull \hbox (74.15544pt too wide) in paragraph at lines 269--271
+[]  [] 
+ []
+
+[13 <./interfeisai/paskyrosPuslapisVartotojasMokejimas.png> <./interfeisai/pask
+yrosPuslapisVartotojasMokejimasSuKlaida.png>]
+Overfull \hbox (5.08379pt too wide) in paragraph at lines 272--272
+[]\T1/lmr/bx/n/14.4 Vartotojo pasky-ros pus-lapis - ad-min-is-tra-to-rius (su k
+laida) 
+ []
+
+
+<interfeisai/paskyrosPuslapisAdministratoriusSuKlaida.png, id=305, 1141.866pt x
+ 548.64975pt>
+File: interfeisai/paskyrosPuslapisAdministratoriusSuKlaida.png Graphic file (ty
+pe png)
+ <use interfeisai/paskyrosPuslapisAdministratoriusSuKlaida.png>
+Package pdftex.def Info: interfeisai/paskyrosPuslapisAdministratoriusSuKlaida.p
+ng used on input line 274.
+(pdftex.def)             Requested size: 570.9316pt x 274.3242pt.
+
+Overfull \hbox (77.16667pt too wide) in paragraph at lines 273--275
+[]  [] 
+ []
+
+
+<interfeisai/optimizavimoPuslapisNeprisijungus.png, id=306, 1143.67274pt x 529.
+98pt>
+File: interfeisai/optimizavimoPuslapisNeprisijungus.png Graphic file (type png)
+
+ <use interfeisai/optimizavimoPuslapisNeprisijungus.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisNeprisijungus.png used
+ on input line 278.
+(pdftex.def)             Requested size: 571.83498pt x 264.98933pt.
+
+Overfull \hbox (78.07005pt too wide) in paragraph at lines 277--279
+[]  [] 
+ []
+
+[14 <./interfeisai/paskyrosPuslapisAdministratorius.png> <./interfeisai/paskyro
+sPuslapisAdministratoriusSuKlaida.png>]
+<interfeisai/optimizavimoPuslapisPrisijungus.png, id=313, 1138.2525pt x 542.025
+pt>
+File: interfeisai/optimizavimoPuslapisPrisijungus.png Graphic file (type png)
+ <use interfeisai/optimizavimoPuslapisPrisijungus.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungus.png used o
+n input line 282.
+(pdftex.def)             Requested size: 569.12486pt x 271.01183pt.
+
+Overfull \hbox (75.35994pt too wide) in paragraph at lines 281--283
+[]  [] 
+ []
+
+
+<interfeisai/optimizavimoPuslapisPrisijungusSuKlaida.png, id=314, 1137.65025pt 
+x 542.025pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusSuKlaida.png Graphic file (typ
+e png)
+ <use interfeisai/optimizavimoPuslapisPrisijungusSuKlaida.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusSuKlaida.pn
+g used on input line 286.
+(pdftex.def)             Requested size: 568.82373pt x 271.01183pt.
+
+Overfull \hbox (75.0588pt too wide) in paragraph at lines 285--287
+[]  [] 
+ []
+
+[15 <./interfeisai/optimizavimoPuslapisNeprisijungus.png> <./interfeisai/optimi
+zavimoPuslapisPrisijungus.png>]
+<interfeisai/optimizavimoPuslapisOptimizuotiPlanai.png, id=321, 1125.003pt x 53
+6.60475pt>
+File: interfeisai/optimizavimoPuslapisOptimizuotiPlanai.png Graphic file (type 
+png)
+ <use interfeisai/optimizavimoPuslapisOptimizuotiPlanai.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisOptimizuotiPlanai.png 
+used on input line 290.
+(pdftex.def)             Requested size: 562.50014pt x 268.30171pt.
+
+Overfull \hbox (68.73521pt too wide) in paragraph at lines 289--291
+[]  [] 
+ []
+
+
+<interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura.png, id=322, 109
+1.277pt x 535.40025pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura.png Graphic
+ file (type png)
+
+<use interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoP
+erziura.png used on input line 294.
+(pdftex.def)             Requested size: 545.63716pt x 267.69946pt.
+
+Overfull \hbox (51.87224pt too wide) in paragraph at lines 293--295
+[]  [] 
+ []
+
+[16 <./interfeisai/optimizavimoPuslapisPrisijungusSuKlaida.png> <./interfeisai/
+optimizavimoPuslapisOptimizuotiPlanai.png>]
+<interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura2.png, id=329, 52
+3.35526pt x 535.40025pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura2.png Graphi
+c file (type png)
+
+<use interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura2.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoP
+erziura2.png used on input line 298.
+(pdftex.def)             Requested size: 628.02315pt x 642.47708pt.
+
+Overfull \hbox (134.25822pt too wide) in paragraph at lines 297--299
+[]  [] 
+ []
+
+[17 <./interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura.png>]
+<interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimas.png, id=
+335, 1141.866pt x 540.8205pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimas.png
+ Graphic file (type png)
+
+<use interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimas.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoP
+lanoIsaugojimas.png used on input line 302.
+(pdftex.def)             Requested size: 570.9316pt x 270.40958pt.
+
+Overfull \hbox (77.16667pt too wide) in paragraph at lines 301--303
+[]  [] 
+ []
+
+[18 <./interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPerziura2.png>]
+<interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimasSuKlaida.
+png, id=341, 1135.8435pt x 539.616pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimasSuKl
+aida.png Graphic file (type png)
+
+<use interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimasSuKla
+ida.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusPasirinktoP
+lanoIsaugojimasSuKlaida.png used on input line 306.
+(pdftex.def)             Requested size: 567.92036pt x 269.80734pt.
+
+Overfull \hbox (74.15544pt too wide) in paragraph at lines 305--307
+[]  [] 
+ []
+
+
+<interfeisai/optimizavimoPuslapisPrisijungusIstorija.png, id=342, 1137.048pt x 
+540.21825pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusIstorija.png Graphic file (typ
+e png)
+ <use interfeisai/optimizavimoPuslapisPrisijungusIstorija.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusIstorija.pn
+g used on input line 310.
+(pdftex.def)             Requested size: 568.52261pt x 270.10846pt.
+
+Overfull \hbox (74.75769pt too wide) in paragraph at lines 309--311
+[]  [] 
+ []
+
+[19 <./interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimas.pn
+g> <./interfeisai/optimizavimoPuslapisPrisijungusPasirinktoPlanoIsaugojimasSuKl
+aida.png>]
+Overfull \hbox (1.78618pt too wide) in paragraph at lines 312--312
+[]\T1/lmr/bx/n/14.4 Optimizavimo pus-lapis - is-tori-jos reda-gav-i-mas (su kla
+ida) 
+ []
+
+
+<interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida.png, id=350, 1122.
+594pt x 528.17325pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida.png Graphic f
+ile (type png)
+
+<use interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuK
+laida.png used on input line 314.
+(pdftex.def)             Requested size: 561.29562pt x 264.08597pt.
+
+Overfull \hbox (67.5307pt too wide) in paragraph at lines 313--315
+[]  [] 
+ []
+
+
+<interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPlanas.png, id=351, 446.26
+724pt x 544.434pt>
+File: interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPlanas.png Graphic fi
+le (type png)
+
+<use interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPlanas.png>
+Package pdftex.def Info: interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPl
+anas.png used on input line 318.
+(pdftex.def)             Requested size: 535.518pt x 653.31752pt.
+
+Overfull \hbox (41.75308pt too wide) in paragraph at lines 317--319
+[]  [] 
+ []
+
+[20 <./interfeisai/optimizavimoPuslapisPrisijungusIstorija.png> <./interfeisai/
+optimizavimoPuslapisPrisijungusIstorijaSuKlaida.png>]
+<interfeisai/susisiekimas.png, id=358, 1144.275pt x 528.17325pt>
+File: interfeisai/susisiekimas.png Graphic file (type png)
+
+<use interfeisai/susisiekimas.png>
+Package pdftex.def Info: interfeisai/susisiekimas.png used on input line 322.
+(pdftex.def)             Requested size: 572.1361pt x 264.08597pt.
+
+Overfull \hbox (78.37117pt too wide) in paragraph at lines 321--323
+[]  [] 
+ []
+
+[21 <./interfeisai/optimizavimoPuslapisPrisijungusIsaugotasPlanas.png>]
+<interfeisai/susisiekimasSuKlaida.png, id=364, 1144.275pt x 547.44525pt>
+File: interfeisai/susisiekimasSuKlaida.png Graphic file (type png)
+
+<use interfeisai/susisiekimasSuKlaida.png>
+Package pdftex.def Info: interfeisai/susisiekimasSuKlaida.png used on input lin
+e 326.
+(pdftex.def)             Requested size: 572.1361pt x 273.72195pt.
+
+Overfull \hbox (78.37117pt too wide) in paragraph at lines 325--327
+[]  [] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
+[22 <./interfeisai/susisiekimas.png> <./interfeisai/susisiekimasSuKlaida.png>]
+[23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
  ("Programų sistemos projektas.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
-
-
-Package rerunfilecheck Warning: File `"Programų sistemos projektas".out' has c
-hanged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Programų sistemos projektas".out'
-:
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  8754183BB33126015BC0C1204CAE277D;2897.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
+Package rerunfilecheck Info: File `"Programų sistemos projektas".out' has not 
+changed.
+(rerunfilecheck)             Checksum: 46892EAB0370BDFD6B929799CB3BE1BE;12346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 12046 strings out of 493698
- 170626 string characters out of 3148061
- 241482 words of memory out of 3000000
- 15242 multiletter control sequences out of 15000+200000
- 23084 words of font info for 23 fonts, out of 3000000 for 9000
+ 12347 strings out of 493698
+ 181252 string characters out of 3148061
+ 246519 words of memory out of 3000000
+ 15444 multiletter control sequences out of 15000+200000
+ 34109 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 37i,5n,38p,354b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,38p,703b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/programos/latex/fonts/enc/dvips/lm/lm-ts1.enc}{D:/programos/latex/fonts/e
 nc/dvips/lm/lm-ec.enc}<D:/programos/latex/fonts/type1/public/lm/lmbx12.pfb><D:/
 programos/latex/fonts/type1/public/lm/lmr12.pfb>
-Output written on "Programų sistemos projektas.pdf" (6 pages, 73001 bytes).
+Output written on "Programų sistemos projektas.pdf" (23 pages, 2127788 bytes).
+
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 
