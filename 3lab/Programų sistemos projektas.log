@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  29 NOV 2015 14:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.4)  29 NOV 2015 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1168,7 +1168,7 @@ Here is how much of TeX's memory you used:
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr12.pfb>
-Output written on "Programų sistemos projektas.pdf" (23 pages, 2092675 bytes).
+Output written on "Programų sistemos projektas.pdf" (23 pages, 2092647 bytes).
 
 PDF statistics:
  413 PDF objects out of 1000 (max. 8388607)
