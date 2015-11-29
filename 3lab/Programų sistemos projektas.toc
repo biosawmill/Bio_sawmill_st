@@ -4,14 +4,15 @@
 \contentsline {subsection}{\numberline {3.1} Paskyros parametr\IeC {\k u} keitimas }{3}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Parametr\IeC {\k u} keitimas}{3}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}P.O. mokestis}{4}{subsubsection.3.1.2}
-\contentsline {subsection}{\numberline {3.2} Paskyros i\IeC {\v s}trinimas }{4}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3} P.O. duomen\IeC {\k u} \IeC {\k i}vedimas }{5}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Duomen\IeC {\k u} validavimas}{5}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Detali\IeC {\k u} .csv failo validavimas}{5}{subsubsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3}Duomen\IeC {\k u} susiejimas}{6}{subsubsection.3.3.3}
-\contentsline {subsection}{\numberline {3.4} Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas }{6}{subsection.3.4}
-\contentsline {section}{\numberline {4}Interfeisai}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}Nam\IeC {\k u} puslapis}{6}{subsection.4.1}
-\contentsline {section}{\numberline {5}Klasi\IeC {\k u} diagrama}{6}{section.5}
-\contentsline {section}{\numberline {6}Reikalavim\IeC {\k u} atsekamum\IeC {\k u} lentel\IeC {\.e}}{6}{section.6}
+\contentsline {subsection}{\numberline {3.2} P.O. duomen\IeC {\k u} \IeC {\k i}vedimas }{4}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Duomen\IeC {\k u} validavimas}{5}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Detali\IeC {\k u} .csv failo validavimas}{5}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Duomen\IeC {\k u} susiejimas}{5}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3} Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas bei "Istorijos" mygtukas}{5}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Pj\IeC {\=u}vio plano informacijos i\IeC {\v s}saugojimas}{5}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}"Istorijos" mygtukas}{6}{subsubsection.3.3.2}
+\contentsline {section}{\numberline {4}Interfeisai}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Nam\IeC {\k u} puslapis}{7}{subsection.4.1}
+\contentsline {section}{\numberline {5}Klasi\IeC {\k u} diagrama}{8}{section.5}
+\contentsline {section}{\numberline {6}Reikalavim\IeC {\k u} atsekamum\IeC {\k u} lentel\IeC {\.e}}{8}{section.6}
 \contentsfinish 

@@ -19,7 +19,7 @@
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{graphicx}
 % --------- UZKOMENTUOTAS  PAVEIKSLELIU PATH
-%\graphicspath{interfeisai/}
+
 \usepackage{indentfirst}
 \usepackage{setspace}
 \usepackage{placeins}
@@ -152,55 +152,41 @@ Jei paskutinė galiojimo data yra ankstesnė nei nurodyta mokėjimo formoje mok�
 pranešama paskutinė aktyvacijos galiojimo dienos data. Kitu atveju vykdomas mokėjimas. \\
 
 Po sekmingai ivykdyto mokėjimo vartotojo būsena pakeičiama į aktyvuotą.
-  
-
-
-\subsection{ Paskyros ištrinimas }
-
-Paskyras ištrinti gali tik administratorius.\\
-
-Pateiktame vartotojų paskyrų saraše spaudžiamas vartotojo \\
-trynimo mygtukas "trinti" atsiradęs paspaudus ant vartotojo.\\\\
-
-Pirmaiausia automatiškai sukurtas pranešimas nusiunčiamas į \\
-vartotojo paštą. Pranešama kad buvo pašalinta paskyra. \\\\
-
-Ir tik tada nusiunčiama užklausa trynimui į duomenų bazę, \\
-ištrinama paskyra iš paskyrų sarašą. \\\\
+ 
 	
 	
 \subsection{ P.O. duomenų įvedimas }
 
-Duomenys įvedami ir išsaugomi, taip kad vartotojas \\
-kita kartą prisijungęs rastų įvestus paskutinius duomenis.\\\\
-Paduotos dvi pasirenkamos standartinės panelės su dydžiais \\
-1200x2500 ir 1200x3050. Bei mygtukas pasirinkti papildomas\\
-norimo dydžio standartines panelės. \\\\
-Detalės įvedamos po vieną arba įkeliamos ".csv" formatu. 
+Prie panelių įvedimo duotos dvi pasirenkamos standartinės panelės 1200x2500 ir 1200x3050\\ 
+dydžių bei papildomos reikiamų matmenų panelės įvedimas, bei mygtukas "Pridėti naują", \\
+kurį paspaudus atsiranda dar vienas papildomos panelės įvedimas, jei bendra panelių suma \\
+neviršija dešimties. \\
+Detales galima įvesti rankiniu budu bei importuoti ".csv" formatu. 
+Taip pat yra mygtukas "Parsisiūsti importuojamo failo pavyzdį", skirtas atsiūsti \\
+pavizdinį ".csv" failą, kuriame parodoma kaip reikia suvesti detales į tokį failą. \\
+Mygtukas "Istorija" parodo sąrašą išsaugotų pjovimo optimizacijos planų.
 
 \subsubsection{Duomenų validavimas}
 \textbf{Tikrinamas standartinių panelių validumas}:\\
-	Ilgis ir plotis nuo 10mm iki 10000mm, kiekis nuo 1 iki 10.
-Tikrinami pasirinkimo laukeliai(checkbox): \\
-Bent vienas jų turi būti pažymėtas.
+	Tikrinama ar yra pasirinkta bent viena panelė. \\
+	Toliau tikrinama ar pasirinktų panelių ilgai ir pločiai nuo 10mm iki 10000mm \\
+
 
 \textbf{Tikrinamas detalių validumas}:\\
-Surandamos visos pasirinktos standartinės panelės, \\
-ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
-Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus \\
-panelių metmenis.
-Tikrinama ar detalių kiekis nedidesnis nei 1000.
+	Surandama iš pasirinktų panelių mažiausias ilgis bei plotis .\\
+	Tada tikrinama ar detalės ilgis ir plotis mažesnis ar lygus už rastus mažiausius ilgius, pločius.\\
+	Tikrinama ar detalių bendaras kiekis neviršija 1000000. \\
+
+Jei validavimas teisingas vykdoma pjovimo optimizacija.
 
 \subsubsection{Detalių .csv failo validavimas}
 \textbf{Tikrinamas detalių validumas}:\\
-Pirmame lauke būtina nurodyti detalės kiekį nuo 1 iki 1000, \\
-antrame ilgį ir trečiame plotį .\\
-
-Surandamos visos pasirinktos standartinės panelės, \\
-ieškoma mažiausias ilgis bei plotis tarp standartinių panelių.\\
-Tada tikrinama ar detalės ilgis ir plotis mažesnis už rastus
-panelių matmenys. \\
-Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
+	Pirmiausiai patikrinama ar failas csv formato. \\
+	Kekvienoje eilutėje turi būti 3 duomenys perskirti kableliais, Jei formatas netinka 
+	išvedamas pranešimas "netinkamas formatas". \\
+	Pirmas nurodomas detalės kiekis nuo 1 iki 1000000, antras ilgis ir trečias plotis. \\
+	Ilgis, plotis turi atitikti detalių validumo standartus, sudėtinis kiekis neviršija 1000000.\\
+	
 
 
 \subsubsection{Duomenų susiejimas}
@@ -209,14 +195,36 @@ Tikrinama ar detalių sudėtinis kiekis nedidesnis nei 1000.
 
 
 
-\subsection{ Pjūvio plano informacijos išsaugojimas }
+\subsection{ Pjūvio plano informacijos išsaugojimas bei "Istorijos" mygtukas}
+\subsubsection{Pjūvio plano informacijos išsaugojimas}
+Duomenų įvedimo skilty išsaugomas paskutinį kartą įvesti pakeisti duomenys.\\
+Sekantį sykį vartotojui atidarius duomenų skilty įvedime bus paskutinį kartą vartotojo vesti duomenys.
 
+Pasirinkęs reikalinga ruošinį vartotojui pateikiamas mygtukas išsaugoti duomenys. \\
+Paspaudus jį pateikiamas plano pavadinimo įvedimas, kuriuo bus saugomi duomenys. \\
+Paspaudžiamas mygtukas saugoti. \\
+Plano pavadinimas įkeliamas į mygtuko "Istorija" sąraše jei dar nėra 10 ruošinių.\\
+Kitu atveju atsiranda pranešimas: \\
+"Jūsų istorijoje jau yra saugoma 10 įrašų. Uždarykite įš langelį ir istorijoje pašalinkite vieną iš įrašų, kad galėtumėte išsaugoti šitą planą". \\
+
+\subsubsection{"Istorijos" mygtukas}
+Istorijos saraše naujiausi planai išsaugoti-aukščiausiai, seniausi išsaugoti žemiausiai.
+Prie plano pavadinimo seka data bei 5 to plano panaudojimo mygtukai.\\
+Paspaudus mygtuką "Naudoti duomenis" nukeliama į duomenų skilty.
+Ten jau suvesti pasirinkto plano duomenys.
+
+Paspaudus mygtuką "Peržiūrėti planą" pateikiami išsaugoti rezultatai:\\
+detalių išdėstymas, sunaudotas panelių kiekis, bendras jų plotas, likutis, bendras pjovimo ilgis.
+
+Paspaudus atsisiuntimo formos mygtuką atsiunčiami minėti duomenys ".pdf" formatu.\\
+Paspaudus šiukšliadežės formos mygtuką ištrinamas išsaugotas planas.\\
+Paspaudus "floppy disk" formos mygtuką išsaugomas pakeistas plano pavadinimas.
 
 
 \section{Interfeisai}
 \subsection{Namų puslapis}
 % --------- UZKOMENTUOTAS PAVEIKSLELIO INCLUDE
-%\includegraphics{pagrindinis}
+\includegraphics{interfeisai/pagrindinis}
 
 \section{Klasių diagrama}
 
