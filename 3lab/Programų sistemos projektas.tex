@@ -109,72 +109,56 @@ Vilnius \ \  2015
 
 \section{Sudėtingesnių modulių veikimo apibrėžimai}
 
-\subsection{ Paskyros parametrų keitimas }
-
-\subsubsection{Parametrų keitimas}
-
-Vartotojas gali keisti savo paskyros duomenis: \\
-	prisijungimo vardą, el. paštą, slaptažodį. \\\\
-	
-Administratoriui atidarius paskyros keitimo langą,\\
-matomas vartotojų sąrašas. Spaudžiamas vartotojo \\
-keitimo mygtukas "Keisti", atsiradęs paspaudus ant vartotojo.\\
-Dėl duomenų saugumo administratorius gali pakeisti tik\\
-vartotojų prisijungimo vardus ir prisijungimo paštus. \\\\
-
-Pakeitimai turi atitikti registracijos formos reikalavimus: \\
-	\tabitem prisijungimo vardas >= 4 simboliai\\
-	\tabitem unikalūs - el. paštas bei prisijungimo vardas.
-    \tabitem slaptažodis >= 8 simboliai. \\\\
-    
-Pakeitimai patikrinami ir jei nėra klaidų, tada užklausa siunčiama \\
-į duomenų bazėje. Taip pat pakeisti duomenys atnaujinami administratoriaus \\
-vartotojų paskyrų sąraše. \\
-Jei klaidų randama - neatitinka reikalavimų tada pažymimi neleistinas \\
-reikšmes įgiję laukai.\\
-
 \subsubsection{P.O. mokestis}
 P.O. mokėjimą galima atlikti po prisijungimo. \\
-Vartotojas paspaudęs mokėjimo mygtuką nurodo:
+Vartotojui paspaudus mokėjimo mygtuką, atsiranda mokėjimo langas, kuriame nurodoma:
 \begin{itemize}
-	\item Aktyvuojamo vartotojo pašto adresą.
-	\item Mokėjimo laikotarpį.
-	\item Datą laikotarpio pradžiai.
+	\item Mokėjimo laikotarpis.
+	\item Data laikotarpio pradžiai. 
 \end{itemize} 
-Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). \\
-Jei vartotojas - aktyvuotas, paskyroje nurodomas aktyvacijos galiojimo laikas.\\
-Aktyvuotas vartotojas gali pratęsti aktyvacijos galiojimo laiką, \\
-bet data turėtų būti vėlesnė už paskutinę galiojimo dieną.\\
-Jei vartotojas - neaktyvuotas, tada nurodo mokėjimo laikotarpį bei datą,
-ne ankstesnę už šiandieną. \\
-Spaudžiamas banko mygtukas per kurį bus atliekamas atsiskaitymas.
-Tinkamai atlikus pavedimą, vartotojo paskyra aktyvuojama arba aktyvacija pratęsiama.
 
-Visų pirma patikrinamas norimas aktyvuoti paštas. \\
-Jei jis neegzistuoja duomenų bazėje pranešama, kur vartotojui klaida.\\
+Vartotojas gali tiek užmokėti už optimizacijos naudojio pradžia tiek pratęsti esanti laikotarpį.
+Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). Galima nurodyti kelis mėnesius ar metus. \\
+Būtinos sąlygos:
+\begin{itemize}
+	\item Data ne vėlesnė už šiandienos bei už paskutinę galiojimo dieną.
+	\item Laikotarpį galima nurodyti ne mažesnį už mėnesį. Jei nurodoma 12 mėnesių tada mokoma už metus.
+\end{itemize}
 
-Tikrinama ar data įvesta ne ankstesnė nei šiandienos. Jei data bloga - vartotojui pranešama, \\
-kad data turi būti ne ankstesnė nei šiandienos.
-
-Toliau su dar viena užklausa db. gaunama data paskutinės galiojimo datos jei tokia yra. \\
-Jei nėra vykdomas mokėjimas. \\
-Jei paskutinė galiojimo data yra ankstesnė nei nurodyta mokėjimo formoje mokėjimas nevyksta, \\
-pranešama paskutinė aktyvacijos galiojimo dienos data. Kitu atveju vykdomas mokėjimas. \\
-
-Po sekmingai ivykdyto mokėjimo vartotojo būsena pakeičiama į aktyvuotą.
- 
-	
+Vartotojui automatiškai parenkamas bankas(default), jis, žinoma, gali pakeisti į norimą.
+Paspaudžiamas "Mokėti" mygtukas.
+Jei duomenų validavimas gražino klaida, vartotojui pranešama, kur įvyko klaida.
+Vartotojas nusiunčiamas į nurodyt banko svetainę, kurioje turi atlikti optimizacijos mokęstį.
+Tinkamai atlikus pavedimą, vartotojos nuo nurodytos datos iki datos ir laikotarpio ilgio sumos\\
+gali naudotis pjovimo optimizacija.
 	
 \subsection{ P.O. duomenų įvedimas }
 
-Prie panelių įvedimo duotos dvi pasirenkamos standartinės panelės 1200x2500 ir 1200x3050\\ 
-dydžių bei papildomos reikiamų matmenų panelės įvedimas, bei mygtukas "Pridėti naują", \\
-kurį paspaudus atsiranda dar vienas papildomos panelės įvedimas, jei bendra panelių suma \\
-neviršija dešimties. \\
-Detales galima įvesti rankiniu budu bei importuoti ".csv" formatu. 
-Taip pat yra mygtukas "Parsisiūsti importuojamo failo pavyzdį", skirtas atsiūsti \\
-pavizdinį ".csv" failą, kuriame parodoma kaip reikia suvesti detales į tokį failą. \\
-Mygtukas "Istorija" parodo sąrašą išsaugotų pjovimo optimizacijos planų.
+\subsubsection{Rankinis įvedimas}
+
+Panelių įvedime pateikiama:
+\begin{itemize}
+	\item dvi stanartinės panelės dydžių: 1200x2500 ir 1200x3050
+	\item viena pasirenkamo dydžio standartinė panelė
+	\item Mygtukas "Pridėti naują" pridedantis pasirenkamo dydžio panelę. 
+\end{itemize} 
+Visos panelės yra pasirenkamos, vartotojas, privalo pasirinkti bent vieną.
+
+Detalių įvedime pateikiama:
+\begin{itemize}
+	\item Detalės kiekio įvedimas
+	\item Detalės ilgio įvedimas
+	\item Detalės pločio įvedimas
+	\item Detalės pridėjimo mygtukas.
+\end{itemize}
+
+Taip pat papildomai pateikti
+\begin{itemize}
+	\item Importavimo iš .csv failo mygtukas
+	\item Pavizdinio failo parsisiuntimo mygtukas 
+	\item Pjūvio plano optimizavimo mygtukas 
+	\item Istorijos mygtukas
+\end{itemize}
 
 \subsubsection{Duomenų validavimas}
 \textbf{Tikrinamas standartinių panelių validumas}:\\
@@ -183,60 +167,79 @@ Mygtukas "Istorija" parodo sąrašą išsaugotų pjovimo optimizacijos planų.
 
 
 \textbf{Tikrinamas detalių validumas}:\\
-	Surandama iš pasirinktų panelių mažiausias ilgis bei plotis .\\
-	Tada tikrinama ar detalės ilgis ir plotis mažesnis ar lygus už rastus mažiausius ilgius, pločius.\\
-	Tikrinama ar detalių bendaras kiekis neviršija 1000000. \\
+	Surandama mažiausias ilgis bei plotis iš duotų panelių .\\
+	Tada tikrinama ar detalės ilgis ir plotis yra mažesnis ar lygus už rastus mažiausius ilgius, pločius.\\
+	Tikrinama ar detalių bendaras kiekis neviršija 100000. \\
 
 Jei validavimas teisingas vykdoma pjovimo optimizacija.
 
+\subsubsection{Įvedimas iš failo}
+
+Faile turi būti bent viena eilutė su 5 stulpeliais:
+\begin{enumerate}
+	\item Panelės ilgis
+	\item Panelės plotis
+	\item Detalės kiekis
+	\item Detalės ilgis
+	\item Detalės plotis.
+\end{enumerate}
+
+ir galimos eilutės su 3 stulpeliais:
+\begin{enumerate}
+	\item Detalės kiekis
+	\item Detalės ilgis
+	\item Detalės plotis.
+\end{enumerate}
+
 \subsubsection{Detalių .csv failo validavimas}
 \textbf{Tikrinamas detalių validumas}:\\
-	Pirmiausiai patikrinama ar failas csv formato. \\
-	Kekvienoje eilutėje turi būti 3 duomenys perskirti kableliais, Jei formatas netinka 
-	išvedamas pranešimas "netinkamas formatas". \\
-	Pirmas nurodomas detalės kiekis nuo 1 iki 1000000, antras ilgis ir trečias plotis. \\
-	Ilgis, plotis turi atitikti detalių validumo standartus, sudėtinis kiekis neviršija 1000000.\\
-	
+	Jei failas tuščias grįžtama į įvestį, kur pranešama kad failas tuščias.
+	Jei faile nėra kablelių pranešama kad failas blogo formato(nėra kablelių).
+	Jei faile atskirus kablelius reikšmių kiekis nėra 3 ar 5, pranešama kad \\
+	blogo formato(neteisingas reikšmių sk.). 
+		
+	Panelių ir detalių dydžiai bei detalių kiekis turi atitikti duomenų validacijos standartus.\\
 
 
-\subsubsection{Duomenų susiejimas}
+\subsection{"Istorijos" mygtukas bei funkcija}
 
-
-
-
-
-\subsection{ Pjūvio plano informacijos išsaugojimas bei "Istorijos" mygtukas}
 \subsubsection{Pjūvio plano informacijos išsaugojimas}
-Duomenų įvedimo skilty išsaugomas paskutinį kartą įvesti pakeisti duomenys.\\
-Sekantį sykį vartotojui atidarius duomenų skilty įvedime bus paskutinį kartą vartotojo vesti duomenys.
-
-Pasirinkęs reikalinga ruošinį vartotojui pateikiamas mygtukas išsaugoti duomenys. \\
-Paspaudus jį pateikiamas plano pavadinimo įvedimas, kuriuo bus saugomi duomenys. \\
+Pasirenkamas reikalinga rezultatų ruošinys. \\
+Pateikiamas plano pavadinimo įvedimas, kuriuo bus saugomi duomenys. \\
 Paspaudžiamas mygtukas saugoti. \\
 Plano pavadinimas įkeliamas į mygtuko "Istorija" sąraše jei dar nėra 10 ruošinių.\\
 Kitu atveju atsiranda pranešimas: \\
 "Jūsų istorijoje jau yra saugoma 10 įrašų. Uždarykite įš langelį ir istorijoje pašalinkite vieną iš įrašų, kad galėtumėte išsaugoti šitą planą". \\
+Teisingu atveju gauti duomenys bei ruošiniai išsaugomi duomenų bazėje.
 
-\subsubsection{"Istorijos" mygtukas}
+\subsubsection{"Istorijos" peržiūra}
+Prisijungus bei paspaudus mygtuką "Istorija" atsiranda Istorijos langas.
 Istorijos saraše naujiausi planai išsaugoti-aukščiausiai, seniausi išsaugoti žemiausiai.
-Prie plano pavadinimo seka data bei 5 to plano panaudojimo mygtukai.\\
-Paspaudus mygtuką "Naudoti duomenis" nukeliama į duomenų skilty.
-Ten jau suvesti pasirinkto plano duomenys.
-
-Paspaudus mygtuką "Peržiūrėti planą" pateikiami išsaugoti rezultatai:\\
-detalių išdėstymas, sunaudotas panelių kiekis, bendras jų plotas, likutis, bendras pjovimo ilgis.
-
-Paspaudus atsisiuntimo formos mygtuką atsiunčiami minėti duomenys ".pdf" formatu.\\
-Paspaudus šiukšliadežės formos mygtuką ištrinamas išsaugotas planas.\\
-Paspaudus "floppy disk" formos mygtuką išsaugomas pakeistas plano pavadinimas.
-
+Prie plano pavadinimo bei datos pateikiami 5 to plano panaudojimo mygtukai.
+\begin{enumerate}
+	\item Paspaudus mygtuką "Naudoti duomenis" nukeliama į duomenų skilty.
+		Ten jau suvesti pasirinkto plano duomenys.
+	\item Paspaudus mygtuką "Peržiūrėti planą" pateikiami išsaugoti rezultatai:
+		\begin{itemize}
+			\item detalių išdėstymas
+			\item sunaudotas panelių kiekis
+			\item bendras detalių plotas
+			\item panelių likutis
+			\item bendras pjovimo ilgis.
+		\end{itemize}
+	\item Paspaudus atsisiuntimo formos mygtuką atsiunčiami minėti duomenys ".pdf" formatu.
+	\item Paspaudus šiukšliadežės formos mygtuką ištrinamas išsaugotas planas.
+	\item Paspaudus "floppy disk" formos mygtuką išsaugomas pakeistas plano pavadinimas.
+\end{enumerate}
 \clearpage
 
 \section{Interfeisai}
 
 \subsection{Pastabos}
-Interfeisuose matomas geltono kontūro langas yra vadinamasis "pop-up" langas. Jo veikimo pavyzdys galėtų būti toks: paprastas vartotojas prisijungia prie savo paskyros lango, jame mato mygtuką "Mokėti", vartotojui paspaudus šį mygtuką paskyros lango turinys yra paslepiamas ir atsiranda geltono kontūro mokėjimo dialogas. Šiame dialoge esantis "X" mygtukas raudoname fone leidžia vartotojui matyti paslėptąjį turinį (su visa jame prieš tai buvusia informacija) ir, žinoma, uždario geltoname kontūre buvusį dialogą, užmirštant visą jame buvi įvestą turinį.\\
+Interfeisuose matomas geltono kontūro langas yra vadinamasis "pop-up" langas. Jo veikimo pavyzdys galėtų būti toks: paprastas vartotojas prisijungia prie savo paskyros lango, jame mato mygtuką "Mokėti", vartotojui paspaudus šį mygtuką paskyros lango turinys yra paslepiamas ir atsiranda geltono kontūro mokėjimo dialogas. Šiame dialoge esantis "X" mygtukas raudoname fone leidžia vartotojui matyti paslėptąjį turinį (su visa jame prieš tai buvusia informacija) ir, žinoma, uždarytame geltoname kontūre buvusį dialogą, užmirštant visą jame buvi įvestą turinį.\\
 Atsijungimo mygtukas matomas tik prisijungus. O jį paspaudus, vartotojas nukreipiamas į namų puslapio langą.
+Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nustatytos svetainėje, tarkim paspaudus anglų kalbą ir paspaudus mygtuką atsisiūsti gaunamas anglų kalbos .pdf failas.
+
 
 \subsection{Namų puslapis}
 \floatfoot{1 interfeisas. Namų puslapis (vartotojas prisijungęs)}
