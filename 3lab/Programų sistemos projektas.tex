@@ -170,7 +170,6 @@ Detalių įvedime pateikiama:
 	Toliau tikrinama ar pasirinktų panelių ilgai ir pločiai nuo 10mm iki 10000mm \\
 
 
-
 \textbf{Tikrinamas detalių validumas}:\\
 	Surandama mažiausias ilgis bei plotis iš duotų panelių .\\
 	Tada tikrinama ar detalės ilgis ir plotis yra mažesnis ar lygus už rastus mažiausius ilgius, pločius.\\
@@ -196,10 +195,14 @@ Reikalaujama įvesti bent viena eilutė su panelės ilgiu ir pločiu nelygiu 0 i
 \textbf{Tikrinamas detalių validumas}:\\
 	Jei failas tuščias grįžtama į įvestį, kur pranešama kad failas tuščias. \\
 	Jei faile nėra kablelių pranešama kad failas blogo formato(nėra kablelių). \\
-	Jei failo eilutėje nėra lygiai 5 reikšmių, pranešama kad blogo formato(neteisingas reikšmių sk.)\\
+	Jei failo eilutėje nėra lygiai 5 reikšmių, pranešama kad blogo formato(neteisingas reikšmių sk.) pvz: 0, 0, 1, 10 ( 4 reikšmės).
 	
-		
-	Panelių ir detalių dydžiai bei detalių kiekis turi atitikti duomenų validacijos standartus.\\
+	
+	Panelių ir detalių dydžiai bei detalių kiekis turi atitikti duomenų validacijos standartus. 
+Tinkamos eilutės pvz.: 150, 150, 2, 75, 80. \\
+	Reiškia kad įvesta standartinė panelė 150 (mm) ilgio ir pločio bei \\
+	įvestos 2 detalės su 75x80(mm) matmenimis
+
 
 
 \subsection{"Istorijos" mygtukas bei funkcija}
@@ -389,7 +392,10 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{17 interfeisas. Optimizavimo puslapis - prisijungus. Vartotojui paspaudus "Pridėti naują" atsiradna nauji duomenų įvedimo laukeliai atitinkamai  prie detalių arbą panelių. "Importuoti iš failo (csv)" mygtukas atidaro standartinį operacinės sistemos failo pasirinkimo langą kuriame įvedamas failas pagal sudetingesnių modelių aprašyme nustatytą standartą.. "Optimizuoti pjūvio planą" mygtukas atodaro 19 interfeisą (dialogą), o "Istorijos" mygtukas 23-ią interfeisą (dialogą).}
+\floatfoot{17 interfeisas. Optimizavimo puslapis - prisijungus. Vartotojui paspaudus "Pridėti naują" atsiradna nauji duomenų įvedimo laukeliai atitinkamai  prie detalių arbą panelių. \\
+"Importuoti iš failo (csv)" mygtukas atidaro standartinį operacinės sistemos failo pasirinkimo langą.\\
+Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
+ "Optimizuoti pjūvio planą" mygtukas atodaro 19 interfeisą (dialogą), o "Istorijos" mygtukas 23-ią interfeisą (dialogą).}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
