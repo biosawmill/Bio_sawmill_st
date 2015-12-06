@@ -109,48 +109,29 @@ Vilnius \ \  2015
 
 \section{Sudėtingesnių modulių veikimo apibrėžimai}
 
-\subsection{ Paskyros parametrų keitimas }
-
-\subsubsection{Parametrų keitimas}
-Vartotojas gali keisti savo paskyros duomenis: \\
-	prisijungimo vardą, el. paštą, slaptažodį. \\\\
-	
-Administratoriui atidariui paskyros keitimo langą\\
-atsiranda sąrašas vartotojų. Spaudžiamas vartotojo \\
-keitimo mygtukas "keisti" atsiradęs paspaudus ant vartotojo.\\
-Dėl duomenų saugumo administratorius gali pakeisti tik\\
-vartotojų prisijungimo vardus ir prisijungimo paštus. \\\\
-
-Pakeitimai turi atitikti registracijos formos reikalavimus: \\
-	\tabitem prisijungimo vardas >= 4 simboliai\\
-	\tabitem unikalus paštas bei prisijungimo vardas.
-    \tabitem slaptažodis >= 8 simboliai. \\\\
-    
-Pakeitimai patikrinami ir jei nera klaidų tada užklausa siunčiama \\
-į duomenų bazėje. Taip pat pakeisti duomenys atnaujinami administratoriaus \\
-vartotojų paskyrų sąraše. \\
-Jei klaidų randama - neatitinka reikalavimų tada pažymimi neleistinas \\
-reikšmes įgiję laukai.\\
-
 \subsubsection{P.O. mokestis}
 P.O. mokėjimą galima atlikti po prisijungimo. \\
-Vartotojas paspaudęs mokėjimo mygtuką nurodo:
+Vartotojui paspaudus mokėjimo mygtuką, atsiranda mokėjimo langas, kuriame nurodoma:
 \begin{itemize}
-	\item Aktyvuojamo vartotojo pašto adresą.
-	\item Mokėjimo laikotarpį.
-	\item Datą laikotarpio pradžiai.
+	\item Mokėjimo laikotarpis.
+	\item Data laikotarpio pradžiai. 
 \end{itemize} 
-Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). \\
-Jei vartotojas - aktyvuotas, paskyroje nurodomas aktyvacijos galiojimo laikas.\\
-Aktyvuotas vartotojas gali pratęsti aktyvacijos galiojimo laiką, \\
-bet data turėtų būti vėlesnė už paskutinę galiojimo dieną.\\
-Jei vartotojas - neaktyvuotas, tada nurodo mokėjimo laikotarpį bei datą,
-ne ankstesnę už šiandieną. \\
-Spaudžiamas banko mygtukas per kurį bus atliekamas atsiskaitymas.
-Tinkamai atlikus pavedimą, vartotojo paskyra aktyvuojama arba aktyvacija pratęsiama.
 
-Visų pirma patikrinamas norimas aktyvuoti paštas. \\
-Jei jis neegzistuoja duomenų bazėje pranešama, kur vartotojui klaida.\\
+Vartotojas gali tiek užmokėti už optimizacijos naudojio pradžia tiek pratęsti esanti laikotarpį.
+Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). Galima nurodyti kelis mėnesius ar metus. \\
+Būtinos sąlygos:
+\begin{itemize}
+	\item Data ne vėlesnė už šiandienos bei už paskutinę galiojimo dieną.
+	\item Laikotarpį galima nurodyti ne mažesnį už mėnesį. Jei nurodoma 12 mėnesių tada mokoma už metus.
+\end{itemize}
+Jei duomenų validavimas gražino klaida, vartotojui pranešama, kur įvyko klaida.
+
+Vartotojui automatiškai parenkamas bankas(default), jis, žinoma, gali pakeisti į norimą.
+Paspaudžiamas "Mokėti" mygtukas.
+Vartotojas nusiunčiamas į nurodyt banko svetainę, kurioje turi atlikti optimizacijos mokęstį.
+Tinkamai atlikus pavedimą, vartotojos nuo nurodytos datos ir laikotarpio ilgio gali naudotis 
+pjovimo optimizacija.
+
 
 Tikrinama ar data įvesta ne ankstesnė nei šiandienos. Jei data bloga - vartotojui pranešama, \\
 kad data turi būti ne ankstesnė nei šiandienos.
