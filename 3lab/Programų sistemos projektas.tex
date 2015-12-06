@@ -95,6 +95,10 @@ Vilnius \ \  2015
 \section{Klasių diagrama}
 \includegraphics[scale=0.5]{ClassDiagram}
 
+\section{Duomenų bazės struktūra}
+Duomenų bazės bus sugeneruota su įrankiu - Hibernate.\\
+Hibernate įrankui bus nenaudojama tik "Optimizacijos" klasė.
+
 
 \section{Sistemos architektūra}
 \subsection{Serverio - mašinos, kurioje bus diegiama sistema - aplinka}
@@ -407,7 +411,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 
 
-\floatfoot{19 interfeisas. Optimizavimo puslapis - po optimizavimo proceso. "Peržiūrėti planą" mygtukas atidaro 20 interfeisą (dialogą). Paspaudus "X" mygtuką visi optimizacijos gauti duomenys bus pamiršti.}
+\floatfoot{19 interfeisas. Optimizavimo puslapis - po optimizavimo proceso. "Peržiūrėti planą" mygtukas atidaro 20 interfeisą (dialogą). Paspaudus "X" mygtuką visi neišsaugoti optimizacijos gauti rezultatai bus pamiršti.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -416,7 +420,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 \clearpage
 
-\floatfoot{20 interfeisas. Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą (iš arčiau). Mygtukas "Parsisiųsti" atodaro standartinį operacinės sistemos failo išsaugojimo langą. Išsaugojimo mygtukas atodaro 21 interfeisą (dialogą), o  "Istorijos" mygtukas 23 interfeisą (dialogą).}
+\floatfoot{20 interfeisas. Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą (iš arčiau). Mygtukas "Parsisiųsti" atidaro standartinį operacinės sistemos failo išsaugojimo langą. Išsaugojimo mygtukas atodaro 21 interfeisą (dialogą), o  "Istorijos" mygtukas 23 interfeisą (dialogą).}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -425,7 +429,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 
 
-\floatfoot{21 interfeisas. Optimizavimo puslapis - pasirinkto plano išsaugojimas. Paspaudus mygtuką "Išsaugoti" šis dialogas yra uždaromas ir grįžtamą į 19 dialogą, tą patį atlieką ir "X" mygtukas.}
+\floatfoot{21 interfeisas. Optimizavimo puslapis - pasirinkto plano išsaugojimas. Paspaudus mygtuką "Išsaugoti" šis dialogas yra uždaromas ir grįžtamą į 19 dialogą, paspaudus "X" mygtuką nevykdomas išsaugojimas ir grįžtama į 19 dialogą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
