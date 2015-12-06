@@ -29,8 +29,7 @@
 \usepackage[unicode]{hyperref}
 \usepackage{hyperref}
 \usepackage{tocloft}
-\usepackage{graphicx}
-\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+\usepackage{graphicx}\newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
    \makebox[\paperwidth][r]{#1}}}
 \usepackage[dotinlabels]{titletoc}
 \usepackage[capposition=top]{floatrow}
@@ -47,7 +46,7 @@
 
 
 \begin{document}
-\graphicspath{ {/} }
+\graphicspath{./}
 
 \renewcommand{\cftdot}{.}	
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
@@ -140,6 +139,13 @@ gali naudotis pjovimo optimizacija.
 	
 \subsection{ P.O. duomenų įvedimas }
 
+Duomenys galima įvesti tiek rankiniu tiek failo ikėlimo budu.\\
+Nežinantiem kaip užpildyti failą galima atsisiūsti pavizdinį failą\\
+paspaudus mygtuką "Pavizdinio failo parsisiuntimas".\\
+Paspaudus mygtuką "Istorija" galima peržvelgti praeitus optimizacijos \\
+duomenis ir juos panaudoti įvedime.\\
+Pabaigus įvedimą spaudžiamas "Optimizuoti mygtukas", atliekamas duomenų\\ validavimas. O tik po teisingo duomenų validavimo pradedama optimizacija.
+
 \subsubsection{Rankinis įvedimas}
 
 Panelių įvedime pateikiama:
@@ -158,18 +164,11 @@ Detalių įvedime pateikiama:
 	\item Detalės pridėjimo mygtukas.
 \end{itemize}
 
-Taip pat papildomai pateikti
-\begin{itemize}
-	\item Importavimo iš .csv failo mygtukas
-	\item Pavizdinio failo parsisiuntimo mygtukas 
-	\item Pjūvio plano optimizavimo mygtukas 
-	\item Istorijos mygtukas
-\end{itemize}
-
 \subsubsection{Duomenų validavimas}
 \textbf{Tikrinamas standartinių panelių validumas}:\\
 	Tikrinama ar yra pasirinkta bent viena panelė. \\
 	Toliau tikrinama ar pasirinktų panelių ilgai ir pločiai nuo 10mm iki 10000mm \\
+
 
 
 \textbf{Tikrinamas detalių validumas}:\\
@@ -190,8 +189,8 @@ Faile  kekviena eilutė turi tuėti 5 stulpelius:
 	\item Detalės plotis.
 \end{enumerate}
 
-Jeiu vartotojas nurodo panelės ilgį bei panelės plotį - 0 tada panelė neįrašoma ir skaitomis detalės duomenys\\
-Bet bent viena eilutė su panelės ilgiu ir pločiu nelygiu 0 turi būti, bet bent viena detalė
+Jeiu vartotojas nurodo panelės ilgį bei panelės plotį - 0, tada panelė praleidžiama ir skaitoma detalės duomenys. \\
+Reikalaujama įvesti bent viena eilutė su panelės ilgiu ir pločiu nelygiu 0 ir bet bent viena detalė.
 
 \subsubsection{Detalių .csv failo validavimas}
 \textbf{Tikrinamas detalių validumas}:\\
@@ -406,6 +405,14 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
+\floatfoot{18.1 interfeisas. Optimizavimo puslapis - optimizavimo procesas. Paspaudus "X" grįžtama į optimizavimo interfeisą 17.}
+\begin{figure}[!tph]
+\hspace{-2cm}
+\centering
+\includegraphics[scale=0.45]{interfeisai/optimizuojama}
+\label{fig:verticalcell}
+\end{figure}
+\clearpage
 
 \floatfoot{19 interfeisas. Optimizavimo puslapis - po optimizavimo proceso. "Peržiūrėti planą" mygtukas atidaro 20 interfeisą (dialogą). Paspaudus "X" mygtuką visi neišsaugoti optimizacijos gauti rezultatai bus pamiršti.}
 \begin{figure}[!tph]
@@ -416,7 +423,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 \clearpage
 
-\floatfoot{20 interfeisas. Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą (iš arčiau). Mygtukas "Parsisiųsti" atidaro standartinį operacinės sistemos failo išsaugojimo langą. Išsaugojimo mygtukas atidaro 21 interfeisą (dialogą), o  "Istorijos" mygtukas 23 interfeisą (dialogą).}
+\floatfoot{20 interfeisas. Optimizavimo puslapis - po optimizavimo, pasirinkus vieno iš planų peržiūrą (iš arčiau). Mygtukas "Parsisiųsti" atidaro standartinį operacinės sistemos failo išsaugojimo langą pjūvio plano ruošiniui (.pdf) atsisiuntimui. Išsaugojimo mygtukas atidaro 21 interfeisą (dialogą), o  "Istorijos" mygtukas 23 interfeisą (dialogą).}
 
 \begin{figure}[!tph]
 \hspace{-2cm}
@@ -624,25 +631,30 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 % ---------------------------------- ATKOMENTUOTA ------------------------------
 
 \section{Interfeisų atsekamumų lentelė}
+
 \begin{frame}
 \centering
 \begin{tabular}{|c|c|}
 \hline
 \textbf{Interfeisai} 			& \textbf{Naudojimosi atvejai}                                                    \\ \hline
-I3, I4, I5		      			& 1 Registracija                                                                     \\ \hline
-I6, I7, I16						& 2 Prisiungimas prie sistemos 	\\ \hline
-Visur							& 3 Atsijungimas nuo sistemos	\\ \hline
-I8, I9 							& 4 Slaptažodžio atgavimas		\\ \hline	
-I10, I11							& 5 Pakeisti paskyros duomenis	\\ \hline
-I11, I12, I13					& 6 Mokestis už optimizacija		\\ \hline
-I14, I15, I15.1					& 7 Paskyru trinimas				\\ \hline
-I17, I18							& 8 Duomenų įvedimas   			\\ \hline
-I19								& 10 Pjūvio plano pasirinkimas	\\ \hline
-I20, I23, I24, I25				& 11 Atspausdinti pjūvio planą	\\ \hline
-I20, I21, I22, I23, I24			& 12 Išsaugoti pjūvio planą                                                                              \\ \hline
+I3, I4, I5		      			& 1. Registracija                                                                     \\ \hline
+I6, I7, I16						& 2. Prisiungimas prie sistemos 	\\ \hline
+Visur							& 3. Atsijungimas nuo sistemos	\\ \hline
+I8, I9 							& 4. Slaptažodžio atgavimas		\\ \hline	
+I10, I11							& 5. Pakeisti paskyros duomenis	\\ \hline
+I11, I12, I13					& 6. Mokestis už optimizacija		\\ \hline
+I14, I15, I15.1					& 7. Paskyru trinimas				\\ \hline
+I17, I18							& 8. Duomenų įvedimas   			\\ \hline
+I18.1							& 9. Pjūvio plano optimizavimas	\\ \hline
+I19								& 10. Pjūvio plano pasirinkimas	\\ \hline
+I20, I23, I24, I25				& 11. Atspausdinti pjūvio planą	\\ \hline
+I20, I21, I22, I23, I24			& 12. Išsaugoti pjūvio planą                                                                              \\ \hline
 
 \end{tabular}
 \end{frame}
+\\
+\vspace{0.1cm}
+I1, I2, ... ,I27 - Žymimi interfeisų numeriai.
 
 \clearpage
 
@@ -653,23 +665,23 @@ I20, I21, I22, I23, I24			& 12 Išsaugoti pjūvio planą                        
 \hline
 \textbf{Reikalavimai} & \textbf{Interfeisai}                                                           \\ \hline
 F1                    & I2, I3, I4, I5			\\ \hline
-F2                    & I6, I7, , I16         	\\ \hline
+F2                    & I6, I7, I16        	 	\\ \hline
 F3                    & VISI  					\\ \hline
 F4                    & I8, I9 					\\ \hline
-F5					
 F5                    & I10, I11, I14, I15, I15.1\\ \hline
 F6                    & I10, I11, I12, I13		\\ \hline
 F7                    & I17, I18					\\ \hline
 F8                    & I17, I18					\\ \hline
-F9                    & \\ \hline
-F10                   & 19, 20                                                                         \\ \hline
-F11                   & 19                                                                             \\ \hline
-F12                   & 20, 23, 25                                                                     \\ \hline
-F13                   & 20, 21                                                                         \\ \hline
-F14                   & 17, 20, 23                                                                     \\ \hline
+F9                    & I18.1\\ \hline
+F10                   & I19, I20                                                                         \\ \hline
+F11                   & I19                                                                             \\ \hline
+F12                   & I20, I23, I24, I25                                                                     \\ \hline
+F13                   & I20, I21, I22			\\ \hline
+F14                   & I17, I18, I19, I20, I23, I24			\\ \hline
 F15                   & VISI                                                                           \\ \hline
-F16                   & \begin{tabular}[c]{@{}c@{}}4, 7, 11, 13, 15,\\ 16, 18, 22, 24, 27\end{tabular} \\ \hline
+F16                   & \begin{tabular}[c]{@{}c@{}}I4, I7, I11, I13, I15,\\ I16, I18, I22, I24, I27\end{tabular} \\ \hline
 \end{tabular}
-\end{frame}
+\end{frame}\\
+I1, I2, ... ,I27 - Žymimi interfeisų numeriai.
+
 \end{document}
-9- Numerio nėra 
