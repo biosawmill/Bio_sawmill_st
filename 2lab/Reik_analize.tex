@@ -94,15 +94,17 @@ Vilnius \ \  2015
 \label{my-label}
 \begin{tabular}{|l|l|l|}
 \hline
-\textbf{ID}	& \textbf{Reikalavimai}							& \textbf{Grupės}  \\ \hline
+\textbf{ID}	& \textbf{Reikalavimai}							& \textbf{
+													\colorbox{yellow}{Grupės}
+															}  \\ \hline
 
 F1	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
 			Vartotojas turi galėti užsiregistruoti sistemoje: registruojantis reikia nurodyti} \\\colorbox{yellow}{vartotojo vardą, el. paštą ir slaptažodį.}
-		\end{tabular}										& 1	     		\\ \hline
+		\end{tabular}										& 1	   	\\ \hline
 
 F2	& 	\begin{tabular}[c]{@{}l@{}}
 			\colorbox{yellow}{Vartotojas turi galėti prisijungti prie sistemos, tam reikia vartotojo vardo} \\ \colorbox{yellow}{arba el. pašto ir slaptažodžio.}
-		\end{tabular}										& 1, 3			\\ \hline
+		\end{tabular}										& 1, 3	\\ \hline
 	
 F3	& 	\begin{tabular}[c]{@{}l@{}}
 			Vartotojas turi galėti atsijungti nuo sistemos.
@@ -111,75 +113,91 @@ F3	& 	\begin{tabular}[c]{@{}l@{}}
 
 F4	& 	\begin{tabular}[c]{@{}l@{}}
 			\colorbox{yellow}{Galimybė atgauti pamirštus slaptažodžius (į el. paštą).}
-		\end{tabular}							 			& 1, 3			\\ \hline
+		\end{tabular}							 			& 1, 3	\\ \hline
 
 F5	& 	\begin{tabular}[c]{@{}l@{}}
-			\colorbox{yellow}{Paskyros duomenų keitimo forma. Paprastas vartotojas turi  galėti pasikeisti}\\ \colorbox{yellow}{savo vartotojo vardą, slaptažodį ir el. paštą.
-			Aministratorius papildomai dar gali}\\\colorbox{yellow}{ištrinti vartotojus, keisti optimizavimo galiojimo laikotarpį, bei priminti visus}\\\colorbox{yellow}{
-			paskyros duomenis vartotojui (į jo el. paštą).}			
-		\end{tabular}										& 1, 3			\\ \hline 
+			\colorbox{yellow}{
+				Paskyros duomenų keitimo forma. Paprastas vartotojas 
+				turi  galėti pasikeisti
+			}\\\colorbox{yellow}{
+				savo vartotojo vardą, slaptažodį ir el. paštą.
+				Aministratorius papildomai dar gali
+			}\\\colorbox{yellow}{
+				ištrinti vartotojus, keisti optimizavimo galiojimo 
+				laikotarpį, bei priminti visus
+			}\\\colorbox{yellow}{
+				paskyros duomenis vartotojui (į jo el. paštą).
+			}			
+		\end{tabular}										& 1, 3	\\ \hline 
 F6	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{green}{
 			Vartotojas (ne administratorius) turi galėti užsimokėti už optimizavimo paslaugą}\\\colorbox{green}{ir ją pratęsti.}
 		\end{tabular}										& 1				\\ \hline
 		
-F7	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
+F7	& 	Vartotojo paskyros ištrinimas						& 3		\\ \hline
+		
+F8	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
 			Galimybė nurodyti pjovimo optimizacijos duomenis: 
 			standartinių panelių}\\\colorbox{yellow}{matmenis bei
 			detalių matmenis ir kiekius.} 
-		\end{tabular}										& 1, 3			\\ \hline
-F8	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{green}{
+		\end{tabular}										& 1, 3	\\ \hline
+F9	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{green}{
 			Galimybė nurodyti pjovimo optimizacijos duomenis: 
 			standartinių panelių}\\\colorbox{green}{ matmenis bei
 			detalių matmenis ir kiekius įkeliant ".csv" failą.} 
-		\end{tabular}										& 1, 3			\\ \hline
-F9	& 	\begin{tabular}[c]{@{}l@{}}
-			Pjūvio plano optimizavimas, pagal nurodytus optimizavimo parametrus.           	   			
-		\end{tabular}										& 2				\\ \hline
-		
+		\end{tabular}										& 1, 3	\\ \hline
+
 F10	& 	\begin{tabular}[c]{@{}l@{}}
-			Optimizuotų pjūvio planų informacijos pateikimas	vartotojui.	
-		\end{tabular}										& 2     			\\ \hline
+			Sistema optimizuoja detalių išpjovimą iš 
+			standartinių panelių        	   			
+		\end{tabular}										& 2		\\ \hline
 
+		
 F11	& 	\begin{tabular}[c]{@{}l@{}}
+			Optimizuotų pjūvio planų informacijos pateikimas	vartotojui.	
+		\end{tabular}										& 2    	\\ \hline
+
+F12	& 	\begin{tabular}[c]{@{}l@{}}
 			Optimizuotų pjūvio planų variantų pasirinkimas.		
-		\end{tabular}										& 1, 3			\\ \hline
+		\end{tabular}										& 1, 3	\\ \hline
 
-F12 & 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
-			Pjūvio plano ruošinio (.pdf) atsisiuntimas. Failas atsiunčiamas į vartotojo įrenginį.}
-		\end{tabular}									& 1, 3			\\ \hline
+F13 & 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
+			Pjovimo plano atsispausdinimas, pjūvio plano ruošinio (.pdf)} \\					\colorbox{yellow}{atsisiuntimas. Failas atsiunčiamas į vartotojo įrenginį.}
+		\end{tabular}										& 1, 3	\\ \hline
 
-F13 	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
+F14 	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
 			Pjūvio plano rezultatų išsaugojimas (plano pavadinimas,
 			 data, panelių kiekis, }\\\colorbox{yellow}{bendras jų plotas, medienos likutis,
 			 detalių išdėstymas, bendras pjovimo ilgis).}\\\colorbox{yellow}{
 			Taip pat reikia išsaugoti pjūvio plano pradinius duomenis. 
 			Visi duomenys}\\\colorbox{yellow}{ saugomi duomenų bazėje.}
-		\end{tabular}									& 1, 3			\\ \hline
-F14 	& 	\begin{tabular}[c]{@{}l@{}}
+		\end{tabular}										& 1, 3	\\ \hline
+F15 	& 	\begin{tabular}[c]{@{}l@{}}
 			\colorbox{green}{Pjūvio plano rezultatų ir jo pradinių duomenų peržiūra.}
-		\end{tabular}									& 1, 3			\\ \hline
-F15	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
+		\end{tabular}										& 1, 3	\\ \hline
+F16	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{yellow}{
 			Kalbos pasirinkimas (LT, EN). Tai turi būti galima padaryti, iš betkurio lango.}\\\colorbox{yellow}{Tai gali atlikti tiek vartotojas tieks svetainės svečias.}
-		\end{tabular}
-									& 1, 3			\\ \hline
-F16	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{green}{
+		\end{tabular}										& 1, 3	\\ \hline
+F17	& 	\begin{tabular}[c]{@{}l@{}}\colorbox{green}{
 			Aptikti įvedamų duomenų ir kitas klaidas, apie tai pranešti vartotojui.} 
-		\end{tabular}										& 1, 3			\\ \hline
+		\end{tabular}										& 1, 3	\\ \hline
 %% Prideti išsaugojima duomenų kita kart atsidarius.
 
-NF1 & 	Užtikrinti kalbos pakeitimą							& 1, 3			\\ \hline
+NF1 & 	Užtikrinti kalbos pakeitimą							& 1, 3	\\ \hline
 
-NF2 & 	Prisijungimo vardo ilgis nemažesnis už 4				& 1, 3			\\ \hline 
+NF2 & 	Prisijungimo vardo ilgis nemažesnis už 4 simbolius 	& 1, 3	\\ \hline 
 
-NF3 & 	Slaptažodžio ilgis nemažesnis už 8					& 1, 3			\\ \hline 
+NF3 & 	Slaptažodžio ilgis nemažesnis už 8 simbolius 		& 1, 3	\\ \hline 
 
 NF4 & 
 \begin{tabular}[c]{@{}l@{}}
 Prisijungime pakeičiamai dalyvauja sistemoje registruotas\\
 vartotojo slapyvardis arba el.paštas, bei slaptažodis.			
-\end{tabular}												& 1, 3			\\ \hline 
+\end{tabular}												& 1, 3	\\ \hline 
 
-NF5	&	Paštas bei prisjungimo vardas unikalūs				& 1, 3			\\ \hline
+NF5 & \begin{tabular}[c]{@{}l@{}}
+	\colorbox{yellow}{Registracijoje patikrinama, ar prisijungimo vardas, paštas}\\
+	\colorbox{yellow}{nesikartoja	su duomenų bazės įrašais}
+	\end{tabular}											& 1, 3	\\ \hline				
 
 \end{tabular}
 \end{frame}
@@ -192,59 +210,63 @@ NF5	&	Paštas bei prisjungimo vardas unikalūs				& 1, 3			\\ \hline
 \hline
 \textbf{ID}	& \textbf{Reikalavimai}						& \textbf{Moduliai}  \\ \hline
 
-F1	& Registracija										& 1	     		\\ \hline
+F1	& Registracija										& 1	    	\\ \hline
 
-F2	& Prisijungimas prie sistemos						& 1, 3			\\ \hline
+F2	& Prisijungimas prie sistemos						& 1, 3	\\ \hline
 
-F3	& Atsijungimo nuo sistemos							& 1, 3			\\ \hline
+F3	& Atsijungimo nuo sistemos							& 1, 3	\\ \hline
 
-F4	& Slaptažodžio atgavimas								& 1, 3			\\ \hline
+F4	& Slaptažodžio atgavimas								& 1, 3	\\ \hline
 
-F5	& Paskyros parametrų keitimas 	  					& 1, 3			\\ \hline 
+F5	& Paskyros parametrų keitimas 	  					& 1, 3	\\ \hline 
 
-F6	& \colorbox{red}{Vartotojo paskyros deaktyvacija		}			& 1				\\ \hline
+F6	& \colorbox{red}{Vartotojo paskyros deaktyvacija}	& 1		\\ \hline
 
-F7	& \colorbox{red}{Vartotojo paskyros aktyvacija}						& 1				\\ \hline
+F7	& \colorbox{red}{Vartotojo paskyros aktyvacija}		& 1		\\ \hline
 
-F8	& \colorbox{red}{Vartotojo paskyros ištrinimas}					& 3				\\ \hline
+F8	& Vartotojo paskyros ištrinimas						& 3		\\ \hline
 
-F9	& Pjovimo optimizacijos duomenų įvedimas				& 1, 3			\\ \hline
+F9	& Pjovimo optimizacijos duomenų įvedimas				& 1, 3	\\ \hline
 
-F10	& Pjūvio plano optimizavimas           	   			& 2				\\ \hline
+F10	& Pjūvio plano optimizavimas           	   			& 2		\\ \hline
 
-F11	& Optimizuotų pjūvio planų informacijos pateikimas	& 2     			\\ \hline
+F11	& Optimizuotų pjūvio planų informacijos pateikimas	& 2     	\\ \hline
 
-F12	& Optimizuotų pjūvio planų variantų pasirinkimas		& 1, 3			\\ \hline
+F12	& Optimizuotų pjūvio planų variantų pasirinkimas		& 1, 3	\\ \hline
 
-F13 & Pjūvio plano ruošinio atsisiuntimas				& 1, 3			\\ \hline
+F13 & Pjūvio plano ruošinio atsisiuntimas				& 1, 3	\\ \hline
 
-F14 	& Pjūvio plano informacijos išsaugojimas				& 1, 3			\\ \hline
+F14 	& Pjūvio plano informacijos išsaugojimas				& 1, 3	\\ \hline
 
-F15	& Kalbos pasirinkimas(LT, EN)						& 1, 3			\\ \hline
+F15	& Kalbos pasirinkimas(LT, EN)						& 1, 3	\\ \hline
 
-NF1 & Užtikrinti kalbos pakeitimą						& 1, 3			\\ \hline
+NF1 & Užtikrinti kalbos pakeitimą						& 1, 3	\\ \hline
 
-NF2 & Prisijungimo vardo ilgis nemažesnis už 4			& 1, 3			\\ \hline 
+NF2 & Prisijungimo vardo ilgis nemažesnis už 4			& 1, 3	\\ \hline 
 
-NF3 & Elektroninis paštas galioja						& 1, 3			\\ \hline 
+NF3 & \colorbox{red}{Elektroninis paštas galioja}		& 1, 3	\\ \hline 
 
-NF3 & Slaptažodžio ilgis nemažesnis už 8					& 1, 3			\\ \hline 
+NF4 & Slaptažodžio ilgis nemažesnis už 8					& 1, 3	\\ \hline 
 
-NF4 & Prisijungimo duomenys išskyrus slaptažodį - unikalūs	& 1, 3			\\ \hline 
+NF5 & Prisijungimo duomenys išskyrus slaptažodį - unikalūs& 1, 3	\\ \hline 
 
-NF5 & 
+NF6 & 
 \begin{tabular}[c]{@{}l@{}}
 Prisijungime pakeičiamai dalyvauja sistemoje registruotas vartotojo slapyvardis\\
 arba el.paštas, bei slaptažodis.			
-\end{tabular}											& 1, 3			\\ \hline 
+\end{tabular}											& 1, 3	\\ \hline 
 
 
 \end{tabular}
 \end{frame}
-\vspace{1cm}
+\vspace{1cm}\\
 \textbf{Moduliai} \\
 1 - Vartotojų, 2 - P.O., 3 - Administratoriaus.
 
+\textbf{Spalvos} \\
+Raudona - ištrinti reikalavimai.
+Geltona - pakeisti reikalavimai. 
+Žalia - nauji reikalavimai.
 
 \vspace{1cm}
 *Informacija - panelių kiekis, bendras jų plotas, likutis, pjovimo ilgis, detalių išdėstymas.
@@ -261,14 +283,14 @@ arba el.paštas, bei slaptažodis.
 \begin{tabular}[c]{@{}l@{}}
 Vartotojas nurodo reikalingų detalių ilgius (mm), 
 aukščius (mm) ir kiekius.                                                                                                                                                                                                                                                                              
-\end{tabular} 									& F8, F9	                		\\ \hline
+\end{tabular} 									& F8, F9.	                		\\ \hline
 
 \begin{tabular}[c]{@{}l@{}}
 Sistema optimizuoja detalių išpjovimą iš standartinių panelių 1200x2500.\\ 
 Po to pakartoja šį procesą su standartiniais paneliais 1200x3050.\\ 
 (Turėkite omenyje, kad pjovimo plotis yra 4 mm, todėl iš standartinės \\ 
 panelės 1200x2500 negalima išpjauti 2 detalių 600x2500.)
-\end{tabular}									& F10, F11					\\ \hline
+\end{tabular}									& F10					\\ \hline
 
 \begin{tabular}[c]{@{}l@{}}
 Sistema pateikia abiejų variantų informaciją vartotojui ir pasirenka, \\ 
@@ -276,11 +298,11 @@ kuris variantas jam labiau tinka. Vartotojui pasirinkus, sistema \\
 turi parodyti ekrane pjovimo planą su galimybe jį atsispausdinti \\
 (su atspausdintu planu vartotojas gali kreiptis į tiekėją, kad \\ 
 išpjautų jam reikiamas detales).
-\end{tabular}									& F12, F13	 				\\ \hline
+\end{tabular}									& F11, F12, F13	 				\\ \hline
 
-Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         												& F1, F2	, F3, F4, F5, F6, F7, F15, F16	\\ \hline
+Planuojama sistemą pateikti kaip paslaugą išoriniams vartotojams.                                                                                                                                                                                                                                                                                         												& F1, F2	, F3, F4, F5, F6, F7, F14, F15, F16	\\ \hline
 
-Įvedami standartinių panelių dydžiai.			& F9							\\ \hline
+Įvedami standartinių panelių dydžiai.			& F8, F9							\\ \hline
 
 \end{tabular}
 \end{frame}
