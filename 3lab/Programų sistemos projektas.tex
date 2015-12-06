@@ -181,7 +181,7 @@ Jei validavimas teisingas vykdoma pjovimo optimizacija.
 
 \subsubsection{Įvedimas iš failo}
 
-Faile turi būti bent viena eilutė su 5 stulpeliais:
+Faile  kekviena eilutė turi tuėti 5 stulpelius:
 \begin{enumerate}
 	\item Panelės ilgis
 	\item Panelės plotis
@@ -190,19 +190,15 @@ Faile turi būti bent viena eilutė su 5 stulpeliais:
 	\item Detalės plotis.
 \end{enumerate}
 
-ir galimos eilutės su 3 stulpeliais:
-\begin{enumerate}
-	\item Detalės kiekis
-	\item Detalės ilgis
-	\item Detalės plotis.
-\end{enumerate}
+Jeiu vartotojas nurodo panelės ilgį bei panelės plotį - 0 tada panelė neįrašoma ir skaitomis detalės duomenys\\
+Bet bent viena eilutė su panelės ilgiu ir pločiu nelygiu 0 turi būti, bet bent viena detalė
 
 \subsubsection{Detalių .csv failo validavimas}
 \textbf{Tikrinamas detalių validumas}:\\
-	Jei failas tuščias grįžtama į įvestį, kur pranešama kad failas tuščias.
-	Jei faile nėra kablelių pranešama kad failas blogo formato(nėra kablelių).
-	Jei faile atskirus kablelius reikšmių kiekis nėra 3 ar 5, pranešama kad \\
-	blogo formato(neteisingas reikšmių sk.). 
+	Jei failas tuščias grįžtama į įvestį, kur pranešama kad failas tuščias. \\
+	Jei faile nėra kablelių pranešama kad failas blogo formato(nėra kablelių). \\
+	Jei failo eilutėje nėra lygiai 5 reikšmių, pranešama kad blogo formato(neteisingas reikšmių sk.)\\
+	
 		
 	Panelių ir detalių dydžiai bei detalių kiekis turi atitikti duomenų validacijos standartus.\\
 
@@ -265,7 +261,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{3 interfeisas. Vartotojo paskyros puslapis - registracija}
+\floatfoot{I1. 3 interfeisas. Vartotojo paskyros puslapis - registracija}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -289,7 +285,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
  
-\floatfoot{6 interfeisas. Vartotojo paskyros puslapis - prisijungimas. Sėkmingai prisijungus, vartotojas nukreipiamas į 10 arba 11 stiliaus interfeisą, priklauso nuo to ar jis yra užsimokėjęs už paslaugas.}
+\floatfoot{I2. 6 interfeisas. Vartotojo paskyros puslapis - prisijungimas. Sėkmingai prisijungus, vartotojas nukreipiamas į 10 arba 11 stiliaus interfeisą, priklauso nuo to ar jis yra užsimokėjęs už paslaugas.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -305,7 +301,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{8 interfeisas. Vartotojo paskyros puslapis - pamirštas slaptažodis. Vartotojui paspaudus "Priminti slaptažodį" jis nukreipiamas į 9 interfeisą.}
+\floatfoot{I3. 8 interfeisas. Vartotojo paskyros puslapis - pamirštas slaptažodis. Vartotojui paspaudus "Priminti slaptažodį" jis nukreipiamas į 9 interfeisą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -394,7 +390,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{17 interfeisas. Optimizavimo puslapis - prisijungus. Vartotojui paspaudus "Pridėti naują" atsiradna nauji duomenų įvedimo laukeliai atitinkamai  prie detalių arbą panelių. "Importuoti iš failo (csv)" mygtukas atidaro standartinį operacinės sistemos failo pasirinkimo langą. "Optimizuoti pjūvio planą" mygtukas atodaro 19 interfeisą (dialogą), o "Istorijos" mygtukas 23-ią interfeisą (dialogą).}
+\floatfoot{17 interfeisas. Optimizavimo puslapis - prisijungus. Vartotojui paspaudus "Pridėti naują" atsiradna nauji duomenų įvedimo laukeliai atitinkamai  prie detalių arbą panelių. "Importuoti iš failo (csv)" mygtukas atidaro standartinį operacinės sistemos failo pasirinkimo langą kuriame įvedamas failas pagal sudetingesnių modelių aprašyme nustatytą standartą.. "Optimizuoti pjūvio planą" mygtukas atodaro 19 interfeisą (dialogą), o "Istorijos" mygtukas 23-ią interfeisą (dialogą).}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -497,7 +493,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 
 \subsection{ Nenumatytos klaidos atvejis}
-\floatfoot{28 interfeisas. Nenumatyta klaida}
+\floatfoot{28 interfeisas. Nenumatyta klaida, pateikiamas hyperlink'as į Susisiekite su mumis langą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -632,18 +628,19 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \centering
 \begin{tabular}{|c|c|}
 \hline
-\textbf{Interfeisai} 		& \textbf{Naudojimosi atvejai}                                                    \\ \hline
-I Registracija       		& VISI                                                                           \\ \hline
-II Prisijungimas				& 8, 9                                                                           \\ \hline
-III Pamirštas slaptažodis	& 10, 14, 15, 15.1                                                               \\ \hline
-IV Atsijungimas				& 10, 12                                                                         \\ \hline
-II Optimizacijos mokestis	& 17                                                                             \\ \hline
-I8 Paskyru trinimas                    & 17                                                                             \\ \hline
-II Duomenų įvedimas   & 17                                                                             \\ \hline
-I10 Istorijos peržiūra                   & 19, 20                                                                         \\ \hline
-I11 Parsisiūsti išsaugoti              & 19                                                                             \\ \hline
-I12 Susisiekimas                   & 20, 23, 25                                                                     \\ \hline
-I16                   & \begin{tabular}[c]{@{}c@{}}4, 7, 11, 13, 15,\\ 16, 18, 22, 24, 27\end{tabular} \\ \hline
+\textbf{Interfeisai} 			& \textbf{Naudojimosi atvejai}                                                    \\ \hline
+I3, I4, I5		      			& 1 Registracija                                                                     \\ \hline
+I6, I7, I16						& 2 Prisiungimas prie sistemos 	\\ \hline
+Visur							& 3 Atsijungimas nuo sistemos	\\ \hline
+I8, I9 							& 4 Slaptažodžio atgavimas		\\ \hline	
+I10, I11							& 5 Pakeisti paskyros duomenis	\\ \hline
+I11, I12, I13					& 6 Mokestis už optimizacija		\\ \hline
+I14, I15, I15.1					& 7 Paskyru trinimas				\\ \hline
+I17, I18							& 8 Duomenų įvedimas   			\\ \hline
+I19								& 10 Pjūvio plano pasirinkimas	\\ \hline
+I20, I23, I24, I25				& 11 Atspausdinti pjūvio planą	\\ \hline
+I20, I21, I22, I23, I24			& 12 Išsaugoti pjūvio planą                                                                              \\ \hline
+
 \end{tabular}
 \end{frame}
 
@@ -655,15 +652,16 @@ I16                   & \begin{tabular}[c]{@{}c@{}}4, 7, 11, 13, 15,\\ 16, 18, 2
 \begin{tabular}{|c|c|}
 \hline
 \textbf{Reikalavimai} & \textbf{Interfeisai}                                                           \\ \hline
-F1                    & 2, 3, 5                                                                        \\ \hline
-F2                    & 6, 16                                                                          \\ \hline
-F3                    & VISI                                                                           \\ \hline
-F4                    & 8, 9                                                                           \\ \hline
-F5                    & 10, 14, 15, 15.1                                                               \\ \hline
-F6                    & 10, 12                                                                         \\ \hline
-F7                    & 17                                                                             \\ \hline
-F8                    & 17                                                                             \\ \hline
-F9                    & 17                                                                             \\ \hline
+F1                    & I2, I3, I4, I5			\\ \hline
+F2                    & I6, I7, , I16         	\\ \hline
+F3                    & VISI  					\\ \hline
+F4                    & I8, I9 					\\ \hline
+F5					
+F5                    & I10, I11, I14, I15, I15.1\\ \hline
+F6                    & I10, I11, I12, I13		\\ \hline
+F7                    & I17, I18					\\ \hline
+F8                    & I17, I18					\\ \hline
+F9                    & \\ \hline
 F10                   & 19, 20                                                                         \\ \hline
 F11                   & 19                                                                             \\ \hline
 F12                   & 20, 23, 25                                                                     \\ \hline
@@ -674,3 +672,4 @@ F16                   & \begin{tabular}[c]{@{}c@{}}4, 7, 11, 13, 15,\\ 16, 18, 2
 \end{tabular}
 \end{frame}
 \end{document}
+9- Numerio nėra 
