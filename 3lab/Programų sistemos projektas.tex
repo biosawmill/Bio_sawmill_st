@@ -122,7 +122,7 @@ Hibernate įrankui bus nenaudojama tik "Optimizacijos" klasė.
 
 \section{Sudėtingesnių modulių veikimo apibrėžimai}
 
-\subsubsection{P.O. mokestis}
+\subsection{P.O. mokestis}
 P.O. mokėjimą galima atlikti po prisijungimo. \\
 Vartotojui paspaudus mokėjimo mygtuką, atsiranda mokėjimo langas, kuriame nurodoma:
 \begin{itemize}
@@ -131,10 +131,10 @@ Vartotojui paspaudus mokėjimo mygtuką, atsiranda mokėjimo langas, kuriame nur
 \end{itemize} 
 
 Vartotojas gali tiek užmokėti už optimizacijos naudojio pradžia tiek pratęsti esanti laikotarpį.
-Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). Galima nurodyti kelis mėnesius ar metus. \\
+Pavyzdžiui, mokėjimo laikotarpiai yra mėnesis(5€) ir metai(45€). Galima nurodyti kelis mėnesius ar metus. \\
 Būtinos sąlygos:
 \begin{itemize}
-	\item Data ne vėlesnė už šiandienos bei už paskutinę galiojimo dieną.
+	\item Data ne ankstesnė už šiandienos bei už paskutinę galiojimo dieną.
 	\item Laikotarpį galima nurodyti ne mažesnį už mėnesį. Jei nurodoma 12 mėnesių tada mokoma už metus.
 \end{itemize}
 
@@ -142,8 +142,8 @@ Vartotojui automatiškai parenkamas bankas(default), jis, žinoma, gali pakeisti
 Paspaudžiamas "Mokėti" mygtukas.
 Jei duomenų validavimas gražino klaida, vartotojui pranešama, kur įvyko klaida.
 Vartotojas nusiunčiamas į nurodyt banko svetainę, kurioje turi atlikti optimizacijos mokęstį.
-Tinkamai atlikus pavedimą, vartotojos nuo nurodytos datos iki datos ir laikotarpio ilgio sumos\\
-gali naudotis pjovimo optimizacija.
+Tinkamai atlikus pavedimą, vartotojos priklausomai nuo nurodytos paslaugos aktyvavimo datos ir pasirinkto laikotarpio ilgio gali naudotis pjovimo optimizacija.\\
+Administratorius paskyros lange gali keisti paslaugos mokestį. Vartotojai, kurie buvo užsimokėję už paslaugą po mokesčio sumos pakeitimo, lieka nepaliesti pokyčių. Mėnesinis mokestis nurodomas naturaliaisiais skaičiais, formulėje gali būti tik 2 daugikliai: kooefecientas K, galintis būti realusis teigiamas skaičius, ir M - naturalusis skaičius (pagal idėją tai turėtų būti standartinis 12 mėnesių mokestis, bet administratorius gali nurodyti ir kitokį skaičių).
 	
 \subsection{ P.O. duomenų įvedimas }
 
@@ -152,7 +152,7 @@ Nežinantiem kaip užpildyti failą galima atsisiūsti pavizdinį failą\\
 paspaudus mygtuką "Pavizdinio failo parsisiuntimas".\\
 Paspaudus mygtuką "Istorija" galima peržvelgti praeitus optimizacijos \\
 duomenis ir juos panaudoti įvedime.\\
-Pabaigus įvedimą spaudžiamas "Optimizuoti mygtukas", atliekamas duomenų\\ validavimas. O tik po teisingo duomenų validavimo pradedama optimizacija.
+Pabaigus įvedimą spaudžiamas "Optimizuoti mygtukas", atliekamas duomenų\\ validavimas. O tik po teisingo duomenų validavimo pradedama optimizacija. Mokestis apskaičiuojamas
 
 \subsubsection{Rankinis įvedimas}
 
@@ -232,7 +232,7 @@ Prie plano pavadinimo bei datos pateikiami 5 to plano panaudojimo mygtukai.
 \begin{enumerate}
 	\item Paspaudus mygtuką "Naudoti duomenis" nukeliama į duomenų skilty.
 		Ten jau suvesti pasirinkto plano duomenys.
-	\item Paspaudus mygtuką "Peržiūrėti planą" pateikiami išsaugoti rezultatai:
+	\item Paspaudus palno peržiūrėjimo ikoną pateikiami išsaugoti rezultatai:
 		\begin{itemize}
 			\item detalių išdėstymas
 			\item sunaudotas panelių kiekis
@@ -243,13 +243,14 @@ Prie plano pavadinimo bei datos pateikiami 5 to plano panaudojimo mygtukai.
 	\item Paspaudus atsisiuntimo formos mygtuką atsiunčiami minėti duomenys ".pdf" formatu.
 	\item Paspaudus šiukšliadežės formos mygtuką ištrinamas išsaugotas planas.
 	\item Paspaudus "floppy disk" formos mygtuką išsaugomas pakeistas plano pavadinimas.
+	\item Paspaudus "Peržiūrėti pradinius duomenis" formos mygtuką vartotojui pateikiami pradiniai duomenys, naudoti konkrečiame projekte.
 \end{enumerate}
 \clearpage
 
 \section{Interfeisai}
 
 \subsection{Pastabos}
-Interfeisuose matomas geltono kontūro langas yra vadinamasis "pop-up" langas. Jo veikimo pavyzdys galėtų būti toks: paprastas vartotojas prisijungia prie savo paskyros lango, jame mato mygtuką "Mokėti", vartotojui paspaudus šį mygtuką paskyros lango turinys yra paslepiamas ir atsiranda geltono kontūro mokėjimo dialogas. Šiame dialoge esantis "X" mygtukas raudoname fone leidžia vartotojui matyti paslėptąjį turinį (su visa jame prieš tai buvusia informacija) ir, žinoma, uždarytame geltoname kontūre buvusį dialogą, užmirštant visą jame buvi įvestą turinį.\\
+Interfeisuose matomas geltono kontūro langas yra vadinamasis "pop-up" langas. Jo veikimo pavyzdys galėtų būti toks: paprastas vartotojas prisijungia prie savo paskyros lango, jame mato mygtuką "Mokėti", vartotojui paspaudus šį mygtuką paskyros lango turinys yra paslepiamas ir atsiranda geltono kontūro mokėjimo dialogas. Šiame dialoge esantis "X" mygtukas raudoname fone leidžia vartotojui grįžti prie ir vėl matyti paslėptąjį turinį (su visa jame prieš tai buvusia informacija) ir, žinoma, uždaro geltoname kontūre buvusį dialogą, užmirštant visą jame buvi įvestą turinį.\\
 Atsijungimo mygtukas matomas tik prisijungus. O jį paspaudus, vartotojas nukreipiamas į namų puslapio langą.
 Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nustatytos svetainėje, tarkim paspaudus anglų kalbą ir paspaudus mygtuką atsisiūsti gaunamas anglų kalbos .pdf failas.
 
@@ -345,7 +346,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{12 interfeisas. Vartotojo paskyros puslapis - prisijungus (mokėjimas). Įvykus sėkmingam apmokėjimui, mokėjimo langas dingsta, vartotojui gražinamas paskyros lango turinys, tačiau turinys yra nebe 10, o 11 interfeiso dizaino tipo.}
+\floatfoot{12 interfeisas. Vartotojo paskyros puslapis - prisijungus (mokėjimas). Atidarytame lange datos laike turi būti iš anksto įrašyta data atitinkanti 4.1. Įvykus sėkmingam apmokėjimui, mokėjimo langas dingsta, vartotojui gražinamas paskyros lango turinys, tačiau turinys yra nebe 10, o 11 interfeiso dizaino tipo.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -362,21 +363,21 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 
 
-\floatfoot{14 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas langas. Administratorius gali ieškoti vartotojų pagal vardą arba el. paštą (rezultatai rikiuojami pagal vartotojo vardą abėcėlės tvarka). Į paieškos langą įvedus specialųjį simbolį "*" bus pateikiamas visų vartotojų sąrašas. Tokiu atveju, kai gražinamas vartotojų sąrašas turi daugiau negu 10 vartotojų, turi būti pateikiami pirmieji 10 sąraše esančių vartotojų. Likę vartotojai pateikiami administratoriui "scrolinant" per sąrašą.}
+\floatfoot{14 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas langas. Administratorius gali ieškoti vartotojų pagal vardą arba el. paštą (rezultatai rikiuojami pagal vartotojo vardą abėcėlės tvarka). Į paieškos langą įvedus specialųjį simbolį "*" bus pateikiamas visų vartotojų sąrašas. Tokiu atveju, kai gražinamas vartotojų sąrašas turi daugiau negu 10 vartotojų, turi būti pateikiami pirmieji 10 sąraše esančių vartotojų. Likę vartotojai pateikiami administratoriui "scrolinant" per sąrašą, kaip yra parodyta 23.1 interfeise. Administratorius gali keisti mokestį už paslaugas.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
-\includegraphics[scale=0.45]{interfeisai/paskyrosPuslapisAdministratorius}
+\includegraphics[scale=0.45]{interfeisai/paskyrosPuslapisAdministratorius2}
 \label{fig:verticalcell}
 \end{figure}
 
 \clearpage
 
-\floatfoot{15 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas lagas (su klaida). "Floppy disc" ikonos paspaudimas išsaugo pakeitimus padarytus konkrečiai vartotojo paskyrai, o šiukšliadėžės ikonos paspaudimas leidžia ištrinti vartotojo paskyrą prieš tai nukrepiant vartotoją į 15.1 dialogą.}
+\floatfoot{15 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas langas (su klaida). "Floppy disc" ikonos paspaudimas išsaugo pakeitimus padarytus konkrečiai vartotojo paskyrai, o šiukšliadėžės ikonos paspaudimas leidžia ištrinti vartotojo paskyrą prieš tai nukrepiant vartotoją į 15.1 dialogą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
-\includegraphics[scale=0.45]{interfeisai/paskyrosPuslapisAdministratoriusSuKlaida}
+\includegraphics[scale=0.45]{interfeisai/paskyrosPuslapisAdministratoriusSuKlaida2}
 \label{fig:verticalcell}
 \end{figure}
 
@@ -412,7 +413,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{18 interfeisas. Optimizavimo puslapis - prisijungus (su klaida)}
+\floatfoot{18 interfeisas. Optimizavimo puslapis su klaidos pranešimu}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -420,7 +421,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{18.1 interfeisas. Optimizavimo puslapis - optimizavimo procesas. Paspaudus "X" grįžtama į optimizavimo interfeisą 17.}
+\floatfoot{18.1 interfeisas. Optimizavimo puslapis - optimizavimo procesas. Paspaudus "X" grįžtama į optimizavimo interfeisą 17. Pasibaigus optimizavimui vartotojas turi būti automatiškai nukreiptas į 19 interfeisą. }
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -448,7 +449,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \end{figure}
 
 
-\floatfoot{21 interfeisas. Optimizavimo puslapis - pasirinkto plano išsaugojimas. Paspaudus mygtuką "Išsaugoti" šis dialogas yra uždaromas ir grįžtamą į 19 dialogą, paspaudus "X" mygtuką nevykdomas išsaugojimas ir grįžtama į 19 dialogą.}
+\floatfoot{21 interfeisas. Optimizavimo puslapis - pasirinkto plano išsaugojimas. Paspaudus mygtuką "Išsaugoti" šis dialogas yra uždaromas ir grįžtama į 19 dialogą, paspaudus "X" mygtuką nevykdomas išsaugojimas ir grįžtama į 19 dialogą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -465,12 +466,24 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \end{figure}
 
 
-
+\begin{comment}
+%------- UZKOMENTUOTA ------
 \floatfoot{23 interfeisas. Optimizavimo puslapis - istorijos peržiūra. "Floppy disc" ikonos mygtukas išsaugo konkretaus įrašo pakeitimus. Šiukšlinės ikonos paspaudimas ištrina konkretų įrašą, o atsisiuntimo ikona atidaro standartinį operacinės sistemos duomenų išsaugojimo langą. "Peržiūrėti planą" mygtukas atidato 25 interfeisą (dialogą).}
+%------- UZKOMENTUOTA PABAIGA------
+\end{comment}
+\floatfoot{23 interfeisas. Optimizavimo puslapis - istorijos peržiūra. "Floppy disc" ikonos mygtukas išsaugo konkretaus įrašo pakeitimus, šiukšlinės ikonos paspaudimas ištrina konkretų įrašą, o atsisiuntimo ikona atidaro standartinį operacinės sistemos duomenų išsaugojimo langą. Dokumento peržiūros ikonos paspaudimas atidaro 25 interfeisą, o "Peržiūrėti pradinius duomenis" mygtukas atidato 23.1 interfeisą (dialogą).}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
-\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorija}
+\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorija2}
+\label{fig:verticalcell}
+\end{figure}
+
+\floatfoot{23.1 interfeisas. Optimizavimo puslapis - išsaugoto projekto pradinių duomenų peržiūra. Esant didesniam panelių kiekui, jos būtų atvaizduojamos dėliojant jas šalia (dešiniau) jau esančių pavyzdyje. Esant didesniam negu šeši detalių kiekiui, detalių atvaizdavimo stačiakampuje turi atsirasti "sidebar", leidžiantis peržiūrėti kitas (pavyzdyje nematomas) detales.}
+\begin{figure}[!tph]
+\hspace{-2cm}
+\centering
+\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPradiniuDuomenuPerziura}
 \label{fig:verticalcell}
 \end{figure}
 
@@ -479,7 +492,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
-\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida}
+\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida2}
 \label{fig:verticalcell}
 \end{figure}
 
@@ -685,15 +698,15 @@ F2                  & K, D, I6, I7, I16        	 	\\ \hline
 F3                  & K, D, VISI   					\\ \hline
 F4                  & K, D, I8, I9 					\\ \hline
 F5                  & K, D, I10, I11, I14, I15, I15.1\\ \hline
-F6                  & K, D, SM0.1, I10, I11, I12, I13		\\ \hline
+F6                  & K, D, SM1, I10, I11, I12, I13		\\ \hline
 F7                  & K, D, I17, I18					\\ \hline
-F8                  & K, D, SM1, I17, I18					\\ \hline
-F9                  & K, D, SM1, I18.1\\ \hline
+F8                  & K, D, SM2, I17, I18					\\ \hline
+F9                  & K, D, SM2, I18.1\\ \hline
 F10                 & K, D, I19, I20                                                                         \\ \hline
-F11                 & K, D, I19                                                                             \\ \hline
-F12                 & K, D, I20, I23, I24, I25                                                                     \\ \hline
-F13                 & K, D, SM2, I20, I21, I22			\\ \hline
-F14                 & K, D, SM2, I17, I18, I19, I20, I23, I24			\\ \hline
+F11                 & I19                                                                             \\ \hline
+F12                 & I20, I23, I24, I25                                                                     \\ \hline
+F13                 & K, D, SM3, I20, I21, I22			\\ \hline
+F14                 & K, D, SM3, I17, I18, I19, I20, I23, I24			\\ \hline
 F15                	& K, D, VISI                                                                           \\ \hline
 F16                	& \begin{tabular}[c]{@{}c@{}}
 							I4, I7, I11, I13, I15,\\ 
