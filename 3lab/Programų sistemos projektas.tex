@@ -224,7 +224,7 @@ Prie plano pavadinimo bei datos pateikiami 5 to plano panaudojimo mygtukai.
 \begin{enumerate}
 	\item Paspaudus mygtuką "Naudoti duomenis" nukeliama į duomenų skilty.
 		Ten jau suvesti pasirinkto plano duomenys.
-	\item Paspaudus mygtuką "Peržiūrėti planą" pateikiami išsaugoti rezultatai:
+	\item Paspaudus palno peržiūrėjimo ikoną pateikiami išsaugoti rezultatai:
 		\begin{itemize}
 			\item detalių išdėstymas
 			\item sunaudotas panelių kiekis
@@ -235,6 +235,7 @@ Prie plano pavadinimo bei datos pateikiami 5 to plano panaudojimo mygtukai.
 	\item Paspaudus atsisiuntimo formos mygtuką atsiunčiami minėti duomenys ".pdf" formatu.
 	\item Paspaudus šiukšliadežės formos mygtuką ištrinamas išsaugotas planas.
 	\item Paspaudus "floppy disk" formos mygtuką išsaugomas pakeistas plano pavadinimas.
+	\item Paspaudus "Peržiūrėti pradinius duomenis" formos mygtuką vartotojui pateikiami pradiniai duomenys, naudoti konkrečiame projekte.
 \end{enumerate}
 \clearpage
 
@@ -457,12 +458,24 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \end{figure}
 
 
-
+\begin{comment}
+%------- UZKOMENTUOTA ------
 \floatfoot{23 interfeisas. Optimizavimo puslapis - istorijos peržiūra. "Floppy disc" ikonos mygtukas išsaugo konkretaus įrašo pakeitimus. Šiukšlinės ikonos paspaudimas ištrina konkretų įrašą, o atsisiuntimo ikona atidaro standartinį operacinės sistemos duomenų išsaugojimo langą. "Peržiūrėti planą" mygtukas atidato 25 interfeisą (dialogą).}
+%------- UZKOMENTUOTA PABAIGA------
+\end{comment}
+\floatfoot{23 interfeisas. Optimizavimo puslapis - istorijos peržiūra. "Floppy disc" ikonos mygtukas išsaugo konkretaus įrašo pakeitimus, šiukšlinės ikonos paspaudimas ištrina konkretų įrašą, o atsisiuntimo ikona atidaro standartinį operacinės sistemos duomenų išsaugojimo langą. Dokumento peržiūros ikonos paspaudimas atidaro 25 interfeisą, o "Peržiūrėti pradinius duomenis" mygtukas atidato 23.1 interfeisą (dialogą).}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
-\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorija}
+\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorija2}
+\label{fig:verticalcell}
+\end{figure}
+
+\floatfoot{23.1 interfeisas. Optimizavimo puslapis - išsaugoto projekto pradinių duomenų peržiūra. Esant didesniam panelių kiekui, jos būtų atvaizduojamos dėliojant jas šalia (dešiniau) jau esančių pavyzdyje. Esant didesniam negu šeši detalių kiekiui, detalių atvaizdavimo stačiakampuje turi atsirasti "sidebar", leidžiantis peržiūrėti kitas (pavyzdyje nematomas) detales.}
+\begin{figure}[!tph]
+\hspace{-2cm}
+\centering
+\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPradiniuDuomenuPerziura}
 \label{fig:verticalcell}
 \end{figure}
 
@@ -471,7 +484,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
-\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida}
+\includegraphics[scale=0.45]{interfeisai/optimizavimoPuslapisPrisijungusIstorijaSuKlaida2}
 \label{fig:verticalcell}
 \end{figure}
 
@@ -685,7 +698,7 @@ F10                   & I19, I20                                                
 F11                   & I19                                                                             \\ \hline
 F12                   & I20, I23, I24, I25                                                                     \\ \hline
 F13                   & I20, I21, I22			\\ \hline
-F14                   & I17, I18, I19, I20, I23, I24			\\ \hline
+F14                   & I17, I18, I19, I20, I23, I23.1 I24			\\ \hline
 F15                   & VISI                                                                           \\ \hline
 F16                   & \begin{tabular}[c]{@{}c@{}}I4, I7, I11, I13, I15,\\ I16, I18, I22, I24, I27\end{tabular} \\ \hline
 \end{tabular}
