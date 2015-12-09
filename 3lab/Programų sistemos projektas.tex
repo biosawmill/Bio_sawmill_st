@@ -94,6 +94,14 @@ Vilnius \ \  2015
 \section{Klasių diagrama}
 \includegraphics[scale=0.5]{ClassDiagram}
 
+Vartotojo tipas = (0, 1)\\
+\begin{itemize}
+	\item 0 - vartotojas
+	\item 1 - administratorius
+\end{itemize}
+Trinti vartotojus bei pakeisti mokėjimo sąlygas gali tik administratorius. \\ 
+Mokėjimas už optimizaciją nepriklauso administratoriui, nes jis gali naudotis neribotą laiką.
+Vartotojas nurodyti duomenis gali tiek rankiniu tiek importavimo budu.
 \section{Duomenų bazės struktūra}
 Duomenų bazės bus sugeneruota su įrankiu - Hibernate.\\
 Hibernate įrankui bus nenaudojama tik "Optimizacijos" klasė.
@@ -671,25 +679,37 @@ Visur-žymima kad visuose interfeisuose yra atitinkama sąlyga.
 \centering
 \begin{tabular}{|c|c|}
 \hline
-\textbf{Reikalavimai} & \textbf{Interfeisai}                                                           \\ \hline
-F1                    & I2, I3, I4, I5			\\ \hline
-F2                    & I6, I7, I16        	 	\\ \hline
-F3                    & VISI  					\\ \hline
-F4                    & I8, I9 					\\ \hline
-F5                    & I10, I11, I14, I15, I15.1\\ \hline
-F6                    & I10, I11, I12, I13		\\ \hline
-F7                    & I17, I18					\\ \hline
-F8                    & I17, I18					\\ \hline
-F9                    & I18.1\\ \hline
-F10                   & I19, I20                                                                         \\ \hline
-F11                   & I19                                                                             \\ \hline
-F12                   & I20, I23, I24, I25                                                                     \\ \hline
-F13                   & I20, I21, I22			\\ \hline
-F14                   & I17, I18, I19, I20, I23, I24			\\ \hline
-F15                   & VISI                                                                           \\ \hline
-F16                   & \begin{tabular}[c]{@{}c@{}}I4, I7, I11, I13, I15,\\ I16, I18, I22, I24, I27\end{tabular} \\ \hline
-\end{tabular}
+\textbf{Reikalavimai} & \textbf{Projekto plano elementas}                                                           \\ \hline
+F1                  & K, D, I2, I3, I4, I5			\\ \hline
+F2                  & K, D, I6, I7, I16        	 	\\ \hline
+F3                  & K, D, VISI   					\\ \hline
+F4                  & K, D, I8, I9 					\\ \hline
+F5                  & K, D, I10, I11, I14, I15, I15.1\\ \hline
+F6                  & K, D, SM0.1, I10, I11, I12, I13		\\ \hline
+F7                  & K, D, I17, I18					\\ \hline
+F8                  & K, D, SM1, I17, I18					\\ \hline
+F9                  & K, D, SM1, I18.1\\ \hline
+F10                 & K, D, I19, I20                                                                         \\ \hline
+F11                 & K, D, I19                                                                             \\ \hline
+F12                 & K, D, I20, I23, I24, I25                                                                     \\ \hline
+F13                 & K, D, SM2, I20, I21, I22			\\ \hline
+F14                 & K, D, SM2, I17, I18, I19, I20, I23, I24			\\ \hline
+F15                	& K, D, VISI                                                                           \\ \hline
+F16                	& \begin{tabular}[c]{@{}c@{}}
+							I4, I7, I11, I13, I15,\\ 
+							I16, I18, I22, I24, I27
+						\end{tabular} \\ \hline
+
+F17					& 	\begin{tabular}[c]{@{}c@{}}
+							I4, I7, I11, I13,\\
+							I15, I16, I17, I18, \\
+							I22, I24, I27
+						\end{tabular} \\ \hline
+\end{tabular} 
 \end{frame}\\
 I1, I2, ... ,I27 - Žymimi interfeisų numeriai.\\
 VISI-žymima kad visuose interfeisuose yra atitinkamas reikalavimas.
+SM- Sudetingesnių modulių aprašai.
+K - Klasių diagrama.
+D - Duomenų bazė.
 \end{document}
