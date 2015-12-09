@@ -123,10 +123,10 @@ Vartotojui paspaudus mokėjimo mygtuką, atsiranda mokėjimo langas, kuriame nur
 \end{itemize} 
 
 Vartotojas gali tiek užmokėti už optimizacijos naudojio pradžia tiek pratęsti esanti laikotarpį.
-Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(25€). Galima nurodyti kelis mėnesius ar metus. \\
+Mokėjimo laikotarpiai yra mėnesis(5€) ir metai(45€). Galima nurodyti kelis mėnesius ar metus. \\
 Būtinos sąlygos:
 \begin{itemize}
-	\item Data ne vėlesnė už šiandienos bei už paskutinę galiojimo dieną.
+	\item Data ne ankstesnė už šiandienos bei už paskutinę galiojimo dieną.
 	\item Laikotarpį galima nurodyti ne mažesnį už mėnesį. Jei nurodoma 12 mėnesių tada mokoma už metus.
 \end{itemize}
 
@@ -134,8 +134,7 @@ Vartotojui automatiškai parenkamas bankas(default), jis, žinoma, gali pakeisti
 Paspaudžiamas "Mokėti" mygtukas.
 Jei duomenų validavimas gražino klaida, vartotojui pranešama, kur įvyko klaida.
 Vartotojas nusiunčiamas į nurodyt banko svetainę, kurioje turi atlikti optimizacijos mokęstį.
-Tinkamai atlikus pavedimą, vartotojos nuo nurodytos datos iki datos ir laikotarpio ilgio sumos\\
-gali naudotis pjovimo optimizacija.
+Tinkamai atlikus pavedimą, vartotojos priklausomai nuo nurodytos paslaugos aktyvavimo datos ir pasirinkto laikotarpio ilgio gali naudotis pjovimo optimizacija.
 	
 \subsection{ P.O. duomenų įvedimas }
 
@@ -242,7 +241,7 @@ Prie plano pavadinimo bei datos pateikiami 5 to plano panaudojimo mygtukai.
 \section{Interfeisai}
 
 \subsection{Pastabos}
-Interfeisuose matomas geltono kontūro langas yra vadinamasis "pop-up" langas. Jo veikimo pavyzdys galėtų būti toks: paprastas vartotojas prisijungia prie savo paskyros lango, jame mato mygtuką "Mokėti", vartotojui paspaudus šį mygtuką paskyros lango turinys yra paslepiamas ir atsiranda geltono kontūro mokėjimo dialogas. Šiame dialoge esantis "X" mygtukas raudoname fone leidžia vartotojui matyti paslėptąjį turinį (su visa jame prieš tai buvusia informacija) ir, žinoma, uždarytame geltoname kontūre buvusį dialogą, užmirštant visą jame buvi įvestą turinį.\\
+Interfeisuose matomas geltono kontūro langas yra vadinamasis "pop-up" langas. Jo veikimo pavyzdys galėtų būti toks: paprastas vartotojas prisijungia prie savo paskyros lango, jame mato mygtuką "Mokėti", vartotojui paspaudus šį mygtuką paskyros lango turinys yra paslepiamas ir atsiranda geltono kontūro mokėjimo dialogas. Šiame dialoge esantis "X" mygtukas raudoname fone leidžia vartotojui grįžti prie ir vėl matyti paslėptąjį turinį (su visa jame prieš tai buvusia informacija) ir, žinoma, uždaro geltoname kontūre buvusį dialogą, užmirštant visą jame buvi įvestą turinį.\\
 Atsijungimo mygtukas matomas tik prisijungus. O jį paspaudus, vartotojas nukreipiamas į namų puslapio langą.
 Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nustatytos svetainėje, tarkim paspaudus anglų kalbą ir paspaudus mygtuką atsisiūsti gaunamas anglų kalbos .pdf failas.
 
@@ -338,7 +337,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{12 interfeisas. Vartotojo paskyros puslapis - prisijungus (mokėjimas). Įvykus sėkmingam apmokėjimui, mokėjimo langas dingsta, vartotojui gražinamas paskyros lango turinys, tačiau turinys yra nebe 10, o 11 interfeiso dizaino tipo.}
+\floatfoot{12 interfeisas. Vartotojo paskyros puslapis - prisijungus (mokėjimas). Atidarytame lange datos laike turi būti iš anksto įrašyta data atitinkanti 4.0.1. Įvykus sėkmingam apmokėjimui, mokėjimo langas dingsta, vartotojui gražinamas paskyros lango turinys, tačiau turinys yra nebe 10, o 11 interfeiso dizaino tipo.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -355,7 +354,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 \end{figure}
 
 
-\floatfoot{14 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas langas. Administratorius gali ieškoti vartotojų pagal vardą arba el. paštą (rezultatai rikiuojami pagal vartotojo vardą abėcėlės tvarka). Į paieškos langą įvedus specialųjį simbolį "*" bus pateikiamas visų vartotojų sąrašas. Tokiu atveju, kai gražinamas vartotojų sąrašas turi daugiau negu 10 vartotojų, turi būti pateikiami pirmieji 10 sąraše esančių vartotojų. Likę vartotojai pateikiami administratoriui "scrolinant" per sąrašą.}
+\floatfoot{14 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas langas. Administratorius gali ieškoti vartotojų pagal vardą arba el. paštą (rezultatai rikiuojami pagal vartotojo vardą abėcėlės tvarka). Į paieškos langą įvedus specialųjį simbolį "*" bus pateikiamas visų vartotojų sąrašas. Tokiu atveju, kai gražinamas vartotojų sąrašas turi daugiau negu 10 vartotojų, turi būti pateikiami pirmieji 10 sąraše esančių vartotojų. Likę vartotojai pateikiami administratoriui "scrolinant" per sąrašą, kaip yra parodyta 23.1 interfeise.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -365,7 +364,7 @@ Optimizacijoje atsisiunčiamų rezultatų .pdf formatu kalba priklausys nuo nust
 
 \clearpage
 
-\floatfoot{15 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas lagas (su klaida). "Floppy disc" ikonos paspaudimas išsaugo pakeitimus padarytus konkrečiai vartotojo paskyrai, o šiukšliadėžės ikonos paspaudimas leidžia ištrinti vartotojo paskyrą prieš tai nukrepiant vartotoją į 15.1 dialogą.}
+\floatfoot{15 interfeisas. Vartotojo paskyros puslapis - administratoriaus matomas langas (su klaida). "Floppy disc" ikonos paspaudimas išsaugo pakeitimus padarytus konkrečiai vartotojo paskyrai, o šiukšliadėžės ikonos paspaudimas leidžia ištrinti vartotojo paskyrą prieš tai nukrepiant vartotoją į 15.1 dialogą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -405,7 +404,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{18 interfeisas. Optimizavimo puslapis - prisijungus (su klaida)}
+\floatfoot{18 interfeisas. Optimizavimo puslapis su klaidos pranešimu}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -413,7 +412,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \label{fig:verticalcell}
 \end{figure}
 
-\floatfoot{18.1 interfeisas. Optimizavimo puslapis - optimizavimo procesas. Paspaudus "X" grįžtama į optimizavimo interfeisą 17.}
+\floatfoot{18.1 interfeisas. Optimizavimo puslapis - optimizavimo procesas. Paspaudus "X" grįžtama į optimizavimo interfeisą 17. Pasibaigus optimizavimui vartotojas turi būti automatiškai nukreiptas į 19 interfeisą. }
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
@@ -441,7 +440,7 @@ Failas turi atitikti sudetingesnių modelių aprašyme nustatytą standartą.
 \end{figure}
 
 
-\floatfoot{21 interfeisas. Optimizavimo puslapis - pasirinkto plano išsaugojimas. Paspaudus mygtuką "Išsaugoti" šis dialogas yra uždaromas ir grįžtamą į 19 dialogą, paspaudus "X" mygtuką nevykdomas išsaugojimas ir grįžtama į 19 dialogą.}
+\floatfoot{21 interfeisas. Optimizavimo puslapis - pasirinkto plano išsaugojimas. Paspaudus mygtuką "Išsaugoti" šis dialogas yra uždaromas ir grįžtama į 19 dialogą, paspaudus "X" mygtuką nevykdomas išsaugojimas ir grįžtama į 19 dialogą.}
 \begin{figure}[!tph]
 \hspace{-2cm}
 \centering
